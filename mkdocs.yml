@@ -1,0 +1,80 @@
+site_name: 游戏攻略数据库
+site_url: https://game-guide.club
+site_description: 热门游戏攻略大全 - 黑神话悟空/原神/暗黑破坏神IV/GTA
+site_author: game-guide
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/lightbulb
+        name: 切换亮色模式
+    - scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/lightbulb-outline
+        name: 切换深色模式
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - header.autohide
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji
+  - admonition
+  - pymdownx.details
+  - tables
+  - attr_list
+  - md_in_html
+
+extra:
+  generator: false
+
+copyright: Copyright &copy; 2026 Game Guide
+
+nav:
+  - 🏠 首页: index.md
+  - 🐵 黑神话悟空:
+    - 游戏概览: wukong/index.md
+    - BOSS攻略: wukong/bosses.md
+    - 全收集地图: wukong/collectibles.md
+    - 装备法宝: wukong/equipment.md
+  - 🎮 原神:
+    - 游戏概览: genshin/index.md
+    - 角色攻略: genshin/characters.md
+    - 武器推荐: genshin/weapons.md
+    - 材料收集: genshin/materials.md
+    - 配队指南: genshin/teams.md
+  - ⚔️ 暗黑破坏神IV:
+    - 游戏概览: diablo4/index.md
+    - 流派Build: diablo4/builds.md
+    - 赛季攻略: diablo4/season.md
+    - 装备指南: diablo4/gear.md
+  - 🚗 GTA系列:
+    - 系列概览: gta/index.md
+    - GTA VI预热: gta/gta6.md
+    - GTA Online: gta/online.md
+    - 新手速成: gta/newbie.md
+  - 📰 更新日志: news/index.md
+  - ℹ️ 关于本站: about.md
