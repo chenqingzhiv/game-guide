@@ -1,39 +1,60 @@
 # 游戏攻略数据库 🎮
 
-欢迎来到游戏攻略数据库！这里是热门游戏的攻略大全，涵盖从独立神作到3A大作的完整攻略。
+<div class="game-hero-card">
+<a href="wukong/" class="game-hero-card-inner game-card-wukong" style="display:block;">
+<div class="game-card-title">🐵 黑神话：悟空</div>
+<div class="game-card-sub">国产3A神作 · 全球销量超3000万份</div>
+<div class="game-card-links">
+  <span class="game-card-link">📖 游戏概览</span>
+  <span class="game-card-link">⚔️ BOSS攻略</span>
+  <span class="game-card-link">🗺️ 全收集地图</span>
+  <span class="game-card-link">🔮 装备法宝</span>
+</div>
+</a>
+</div>
 
----
+<div class="game-hero-card">
+<a href="genshin/" class="game-hero-card-inner game-card-genshin" style="display:block;">
+<div class="game-card-title">🎮 原神</div>
+<div class="game-card-sub">开放世界RPG · 月活超6000万 · 每6周一版本</div>
+<div class="game-card-links">
+  <span class="game-card-link">👤 角色攻略</span>
+  <span class="game-card-link">⚔️ 武器推荐</span>
+  <span class="game-card-link">🛡️ 配队指南</span>
+  <span class="game-card-link">📦 材料收集</span>
+</div>
+</a>
+</div>
 
-## 🐵 黑神话：悟空
+<div class="game-hero-card">
+<a href="diablo4/" class="game-hero-card-inner game-card-diablo4" style="display:block;">
+<div class="game-card-title">⚔️ 暗黑破坏神IV</div>
+<div class="game-card-sub">暗黑系列新作 · 国服已上线</div>
+<div class="game-card-links">
+  <span class="game-card-link">🔨 流派Build</span>
+  <span class="game-card-link">📅 赛季攻略</span>
+  <span class="game-card-link">⚗️ 装备指南</span>
+</div>
+</a>
+</div>
 
-> 国产3A神作，全球销量超3000万份
-
-- [游戏概览](wukong/index.md) — 系统介绍与入门
-- [BOSS攻略](wukong/bosses.md) — 全BOSS打法
-- [全收集地图](wukong/collectibles.md) — 道具/宝箱/种子
-
-## 🎮 原神
-
-> 开放世界RPG，月活超6000万
-
-- [角色攻略](genshin/characters.md) — 全角色配装
-- [武器推荐](genshin/weapons.md) — 平民武器推荐
-- [配队指南](genshin/teams.md) — 强力配队方案
-
-## ⚔️ 暗黑破坏神IV
-
-> 暗黑系列新作，国服已上线
-
-- [流派Build](diablo4/builds.md) — 全职业Build
-- [赛季攻略](diablo4/season.md) — 最新赛季指南
-
-## 🚗 GTA系列
-
-> 开放世界标杆，GTA VI即将来袭
-
-- [GTA VI预热](gta/gta6.md) — 最新情报汇总
-- [GTA Online](gta/online.md) — 新手赚美金攻略
+<div class="game-hero-card">
+<a href="gta/" class="game-hero-card-inner game-card-gta" style="display:block;">
+<div class="game-card-title">🚗 GTA系列</div>
+<div class="game-card-sub">开放世界标杆 · GTA VI即将来袭</div>
+<div class="game-card-links">
+  <span class="game-card-link">🔮 GTA VI预热</span>
+  <span class="game-card-link">💰 Online赚钱攻略</span>
+  <span class="game-card-link">📖 新手速成</span>
+</div>
+</a>
+</div>
 
 ---
 
 > 📢 网站持续更新中，关注本站获取最新攻略！
+
+<div class="feedback-section">
+<h2>💬 有建议或反馈？</h2>
+<p>欢迎在任意游戏页面底部留言，帮助我们做得更好！</p>
+</div>
