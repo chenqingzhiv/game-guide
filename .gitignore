@@ -1,0 +1,11 @@
+# MkDocs build output
+site/
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+# OS
+.DS_Store
+Thumbs.db
