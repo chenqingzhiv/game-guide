@@ -1,0 +1,139 @@
+/* game-guide.club - Custom Styles */
+
+/* Game Section Backgrounds */
+.md-main .md-content { position: relative; }
+
+/* Black Myth Wukong - dark gold chinese */
+.wukong-bg::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url('../images/bg/wukong-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.15;
+  z-index: -1;
+}
+
+/* Genshin Impact - blue fantasy */
+.genshin-bg::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url('../images/bg/genshin-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.15;
+  z-index: -1;
+}
+
+/* Diablo IV - dark blood red */
+.diablo4-bg::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url('../images/bg/diablo4-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.15;
+  z-index: -1;
+}
+
+/* GTA - neon city */
+.gta-bg::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url('../images/bg/gta-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.15;
+  z-index: -1;
+}
+
+/* Action/landscape backgrounds */
+.action-bg::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: 
+    radial-gradient(ellipse at 20% 50%, rgba(234, 88, 12, 0.08), transparent 50%),
+    radial-gradient(ellipse at 80% 50%, rgba(59, 130, 246, 0.05), transparent 50%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Background gradient overlay */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: 
+    radial-gradient(ellipse at 20% 50%, rgba(234, 88, 12, 0.08), transparent 50%),
+    radial-gradient(ellipse at 80% 50%, rgba(59, 130, 246, 0.05), transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Frosted glass cards */
+.md-typeset .admonition,
+.md-typeset details {
+  backdrop-filter: blur(8px);
+  background: rgba(13, 13, 20, 0.7) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Glassmorphism main content */
+.md-main__inner {
+  position: relative;
+  z-index: 1;
+}
+
+.md-content {
+  background: rgba(13, 13, 20, 0.5);
+  backdrop-filter: blur(6px);
+  border-radius: 8px;
+  padding: 0 8px;
+}
+
+/* Table glass */
+.md-typeset table:not(.md-typeset__table) {
+  background: rgba(13, 13, 20, 0.6);
+  backdrop-filter: blur(4px);
+}
+
+/* Header glass */
+.md-header {
+  backdrop-filter: blur(16px);
+  background: rgba(10, 10, 18, 0.75) !important;
+}
+
+/* Code blocks */
+.md-typeset code {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* Feedback section */
+.feedback-card {
+  background: rgba(234, 88, 12, 0.08);
+  border: 1px solid rgba(234, 88, 12, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 40px;
+  backdrop-filter: blur(4px);
+}
+
+.feedback-card h2 {
+  color: #f97316;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.feedback-card p {
+  color: #9b9a95;
+  font-size: 0.9rem;
+}
