@@ -10,15 +10,6 @@ const POWER_DATA = {
       'Geothermal Generator':   { output: 200, unit: 'MW', fuel: null,         fuelRate: 0,    fuelUnit: '',       byproduct: null },
     }
   },
-  factorio: {
-    sources: {
-      'Steam Engine (Coal)':    { output: 0.9, unit: 'MW', fuel: 'Coal', fuelRate: 0.1, fuelUnit: '/ s', byproduct: null },
-      'Steam Engine (Solid Fuel)': { output: 0.9, unit: 'MW', fuel: 'Solid Fuel', fuelRate: 0.03, fuelUnit: '/ s', byproduct: null },
-      'Steam Engine (Rocket Fuel)': { output: 1.1, unit: 'MW', fuel: 'Rocket Fuel', fuelRate: 0.01, fuelUnit: '/ s', byproduct: null },
-      'Steam Turbine (Nuclear)': { output: 5.8,  unit: 'MW', fuel: 'Uranium Fuel Cell', fuelRate: 0.005, fuelUnit: '/ s', byproduct: 'Used Fuel Cell' },
-      'Solar Panel':            { output: 0.06, unit: 'MW', fuel: null, fuelRate: 0, fuelUnit: '', byproduct: null },
-    }
-  },
   dsp: {
     sources: {
       'Thermal Power Station':  { output: 2.16, unit: 'MW', fuel: 'Coal', fuelRate: 0.5, fuelUnit: '/ s', byproduct: null },

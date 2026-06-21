@@ -7,6 +7,8 @@ description: "Interactive production ratio calculator for Satisfactory, Factorio
 
 Plan the perfect production line. Select your game, target item, and desired output, then get the exact machine counts, input materials, and belt requirements.
 
+> 📐 **Data source:** Satisfactory Wiki (v1.0), Factorio Official Wiki, DSP Wiki — all base recipes. Alt/advanced recipes not included yet.
+
 <div id="ratio-calc">
   <div style="display:flex; flex-wrap:wrap; gap:16px; margin:20px 0; padding:20px; background:rgba(255,255,255,0.05); border-radius:12px;">
     <div>

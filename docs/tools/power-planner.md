@@ -5,7 +5,9 @@ description: "Interactive power grid planner for Satisfactory, Factorio, and Dys
 
 # ⚡ Power Grid Planner
 
-Design a stable power grid before you place a single generator. Calculate total MW draw, fuel consumption rates, and generator counts across different power sources.
+Design a stable power grid. Calculate total MW draw, fuel consumption rates, and generator counts for Satisfactory and Dyson Sphere Program.
+
+> 📐 **Data source:** Satisfactory Wiki (v1.0) & DSP Wiki. Factorio not included — its boiler → steam engine chain requires a different calculation model. We'll add a dedicated Factorio power tool separately.
 
 <div id="power-planner">
   <div style="display:flex; flex-wrap:wrap; gap:16px; margin:20px 0; padding:20px; background:rgba(255,255,255,0.05); border-radius:12px;">
@@ -13,7 +15,6 @@ Design a stable power grid before you place a single generator. Calculate total 
       <label><strong>Game</strong></label><br>
       <select id="game-select" style="padding:8px 16px; border-radius:8px; font-size:1em; background:#1a1a2e; color:#e8e6e3; border:1px solid rgba(255,255,255,0.1);">
         <option value="satisfactory">⚙️ Satisfactory</option>
-        <option value="factorio">💡 Factorio</option>
         <option value="dsp">🌌 Dyson Sphere Program</option>
       </select>
     </div>
