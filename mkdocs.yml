@@ -1,25 +1,25 @@
-site_name: 游戏攻略数据库
+site_name: Factory Game Guides
 site_url: https://game-guide.club
-site_description: 热门游戏攻略大全 - 黑神话悟空/原神/暗黑破坏神IV/GTA
-site_author: game-guide
+site_description: Complete guides & interactive tools for factory automation games - Satisfactory, Factorio, Dyson Sphere Program, Timberborn, Shapez 2
+site_author: factory-guide
 
 theme:
   name: material
-  language: zh
   custom_dir: overrides
+  language: en
   palette:
     - scheme: slate
-      primary: indigo
-      accent: deep orange
+      primary: blue grey
+      accent: orange
       toggle:
         icon: material/lightbulb
-        name: 切换亮色模式
+        name: Switch to light mode
     - scheme: default
-      primary: indigo
-      accent: deep orange
+      primary: blue grey
+      accent: orange
       toggle:
         icon: material/lightbulb-outline
-        name: 切换深色模式
+        name: Switch to dark mode
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -33,38 +33,20 @@ theme:
 
 plugins:
   - search
-  - blog:
-      enabled: true
-      blog_dir: news
-      post_dir: "{blog}/posts"
-      post_url_format: "{slug}"
-      blog_toc: false
-  - git-revision-date-localized:
-      enabled: true
-      type: timeago
   - minify:
       minify_html: true
       minify_js: true
       minify_css: true
       cache_safe: true
   - glightbox
-  - advanced-seo:
-      enabled: true
-      add_schema_org_json_ld: true
-      use_open_graph: true
-      use_twitter_cards: true
-      og_image: assets/img/og-image.png
-  - macros:
-      module_name: hooks/main
-  - awesome-pages:
-      collapse_single_pages: true
-      strict: false
   - redirects:
-      redirect_maps: {}
+      redirect_maps:
+        timberborn.md: timberborn/index.md
+        factorio.md: factorio/index.md
+        dyson.md: dyson/index.md
+        shapez2.md: shapez2/index.md
 
 extra_javascript:
-  - assets/js/utterances.js
-  - assets/js/game-bg.js
   - assets/vendor/jquery.min.js
   - assets/vendor/datatables.js
   - assets/js/datatables-init.js
@@ -81,7 +63,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-  - pymdownx.emoji
+  - pymdownx.emoji:
   - admonition
   - pymdownx.details
   - tables
@@ -91,36 +73,43 @@ markdown_extensions:
 extra:
   generator: false
 
-copyright: Copyright &copy; 2026 Game Guide
+copyright: Copyright &copy; 2026 Factory Game Guides
 
 nav:
-  - 🏠 首页: index.md
-  - 🐵 黑神话悟空:
-    - 游戏概览: wukong/index.md
-    - BOSS攻略: wukong/bosses.md
-    - 全收集地图: wukong/collectibles.md
-    - 装备法宝: wukong/equipment.md
-    - 🆕 技能天赋加点: wukong/skills.md
-    - 📬 反馈建议: wukong/feedback.md
-  - 🎮 原神:
-    - 游戏概览: genshin/index.md
-    - 角色攻略: genshin/characters.md
-    - 武器推荐: genshin/weapons.md
-    - 材料收集: genshin/materials.md
-    - 配队指南: genshin/teams.md
-    - 🆕 世界任务攻略: genshin/world-quests.md
-    - 📬 反馈建议: genshin/feedback.md
-  - ⚔️ 暗黑破坏神IV:
-    - 游戏概览: diablo4/index.md
-    - 流派Build: diablo4/builds.md
-    - 赛季攻略: diablo4/season.md
-    - 装备指南: diablo4/gear.md
-    - 📬 反馈建议: diablo4/feedback.md
-  - 🚗 GTA系列:
-    - 系列概览: gta/index.md
-    - GTA VI预热: gta/gta6.md
-    - GTA Online: gta/online.md
-    - 新手速成: gta/newbie.md
-    - 📬 反馈建议: gta/feedback.md
-  - 📰 更新日志: news/index.md
-  - ℹ️ 关于本站: about.md
+  - 🏠 Home: index.md
+  - 🛠️ Tools:
+    - tools/index.md
+  - ⚙️ Satisfactory:
+    - satisfactory/index.md
+    - satisfactory/lines.md
+    - satisfactory/tiers.md
+    - satisfactory/power.md
+    - satisfactory/resources.md
+    - satisfactory/building.md
+    - satisfactory/parts.md
+  - 💡 Factorio:
+    - factorio/index.md
+    - factorio/production-ratios.md
+    - factorio/rail-system.md
+    - factorio/circuits.md
+    - factorio/strategies.md
+    - factorio/mods.md
+  - 🌌 Dyson Sphere:
+    - dyson/index.md
+    - dyson/production.md
+    - dyson/logistics.md
+    - dyson/sphere-design.md
+  - 🌿 Timberborn:
+    - timberborn/index.md
+    - timberborn/water.md
+    - timberborn/food.md
+    - timberborn/buildings.md
+    - timberborn/districts.md
+    - timberborn/beavers.md
+  - ⬡ Shapez 2:
+    - shapez2/index.md
+    - shapez2/shapes.md
+    - shapez2/buildings.md
+    - shapez2/logic.md
+  - 🎮 Game Comparison: games/comparison.md
+  - 📬 Feedback: feedback/index.md
