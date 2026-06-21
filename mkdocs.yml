@@ -50,6 +50,9 @@ extra_javascript:
   - assets/vendor/jquery.min.js
   - assets/vendor/datatables.js
   - assets/js/datatables-init.js
+  - assets/js/tools/production-calc.js
+  - assets/js/tools/power-planner.js
+  - assets/js/tools/boss-tracker.js
 
 extra_css:
   - assets/css/custom.css
@@ -79,6 +82,9 @@ nav:
   - 🏠 Home: index.md
   - 🛠️ Tools:
     - tools/index.md
+    - 🧮 Production Ratio Calculator: tools/production-calculator.md
+    - ⚡ Power Grid Planner: tools/power-planner.md
+    - ⚔️ Valheim Boss Tracker: tools/boss-tracker.md
   - 🏭 Factory Games:
     - ⚙️ Satisfactory:
       - satisfactory/index.md
