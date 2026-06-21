@@ -1,70 +1,188 @@
-# Factory Automation Central
+<div class="home-hero">
+  <div class="hero-tag">Open Source · Community Driven</div>
+  <h1>Build. Optimize. <span class="gradient">Scale.</span></h1>
+  <p>$ the_factory_must_grow — guides, calculators & data for automation games</p>
+  <a href="tools/production-calculator/" class="hero-cta">🧮 Try Production Calculator →</a>
+</div>
 
-**Master the art of the factory.** From the first belt to the last rocket — calculators, guides, tier lists, and pro tips for the best factory automation games.
-
----
-
-## Craft, Optimise, Scale Up
-
-Factory automation games are about one thing: turning raw resources into an ever-growing, ever-more-complex production line. Whether you're balancing belts in Factorio, building sphere components in Dyson Sphere Program, or keeping beavers fed in Timberborn, **game-guide.club** has the tools and knowledge you need to build smarter.
-
----
-
-## 🧮 Interactive Calculators
-
-Stop doing back-of-the-envelope math. Our interactive calculators handle production ratios, power requirements, and resource throughput so you can focus on layout and expansion.
-
-- **Production Ratio Calculator** — Balance belts, assemblers, and smelters
-- **Power Grid Planner** — Optimise fuel vs. renewables
-- **Resource Flow Analyser** — Spot bottlenecks before they choke your factory
-
-## ⚙️ Optimization Guides
-
-Detailed, tested guides that go beyond the basics. Each guide is written for real factory builders — no fluff, no clickbait.
-
-- **Early-Game to Megafactory** — Scaling strategies for every phase
-- **Blueprint Design Principles** — Build modular, tileable, expandable
-- **Logistics Deep Dives** — Trains, drones, bots, and belts
-
-## 🏆 Tier Lists
-
-Which starter layout gives the fastest rocket launch? Which power source pays off best? We rank builds, strategies, and gear — backed by data and community testing.
-
-- **Starter Base Tier List** (per biome / planet)
-- **Power Source Efficiency Rankings**
-- **Transport Method Showdown**
-
-## 🔧 Tips & Tricks
-
-Short, punchy tips you won't find in the official wiki. Community-sourced, curated, and battle-tested.
-
-- Hotkeys that save hours
-- Hidden mechanics and unintended synergies
-- Quality-of-life mod recommendations
+<div class="filter-bar">
+  <span class="filter-btn active">🔥 All Games</span>
+  <span class="filter-btn">⚙️ Satisfactory</span>
+  <span class="filter-btn">💡 Factorio</span>
+  <span class="filter-btn">🌌 Dyson Sphere</span>
+  <span class="filter-btn">🌿 Timberborn</span>
+  <span class="filter-btn">⬡ Shapez 2</span>
+</div>
 
 ---
 
-## Featured Games
+<h2 class="section-title-home">Game Guides <span class="sub">· 5 titles · 31 pages</span></h2>
 
-### [Satisfactory](https://store.steampowered.com/app/526870/?curator_clanid=45416337)
-*Explore, build, and automate on an alien world.* Satisfactory combines first-person exploration with deep factory building. From ore to advanced parts — your factory grows in 3D with conveyor belts, trains, pipes, and drones.
+<div class="game-hero-card">
+<div class="game-hero-card-inner">
+<div class="game-card-header">
+  <div class="game-card-icon">⚙️</div>
+  <div>
+    <div class="game-card-title">Satisfactory</div>
+    <div class="game-card-sub">Coffee Stain Studios · 7 guides</div>
+  </div>
+</div>
+<p>First-person factory automation on an alien world. Build production lines, optimize power grids, and scale to megafactories.</p>
+<div class="game-card-stats"><span>📄 7 pages</span></div>
+<div class="game-card-links">
+  <a href="satisfactory/lines/" class="game-card-link">Lines</a>
+  <a href="satisfactory/power/" class="game-card-link">Power</a>
+  <a href="satisfactory/tiers/" class="game-card-link">Tiers</a>
+  <a href="satisfactory/resources/" class="game-card-link">Resources</a>
+  <a href="satisfactory/building/" class="game-card-link">Building</a>
+</div>
+</div>
+</div>
 
-### [Factorio](https://store.steampowered.com/app/427520/?curator_clanid=45416337)
-*The gold standard of factory automation.* Factorio is a top-down building simulation where you crash-land on an alien planet and must build a massive factory to launch a rocket. The most refined belt-and-assembler simulation ever made.
+<div class="game-hero-card">
+<div class="game-hero-card-inner">
+<div class="game-card-header">
+  <div class="game-card-icon">💡</div>
+  <div>
+    <div class="game-card-title">Factorio</div>
+    <div class="game-card-sub">Wube Software · 6 guides</div>
+  </div>
+</div>
+<p>The gold standard of factory automation. Master belts, trains, circuits, and megabase design from launch to 10K SPM.</p>
+<div class="game-card-stats"><span>📄 6 pages</span></div>
+<div class="game-card-links">
+  <a href="factorio/production-ratios/" class="game-card-link">Ratios</a>
+  <a href="factorio/rail-system/" class="game-card-link">Rail</a>
+  <a href="factorio/circuits/" class="game-card-link">Circuits</a>
+  <a href="factorio/strategies/" class="game-card-link">Strategies</a>
+  <a href="factorio/mods/" class="game-card-link">Mods</a>
+</div>
+</div>
+</div>
 
-### [Dyson Sphere Program](https://store.steampowered.com/app/1366540/?curator_clanid=45416337)
-*Automate across a star system.* Build a Dyson Sphere by mining, refining, and manufacturing across multiple planets. DSP takes factory automation to an interplanetary scale with logistics vessels, orbital stations, and a full tech tree.
+<div class="game-hero-card">
+<div class="game-hero-card-inner">
+<div class="game-card-header">
+  <div class="game-card-icon">🌌</div>
+  <div>
+    <div class="game-card-title">Dyson Sphere Program</div>
+    <div class="game-card-sub">Youthcat Studio · 4 guides</div>
+  </div>
+</div>
+<p>Automate across a star system. Build Dyson spheres, manage interplanetary logistics, and optimize production ratios.</p>
+<div class="game-card-stats"><span>📄 4 pages</span></div>
+<div class="game-card-links">
+  <a href="dyson/logistics/" class="game-card-link">Logistics</a>
+  <a href="dyson/production/" class="game-card-link">Production</a>
+  <a href="dyson/sphere-design/" class="game-card-link">Sphere Design</a>
+</div>
+</div>
+</div>
 
-### [Timberborn](https://store.steampowered.com/app/1062090/?curator_clanid=45416337)
-*Beaver-powered automation.* A post-human colony sim where beavers build dam-based factories and irrigation networks. Manage water cycles, automate resource chains, and keep your colony thriving through droughts.
+<div class="game-hero-card">
+<div class="game-hero-card-inner">
+<div class="game-card-header">
+  <div class="game-card-icon">🌿</div>
+  <div>
+    <div class="game-card-title">Timberborn</div>
+    <div class="game-card-sub">Mechanistry · 6 guides</div>
+  </div>
+</div>
+<p>Beaver-powered automation. Manage water, food, and districts. Build vertical factories with mechanical pumps and dams.</p>
+<div class="game-card-stats"><span>📄 6 pages</span></div>
+<div class="game-card-links">
+  <a href="timberborn/water/" class="game-card-link">Water</a>
+  <a href="timberborn/food/" class="game-card-link">Food</a>
+  <a href="timberborn/buildings/" class="game-card-link">Buildings</a>
+  <a href="timberborn/districts/" class="game-card-link">Districts</a>
+  <a href="timberborn/beavers/" class="game-card-link">Beavers</a>
+</div>
+</div>
+</div>
 
-### [Shapez 2](https://store.steampowered.com/app/2162800/?curator_clanid=45416337)
-*Pure, abstract factory building.* Shapez 2 strips away combat, exploration, and story to focus entirely on the puzzle of automation. Cut, rotate, stack, and paint shapes at massive scale — the most minimalist and satisfying pure factory game on the market.
+<div class="game-hero-card">
+<div class="game-hero-card-inner">
+<div class="game-card-header">
+  <div class="game-card-icon">⬡</div>
+  <div>
+    <div class="game-card-title">Shapez 2</div>
+    <div class="game-card-sub">tobspr Games · 4 guides</div>
+  </div>
+</div>
+<p>Pure, abstract factory building. Cut, rotate, stack, and paint shapes at massive scale. Logic wiring and belt optimization.</p>
+<div class="game-card-stats"><span>📄 4 pages</span></div>
+<div class="game-card-links">
+  <a href="shapez2/shapes/" class="game-card-link">Shapes</a>
+  <a href="shapez2/buildings/" class="game-card-link">Buildings</a>
+  <a href="shapez2/logic/" class="game-card-link">Logic</a>
+</div>
+</div>
+</div>
 
 ---
 
-## Ready to Build?
+<h2 class="section-title-home">Interactive Tools <span class="sub">· calculators & planners</span></h2>
 
-Bookmark **game-guide.club** — your companion for every belt, every blueprint, and every bottleneck. New guides, calculators, and updates added regularly.
+<div class="tools-grid-home">
+  <div class="tool-card-home">
+    <div class="tool-icon">🧮</div>
+    <div class="tool-info">
+      <h4>Production Ratio Calculator</h4>
+      <p>Satisfactory · Factorio · DSP</p>
+    </div>
+    <span class="status status-soon">Soon</span>
+  </div>
+  <div class="tool-card-home">
+    <div class="tool-icon">⚡</div>
+    <div class="tool-info">
+      <h4>Power Planner</h4>
+      <p>Coal · Fuel · Nuclear · Solar</p>
+    </div>
+    <span class="status status-soon">Soon</span>
+  </div>
+  <div class="tool-card-home">
+    <div class="tool-icon">🔧</div>
+    <div class="tool-info">
+      <h4>Factory Planner</h4>
+      <p>End-to-end production chain</p>
+    </div>
+    <span class="status status-soon">Soon</span>
+  </div>
+  <div class="tool-card-home">
+    <div class="tool-icon">📊</div>
+    <div class="tool-info">
+      <h4>Game Comparison</h4>
+      <p>5 factory games compared</p>
+    </div>
+    <span class="status status-live">Live</span>
+  </div>
+</div>
+
+<h2 class="section-title-home">Quick Compare <span class="sub">· which game fits you?</span></h2>
+
+<div class="comparison-grid">
+  <div class="comparison-card-home">
+    <h4>⚙️ Satisfactory</h4>
+    <p>3D first-person · 100-500h · Moderate</p>
+  </div>
+  <div class="comparison-card-home">
+    <h4>💡 Factorio</h4>
+    <p>2D top-down · 50-1000h · Hard</p>
+  </div>
+  <div class="comparison-card-home">
+    <h4>🌌 Dyson Sphere</h4>
+    <p>3D space · 60-300h · Moderate</p>
+  </div>
+  <div class="comparison-card-home">
+    <h4>🌿 Timberborn</h4>
+    <p>3D colony sim · 40-200h · Medium</p>
+  </div>
+  <div class="comparison-card-home">
+    <h4>⬡ Shapez 2</h4>
+    <p>2D puzzle · 20-100h · Easy</p>
+  </div>
+</div>
+
+---
 
 > *"The factory must grow."*

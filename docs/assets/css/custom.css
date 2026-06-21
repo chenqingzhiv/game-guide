@@ -1,21 +1,41 @@
 /* ============================================ */
-/* game-guide.club - Premium UI Overhaul        */
-/* Inspired by: Fextralife, Paimon.moe, Game8   */
+/* game-guide.club - v2 Industrial Hex Grid     */
 /* ============================================ */
 
-/* --- GLOBAL BACKGROUND OVERLAY --- */
+/* --- GLOBAL BACKGROUND — HEX GRID TEXTURE --- */
 body::before {
   content: '';
   position: fixed;
   inset: 0;
   background:
-    radial-gradient(ellipse at 15% 15%, rgba(249, 115, 22, 0.06), transparent 45%),
-    radial-gradient(ellipse at 85% 85%, rgba(59, 130, 246, 0.04), transparent 45%);
+    /* Industrial ambient glow layers */
+    radial-gradient(ellipse at 15% 25%, rgba(249,115,22,0.07), transparent 40%),
+    radial-gradient(ellipse at 85% 60%, rgba(59,130,246,0.05), transparent 45%),
+    radial-gradient(ellipse at 50% 90%, rgba(249,115,22,0.03), transparent 35%);
   pointer-events: none;
   z-index: 0;
 }
 
-/* --- PER-GAME BACKGROUNDS (subtle colored overlays) --- */
+/* Hex grid + circuit dot matrix pattern */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    /* Hex grid */
+    linear-gradient(90deg, rgba(249,115,22,0.02) 1px, transparent 1px),
+    linear-gradient(60deg, rgba(249,115,22,0.02) 1px, transparent 1px),
+    linear-gradient(-60deg, rgba(249,115,22,0.02) 1px, transparent 1px),
+    /* Circuit dot matrix */
+    radial-gradient(circle at 1px 1px, rgba(249,115,22,0.03) 1px, transparent 1px);
+  background-size: 40px 70px, 40px 70px, 40px 70px, 24px 24px;
+  background-position: center center, 0 0, 0 0, 0 0;
+  opacity: 0.6;
+}
+
+/* --- PER-GAME BACKGROUNDS --- */
 [class*="-bg"]::before {
   content: '';
   position: fixed;
@@ -64,14 +84,14 @@ body::before {
 
 /* --- HEADER / NAVIGATION --- */
 .md-header {
-  backdrop-filter: blur(20px) saturate(1.5);
-  background: rgba(10, 10, 18, 0.82) !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(24px) saturate(1.5);
+  background: rgba(11, 14, 20, 0.9) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
   z-index: 100 !important;
 }
 
 .md-tabs {
-  background: rgba(10, 10, 18, 0.5);
+  background: rgba(11, 14, 20, 0.6);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.04);
 }
@@ -81,10 +101,29 @@ body::before {
   letter-spacing: 0.3px;
   opacity: 0.7;
   transition: all 0.25s;
+  position: relative;
 }
+
+.md-tabs__link::after {
+  content: '';
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #f97316;
+  transition: 0.25s;
+}
+
+.md-tabs__link:hover::after,
+.md-tabs__link--active::after {
+  width: 100%;
+}
+
 .md-tabs__link:hover,
 .md-tabs__link--active {
   opacity: 1;
+  color: #f8fafc !important;
 }
 
 /* --- MAIN CONTENT --- */
@@ -101,75 +140,314 @@ body::before {
 
 .md-sidebar { position: relative; z-index: 1; }
 
-/* --- HERO CARD - Homepage Game Cards --- */
+/* --- HOME PAGE HERO --- */
+.home-hero {
+  text-align: center;
+  padding: 36px 0 16px;
+  position: relative;
+}
+
+.home-hero .hero-tag {
+  display: inline-block;
+  padding: 3px 12px;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  background: rgba(249,115,22,0.1);
+  color: #f97316;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.home-hero h1 {
+  font-size: 2.4rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -1px !important;
+  margin-bottom: 8px !important;
+  border-bottom: none !important;
+}
+
+.home-hero h1 .gradient {
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.home-hero p {
+  font-size: 0.95rem;
+  color: #64748b;
+  max-width: 520px;
+  margin: 0 auto 20px !important;
+  line-height: 1.6;
+}
+
+.hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 28px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none !important;
+  transition: 0.2s;
+}
+
+.hero-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(249,115,22,0.3);
+}
+
+/* --- FILTER BAR --- */
+.filter-bar {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 4px 0 20px;
+}
+
+.filter-btn {
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.06);
+  color: #64748b;
+  cursor: default;
+  transition: 0.2s;
+  white-space: nowrap;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background: rgba(249,115,22,0.1);
+  border-color: rgba(249,115,22,0.3);
+  color: #f97316;
+}
+
+/* --- GAME CARDS ON HOME PAGE --- */
 .game-hero-card {
   display: block;
   position: relative;
-  border-radius: 16px;
+  border-radius: 14px;
   overflow: hidden;
-  margin: 24px 0;
+  margin: 14px 0;
   transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
 
 .game-hero-card-inner {
-  padding: 28px 32px;
+  padding: 22px 26px;
   position: relative;
   z-index: 1;
-  background: rgba(13, 13, 20, 0.6);
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 16px;
-  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  background: rgba(13, 13, 20, 0.45);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 14px;
+  transition: all 0.3s ease;
 }
 
 .game-hero-card:hover .game-hero-card-inner {
   transform: translateY(-4px);
-  background: rgba(13, 13, 20, 0.7);
-  border-color: rgba(255, 255, 255, 0.12);
-  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.4);
+  background: rgba(13, 13, 20, 0.6);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+}
+
+.game-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.game-card-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  flex-shrink: 0;
 }
 
 .game-card-title {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 600;
-  margin-bottom: 6px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  margin: 0 0 2px;
 }
 
 .game-card-sub {
-  font-size: 0.9rem;
-  color: var(--md-typeset-color);
-  opacity: 0.6;
-  margin-bottom: 12px;
+  font-size: 0.75rem;
+  color: #475569;
+  margin: 0;
+}
+
+.game-hero-card p {
+  font-size: 0.82rem;
+  color: #64748b;
+  line-height: 1.5;
+  margin: 0 0 10px;
+}
+
+.game-card-stats {
+  display: flex;
+  gap: 12px;
+  font-size: 0.72rem;
+  color: #475569;
+}
+
+.game-card-stats span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .game-card-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 4px;
+  gap: 6px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.03);
 }
 
 .game-card-link {
   display: inline-block;
-  padding: 4px 12px;
-  border-radius: 20px;
-  font-size: 0.78rem;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  color: var(--md-typeset-color) !important;
-  transition: all 0.2s;
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  color: #64748b !important;
+  transition: 0.2s;
   text-decoration: none !important;
 }
+
 .game-card-link:hover {
-  background: rgba(255, 255, 255, 0.12);
-  border-color: rgba(255, 255, 255, 0.2);
+  background: rgba(249, 115, 22, 0.08);
+  color: #f97316 !important;
+  border-color: rgba(249, 115, 22, 0.2);
 }
 
-/* --- FROSTED CARDS (admonition/details/table) --- */
+/* Per-game icon colors */
+.game-card-satisfactory .game-card-icon { background: rgba(249,115,22,0.15); color: #f97316; }
+.game-card-factorio .game-card-icon { background: rgba(249,115,22,0.15); color: #f97316; }
+.game-card-dyson .game-card-icon { background: rgba(59,130,246,0.15); color: #60a5fa; }
+.game-card-timberborn .game-card-icon { background: rgba(34,197,94,0.15); color: #22c55e; }
+.game-card-shapez .game-card-icon { background: rgba(168,85,247,0.15); color: #a855f7; }
+
+/* --- TOOLS GRID (HOME) --- */
+.tools-grid-home {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+  margin: 8px 0 20px;
+}
+
+.tool-card-home {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  background: rgba(13, 13, 20, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.tool-card-home:hover {
+  background: rgba(13, 13, 20, 0.5);
+  border-color: rgba(249,115,22,0.15);
+}
+
+.tool-card-home .tool-icon {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.tool-card-home .tool-info { flex: 1; }
+
+.tool-card-home h4 {
+  font-size: 0.82rem;
+  font-weight: 600;
+  margin: 0 0 1px;
+}
+
+.tool-card-home p {
+  font-size: 0.7rem;
+  color: #475569;
+  margin: 0;
+}
+
+.tool-card-home .status {
+  font-size: 0.65rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.status-live { background: rgba(34,197,94,0.12); color: #22c55e; }
+.status-soon { background: rgba(249,115,22,0.1); color: #f97316; }
+
+/* --- SECTION DIVIDER --- */
+.section-title-home {
+  font-size: 1.3rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.3px !important;
+  border-bottom: none !important;
+  margin-bottom: 12px !important;
+}
+
+.section-title-home .sub {
+  color: #475569;
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+
+.section-divider {
+  margin: 24px 0 12px !important;
+  border-color: rgba(255, 255, 255, 0.04) !important;
+}
+
+/* --- COMPARISON GRID --- */
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+  margin: 8px 0;
+}
+
+.comparison-card-home {
+  padding: 14px;
+  border-radius: 10px;
+  background: rgba(13, 13, 20, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.comparison-card-home h4 {
+  font-size: 0.82rem;
+  font-weight: 600;
+  margin: 0 0 2px;
+}
+
+.comparison-card-home p {
+  font-size: 0.7rem;
+  color: #475569;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* --- FROSTED CARDS --- */
 .md-typeset .admonition,
 .md-typeset details {
   backdrop-filter: blur(10px) saturate(1.2);
@@ -199,7 +477,7 @@ body::before {
   padding: 2px 6px;
 }
 
-/* --- TYPOGRAPHY ENHANCEMENTS --- */
+/* --- TYPOGRAPHY --- */
 .md-typeset h1 {
   font-weight: 700;
   letter-spacing: -0.5px;
