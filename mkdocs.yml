@@ -53,6 +53,8 @@ extra_javascript:
   - assets/js/tools/production-calc.js
   - assets/js/tools/power-planner.js
   - assets/js/tools/boss-tracker.js
+  - assets/js/tools/factory-planner.js
+  - assets/js/tools/game-map.js
 
 extra_css:
   - assets/css/custom.css
@@ -84,6 +86,8 @@ nav:
     - tools/index.md
     - 🧮 Production Ratio Calculator: tools/production-calculator.md
     - ⚡ Power Grid Planner: tools/power-planner.md
+    - 🔧 Factory Planner: tools/factory-planner.md
+    - 🗺️ Game Map Reference: tools/game-map.md
     - ⚔️ Valheim Boss Tracker: tools/boss-tracker.md
   - 🏭 Factory Games:
     - ⚙️ Satisfactory:

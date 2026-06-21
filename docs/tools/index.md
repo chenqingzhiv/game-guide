@@ -27,9 +27,25 @@
     <div class="tool-icon">🔧</div>
     <div class="tool-info">
       <h4>Factory Planner</h4>
-      <p>End-to-end production chain</p>
+      <p>End-to-end production chains · 20+ items</p>
     </div>
-    <span class="status status-soon">Soon</span>
+    <span class="status status-live">Live</span>
+  </div>
+  <div class="tool-card-home">
+    <div class="tool-icon">🗺️</div>
+    <div class="tool-info">
+      <h4>Interactive Map Reference</h4>
+      <p>Satisfactory · Factorio · DSP</p>
+    </div>
+    <span class="status status-live">Live</span>
+  </div>
+  <div class="tool-card-home">
+    <div class="tool-icon">📊</div>
+    <div class="tool-info">
+      <h4>Game Comparison</h4>
+      <p>5 factory games compared</p>
+    </div>
+    <span class="status status-live">Live</span>
   </div>
   <div class="tool-card-home">
     <div class="tool-icon">📊</div>
