@@ -4,10 +4,16 @@ on:
     branches: [main, master]
     paths:
       - '**.md'
+      - '.vale.ini'
+      - 'styles/**'
+      - '.github/workflows/vale.yml'
   pull_request:
     branches: [main, master]
     paths:
       - '**.md'
+      - '.vale.ini'
+      - 'styles/**'
+      - '.github/workflows/vale.yml'
   workflow_dispatch:
 
 jobs:
