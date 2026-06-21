@@ -6,6 +6,7 @@ site_author: game-guide
 theme:
   name: material
   language: zh
+  custom_dir: overrides
   palette:
     - scheme: slate
       primary: indigo
@@ -32,6 +33,12 @@ theme:
 
 plugins:
   - search
+  - blog:
+      enabled: true
+      blog_dir: news
+      post_dir: "{blog}/posts"
+      post_url_format: "{slug}"
+      blog_toc: false
   - git-revision-date-localized:
       enabled: true
       type: timeago

@@ -42,4 +42,18 @@
 - **资源铭印** — 资源管理
 - **移动铭印** — 机动性
 
-> 📖 详见 [流派Build](builds.md) | [赛季攻略](season.md) | [装备指南](gear.md)
+---
+
+## 🛒 购买链接
+
+暗黑破坏神IV由暴雪娱乐发行，仅通过Battle.net官方渠道销售：
+
+| 平台 | 链接 | 说明 |
+|------|------|------|
+| 🎮 **Battle.net** | [暴雪游戏商城](https://shop.battle.net/zh-cn/product/diablo4) | 标准版/豪华版/终极版 |
+| 🌏 **国服** | [网易大神](https://www.ds.163.com/diablo4/) | 国服由网易代理，独立客户端 |
+| 📦 **资料片** | [憎恨之躯](https://shop.battle.net/zh-cn/product/400463) | DLC资料片，需本体支持 |
+
+*暗黑破坏神IV不在Steam平台锁国区 — 推荐通过暴雪官方商城主账户购买。*
+
+> 📖 详见 [流派Build](builds.md) | [赛季攻略](season.md) | [装备指南](gear.md) | [流派Tier排行](tier-list.md)

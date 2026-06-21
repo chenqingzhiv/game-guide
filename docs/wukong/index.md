@@ -36,4 +36,14 @@
 
 ---
 
-> 📖 更多内容详见 [BOSS攻略](bosses.md) | [全收集地图](collectibles.md) | [装备法宝](equipment.md)
+## 🛒 购买链接
+
+黑神话：悟空目前不在Steam上架（WeGame & PS5 独占），您可以从以下官方渠道购买：
+
+| 平台 | 链接 | 说明 |
+|------|------|------|
+| 🎮 **WeGame** | [前往WeGame商店](https://www.wegame.com.cn/store/2001742) | 国区PC版，支持简体中文 |
+| 🎮 **PlayStation Store** | [前往PS Store](https://store.playstation.com/zh-hans-cn/product/HP0106-PPSA15967_00-BLACKMYTHWUKONG0) | PS5版，支持光追 |
+| 📦 **实体版（典藏版）** | [天猫官方店](https://game-gift.tmall.com/) | 限量实体收藏版 |
+
+> 📖 更多内容详见 [BOSS攻略](bosses.md) | [全收集地图](collectibles.md) | [装备法宝](equipment.md) | [BOSS难度排行](tier-list.md)

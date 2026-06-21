@@ -37,4 +37,17 @@
 3. **35-45级** — 开始刷圣遗物
 4. **45级+** — 大量刷5星圣遗物
 
-> 📖 详见 [角色攻略](characters.md) | [武器推荐](weapons.md) | [配队指南](teams.md)
+---
+
+## 🛒 下载链接
+
+原神为免费游戏，可从以下官方渠道下载：
+
+| 平台 | 链接 | 说明 |
+|------|------|------|
+| 🖥️ **PC版** | [官网下载](https://genshin.hoyoverse.com/zh-cn/) | HoYoPlay启动器，支持全平台互通 |
+| 📱 **App Store** | [iOS下载](https://apps.apple.com/app/id1517783697) | iPhone/iPad均可 |
+| 📱 **Google Play** | [Android下载](https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact) | 安卓版 |
+| 🎮 **PlayStation** | [PS商店下载](https://store.playstation.com/product/HP0106-PPSA07898_00-GENSHINIMPACT000) | PS5/PS4版 |
+
+> 📖 详见 [角色攻略](characters.md) | [武器推荐](weapons.md) | [配队指南](teams.md) | [角色Tier排行](tier-list.md)
