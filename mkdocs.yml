@@ -1,7 +1,7 @@
-site_name: Factory Game Guides
+site_name: Game Guide Club
 site_url: https://game-guide.club
-site_description: Complete guides & interactive tools for factory automation games - Satisfactory, Factorio, Dyson Sphere Program, Timberborn, Shapez 2
-site_author: factory-guide
+site_description: Complete guides, databases & interactive tools for factory automation, survival building, and strategy games
+site_author: game-guide
 
 theme:
   name: material
@@ -79,37 +79,43 @@ nav:
   - 🏠 Home: index.md
   - 🛠️ Tools:
     - tools/index.md
-  - ⚙️ Satisfactory:
-    - satisfactory/index.md
-    - satisfactory/lines.md
-    - satisfactory/tiers.md
-    - satisfactory/power.md
-    - satisfactory/resources.md
-    - satisfactory/building.md
-    - satisfactory/parts.md
-  - 💡 Factorio:
-    - factorio/index.md
-    - factorio/production-ratios.md
-    - factorio/rail-system.md
-    - factorio/circuits.md
-    - factorio/strategies.md
-    - factorio/mods.md
-  - 🌌 Dyson Sphere:
-    - dyson/index.md
-    - dyson/production.md
-    - dyson/logistics.md
-    - dyson/sphere-design.md
-  - 🌿 Timberborn:
-    - timberborn/index.md
-    - timberborn/water.md
-    - timberborn/food.md
-    - timberborn/buildings.md
-    - timberborn/districts.md
-    - timberborn/beavers.md
-  - ⬡ Shapez 2:
-    - shapez2/index.md
-    - shapez2/shapes.md
-    - shapez2/buildings.md
-    - shapez2/logic.md
-  - 🎮 Game Comparison: games/comparison.md
+  - 🏭 Factory Games:
+    - ⚙️ Satisfactory:
+      - satisfactory/index.md
+      - satisfactory/lines.md
+      - satisfactory/tiers.md
+      - satisfactory/power.md
+      - satisfactory/resources.md
+      - satisfactory/building.md
+      - satisfactory/parts.md
+    - 💡 Factorio:
+      - factorio/index.md
+      - factorio/production-ratios.md
+      - factorio/rail-system.md
+      - factorio/circuits.md
+      - factorio/strategies.md
+      - factorio/mods.md
+    - 🌌 Dyson Sphere:
+      - dyson/index.md
+      - dyson/production.md
+      - dyson/logistics.md
+      - dyson/sphere-design.md
+    - 🌿 Timberborn:
+      - timberborn/index.md
+      - timberborn/water.md
+      - timberborn/food.md
+      - timberborn/buildings.md
+      - timberborn/districts.md
+      - timberborn/beavers.md
+    - ⬡ Shapez 2:
+      - shapez2/index.md
+      - shapez2/shapes.md
+      - shapez2/buildings.md
+      - shapez2/logic.md
+    - 🎮 Game Comparison: games/comparison.md
+  - 🌟 Survival & Building:
+    - ⚔️ Valheim: valheim/index.md
+    - 🔥 Enshrouded: enshrouded/index.md
+    - 🩸 V Rising: vrising/index.md
+    - 🌲 Sons of the Forest: sons-forest/index.md
   - 📬 Feedback: feedback/index.md

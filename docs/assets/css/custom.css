@@ -344,6 +344,17 @@ body::after {
 .game-card-timberborn .game-card-icon { background: rgba(34,197,94,0.15); color: #22c55e; }
 .game-card-shapez .game-card-icon { background: rgba(168,85,247,0.15); color: #a855f7; }
 
+/* Survival game icon colors */
+.game-card-survival { border-left: 3px solid rgba(234,88,12,0.5); }
+.game-card-valheim .game-card-icon { background: rgba(249,115,22,0.15); color: #f97316; }
+.game-card-enshrouded .game-card-icon { background: rgba(234,88,12,0.15); color: #ea580c; }
+.game-card-vrising .game-card-icon { background: rgba(220,38,38,0.15); color: #ef4444; }
+.game-card-sons-forest .game-card-icon { background: rgba(22,163,74,0.15); color: #16a34a; }
+
+/* Category icon colors (for the category headers on homepage) */
+.game-icon-factory { background: rgba(249,115,22,0.15); color: #f97316; }
+.game-icon-survival { background: rgba(239,68,68,0.15); color: #ef4444; }
+
 /* --- TOOLS GRID (HOME) --- */
 .tools-grid-home {
   display: grid;
