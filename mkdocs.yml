@@ -124,8 +124,17 @@ nav:
       - shapez2/logic.md
     - 🎮 Game Comparison: games/comparison.md
   - 🌟 Survival & Building:
-    - ⚔️ Valheim: valheim/index.md
-    - 🔥 Enshrouded: enshrouded/index.md
-    - 🩸 V Rising: vrising/index.md
-    - 🌲 Sons of the Forest: sons-forest/index.md
+    - ⚔️ Valheim:
+      - valheim/index.md
+      - ⚔️ Boss Strategies: valheim/boss-strategies.md
+      - 🛡️ Equipment & Food: valheim/equipment.md
+    - 🔥 Enshrouded:
+      - enshrouded/index.md
+      - Boss & Elite Guide: enshrouded/bosses.md
+    - 🩸 V Rising:
+      - vrising/index.md
+      - V Blood Carriers Guide: vrising/v-blood-carriers.md
+    - 🌲 Sons of the Forest:
+      - sons-forest/index.md
+      - Caves & Walkthrough: sons-forest/caves-walkthrough.md
   - 📬 Feedback: feedback/index.md
