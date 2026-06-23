@@ -5,8 +5,10 @@ site_author: game-guide
 
 theme:
   name: material
-  custom_dir: overrides
+  logo: material/factory
+  favicon: assets/img/og-image.png
   language: en
+  custom_dir: overrides
   palette:
     - scheme: slate
       primary: deep orange
@@ -33,6 +35,9 @@ theme:
 
 plugins:
   - search
+  - git-revision-date-localized:
+      enabled: true
+      type: timeago
   - minify:
       minify_html: true
       minify_js: true

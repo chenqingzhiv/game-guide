@@ -1,11 +1,30 @@
 <div class="home-hero">
-  <div class="hero-tag">Guides · Databases · Tools</div>
-  <h1>Your <span class="gradient">Game Guide</span> Club</h1>
-  <p>Factory automation, survival building, and strategy games — calculators, guides, databases, and interactive tools.</p>
-  <div class="hero-stats">
-    <div class="hero-stat"><div class="hero-stat-num">9</div><div class="hero-stat-label">Games</div></div>
-    <div class="hero-stat"><div class="hero-stat-num">35+</div><div class="hero-stat-label">Pages</div></div>
-    <div class="hero-stat"><div class="hero-stat-num">2</div><div class="hero-stat-label">Categories</div></div>
+  <div class="home-hero-logo">
+    <div class="home-hero-logo-icon">🏭</div>
+    <div class="home-hero-logo-text">Game <span class="highlight">Guide</span> Club</div>
+  </div>
+  <div class="home-hero-tagline">Blueprints, calculators & guides for factory automation & survival games</div>
+  <div class="home-hero-search">
+    <input type="text" placeholder="Search blueprints, ratios, guides..." value="Factorio perfect ratio guide">
+    <button>Search</button>
+  </div>
+  <div class="home-hero-stats">
+    <div class="home-hero-stat">
+      <div class="home-hero-stat-num">45</div>
+      <div class="home-hero-stat-label">Guides</div>
+    </div>
+    <div class="home-hero-stat">
+      <div class="home-hero-stat-num">6</div>
+      <div class="home-hero-stat-label">Tools</div>
+    </div>
+    <div class="home-hero-stat">
+      <div class="home-hero-stat-num">9</div>
+      <div class="home-hero-stat-label">Games</div>
+    </div>
+    <div class="home-hero-stat">
+      <div class="home-hero-stat-num">2</div>
+      <div class="home-hero-stat-label">Categories</div>
+    </div>
   </div>
 </div>
 
