@@ -50,6 +50,7 @@ plugins:
         factorio.md: factorio/index.md
         dyson.md: dyson/index.md
         shapez2.md: shapez2/index.md
+        grounded.md: grounded/index.md
 
 extra_javascript:
   - assets/vendor/jquery.min.js
@@ -142,4 +143,8 @@ nav:
     - 🌲 Sons of the Forest:
       - sons-forest/index.md
       - Caves & Walkthrough: sons-forest/caves-walkthrough.md
+    - 🐞 Grounded:
+      - grounded/index.md
+      - 🐛 Creature & Boss Guide: grounded/creatures.md
+      - 🏗️ Base Building Guide: grounded/base-building.md
   - 📬 Feedback: feedback/index.md
