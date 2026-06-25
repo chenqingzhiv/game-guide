@@ -137,12 +137,18 @@ nav:
     - 🔥 Enshrouded:
       - enshrouded/index.md
       - Boss & Elite Guide: enshrouded/bosses.md
+      - ⚔️ Weapons Database: enshrouded/weapons.md
+      - 🛡️ Armor & Gear Guide: enshrouded/armor.md
     - 🩸 V Rising:
       - vrising/index.md
       - V Blood Carriers Guide: vrising/v-blood-carriers.md
+      - 📦 Materials & Resources: vrising/materials.md
+      - ⚔️ Equipment Upgrade Path: vrising/equipment-upgrade.md
     - 🌲 Sons of the Forest:
       - sons-forest/index.md
       - Caves & Walkthrough: sons-forest/caves-walkthrough.md
+      - 🗡️ Items & Weapons Database: sons-forest/items-weapons.md
+      - 🔨 Crafting & Building Guide: sons-forest/crafting.md
     - 🐞 Grounded:
       - grounded/index.md
       - 🐛 Creature & Boss Guide: grounded/creatures.md
