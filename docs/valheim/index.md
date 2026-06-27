@@ -87,7 +87,7 @@ Each biome requires better gear, food, and preparations before venturing in.
 ## Interactive Tools
 
 - 🔧 [Valheim Building Planner](/tools/valheim/building-planner/) — Plan your base layout *(coming soon)*
-- 🔧 [Boss Progression Tracker](/tools/valheim/boss-tracker/) — Track your Forsaken kills *(coming soon)*
+- 🔧 [Boss Progression Tracker](../tools/boss-tracker.md) — Track your Forsaken kills *(coming soon)*
 
 ---
 

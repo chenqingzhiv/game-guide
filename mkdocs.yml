@@ -116,6 +116,7 @@ nav:
       - dyson/production.md
       - dyson/logistics.md
       - dyson/sphere-design.md
+      - 📦 Resources Database: dyson/resources.md
     - 🌿 Timberborn:
       - timberborn/index.md
       - timberborn/water.md
@@ -123,6 +124,7 @@ nav:
       - timberborn/buildings.md
       - timberborn/districts.md
       - timberborn/beavers.md
+      - 💧 Drought Survival Guide: timberborn/drought.md
     - ⬡ Shapez 2:
       - shapez2/index.md
       - shapez2/shapes.md
