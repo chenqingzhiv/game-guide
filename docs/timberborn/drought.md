@@ -8,6 +8,8 @@ date: 2026-06-26
 
 Droughts are the central challenge in Timberborn. As the life-giving water recedes, your beaver colony must rely on stored resources, efficient infrastructure, and smart planning to survive until the next wet season. This guide covers everything you need to know about surviving droughts, from basic water management to advanced district planning and faction-specific strategies.
 
+For detailed reference pages, also check our [Water Management Guide](../timberborn/water.md), [Food Production Guide](../timberborn/food.md), [Beaver Types](../timberborn/beavers.md), [Buildings Database](../timberborn/buildings.md), and [District Planning](../timberborn/districts.md).
+
 ## Understanding the Drought Cycle
 
 Timberborn operates on a cycle of wet and dry seasons. The length and severity of droughts increase over time, making early preparation critical.
@@ -291,6 +293,26 @@ Late-game droughts can last 30+ days. These require massive preparation.
 3. **Refill storage.** Prioritize water tanks and food storage.
 4. **Repair damaged buildings.** Floodgates and pumps may need repairs.
 5. **Expand storage.** Use the lessons from the drought to build more capacity.
+
+## Frequently Asked Questions
+
+**Q: When does the first drought hit?**
+A: The first drought usually arrives around day 10-15. You should have at least one water tank and food storage built before then.
+
+**Q: How much water do I need per beaver per day?**
+A: Folktails drink ~1.5 units per beaver per day; Iron Teeth drink ~2 units. For a 10-day drought with 20 beavers, plan for 300-400 units of stored water.
+
+**Q: Can crops grow during a drought?**
+A: Only if irrigated. Use irrigation towers to keep farmland moist. Without irrigation, crops stop growing and die.
+
+**Q: Should I build one big reservoir or several small ones?**
+A: Several small reservoirs are safer. A single large reservoir is a single point of failure. Multiple smaller ones provide redundancy.
+
+**Q: Which faction is better for drought survival?**
+A: Iron Teeth (9/10) edge out Folktails (8/10) due to underground storage, but Folktails' faster reproduction and lower water consumption make them more forgiving for beginners.
+
+**Q: What food is most efficient for droughts?**
+A: Grilled Potatoes (1 potato + 1 log = 3 nutrition) is the most efficient. See the [Food Guide](food.md) for full details.
 
 ## Conclusion
 
