@@ -1,3 +1,9 @@
+---
+title: Satisfactory Production Line Guide
+description: A comprehensive guide to building efficient production lines from early game to late game.
+date: 2026-06-27
+---
+
 # Satisfactory Production Line Guide
 
 *A comprehensive guide to building efficient production lines from early game to late game.*

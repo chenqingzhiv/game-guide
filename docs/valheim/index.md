@@ -1,3 +1,9 @@
+---
+title: Valheim ⚔️
+description: Survive, build, and conquer in a Viking purgatory. From a simple lean-to to a thriving longhouse — master the meadows, survive the swamps, and challenge the ...
+date: 2026-06-27
+---
+
 # Valheim ⚔️
 
 **Survive, build, and conquer in a Viking purgatory.** From a simple lean-to to a thriving longhouse — master the meadows, survive the swamps, and challenge the Forsaken bosses.

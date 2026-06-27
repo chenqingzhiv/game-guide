@@ -1,3 +1,9 @@
+---
+title: ⚡ Satisfactory Power Systems Guide
+description: From flickering biomass burners to roaring nuclear reactors — master every power source in Satisfactory.
+date: 2026-06-27
+---
+
 # ⚡ Satisfactory Power Systems Guide
 
 *From flickering biomass burners to roaring nuclear reactors — master every power source in Satisfactory.*

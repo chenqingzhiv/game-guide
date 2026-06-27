@@ -1,3 +1,9 @@
+---
+title: V Rising 🩸
+description: Awaken as a vampire. Rise from your crypt, rebuild your castle, and feast on the blood of the living. Explore a sprawling open world, dominate the mortal kin...
+date: 2026-06-27
+---
+
 # V Rising 🩸
 
 **Awaken as a vampire.** Rise from your crypt, rebuild your castle, and feast on the blood of the living. Explore a sprawling open world, dominate the mortal kingdoms, and challenge other vampires in this gothic survival RPG.

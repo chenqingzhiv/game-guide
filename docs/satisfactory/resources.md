@@ -1,3 +1,9 @@
+---
+title: Satisfactory Resource Guide
+description: Welcome, FICSIT pioneer! This comprehensive guide covers every resource you will encounter on Massage-2b, from the first iron nugget to the rarest Somersloop...
+date: 2026-06-27
+---
+
 # Satisfactory Resource Guide
 
 Welcome, FICSIT pioneer! This comprehensive guide covers every resource you will encounter on Massage-2(A-B)b, from the first iron nugget to the rarest Somersloop. Understanding where resources spawn, how to extract them efficiently, and what they are used for is essential to building a streamlined factory.

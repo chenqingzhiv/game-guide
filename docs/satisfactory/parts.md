@@ -1,3 +1,9 @@
+---
+title: Satisfactory Parts & Recipes Reference Guide
+description: In Satisfactory, parts are the fundamental items you craft, combine, and transport across the factory. They fall into two broad categories:
+date: 2026-06-27
+---
+
 # Satisfactory Parts & Recipes Reference Guide
 
 ## What Are Parts?

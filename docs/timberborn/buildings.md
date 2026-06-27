@@ -1,3 +1,9 @@
+---
+title: Timberborn Buildings Guide — Best Buildings for Your Colony
+description: Building smart is the difference between a thriving beaver civilization and a colony that starves come drought season. This guide breaks down every essential...
+date: 2026-06-27
+---
+
 # Timberborn Buildings Guide — Best Buildings for Your Colony
 
 Building smart is the difference between a thriving beaver civilization and a colony that starves come drought season. This guide breaks down every essential building category in Timberborn, compares Folktail vs Ironteeth options, and tells you what to build — and in what order — to survive the hardest cycles.

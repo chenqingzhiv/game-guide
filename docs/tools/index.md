@@ -1,3 +1,9 @@
+---
+title: 🛠️ Interactive Tools
+description: Build smarter, not harder. Interactive calculators, planners, and trackers for factory automation and survival games.
+date: 2026-06-27
+---
+
 # 🛠️ Interactive Tools
 
 **Build smarter, not harder.** Interactive calculators, planners, and trackers for factory automation and survival games.
@@ -40,18 +46,10 @@
     <span class="status status-live">Live</span>
   </div>
   <div class="tool-card-home">
-    <div class="tool-icon">📊</div>
+    <div class="tool-icon">🗺️</div>
     <div class="tool-info">
-      <h4>Game Comparison</h4>
-      <p>5 factory games compared</p>
-    </div>
-    <span class="status status-live">Live</span>
-  </div>
-  <div class="tool-card-home">
-    <div class="tool-icon">📊</div>
-    <div class="tool-info">
-      <h4>Game Comparison</h4>
-      <p>5 factory games compared</p>
+      <h4>Interactive Map Reference</h4>
+      <p>Satisfactory · Factorio · DSP</p>
     </div>
     <span class="status status-live">Live</span>
   </div>

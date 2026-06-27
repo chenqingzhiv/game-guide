@@ -1,3 +1,9 @@
+---
+title: Satisfactory Factory Building Guide
+description: A practical guide to building efficient, scalable factories in Satisfactory — from your first iron plate to a mega-factory fed by trains and drones.
+date: 2026-06-27
+---
+
 # Satisfactory Factory Building Guide
 
 A practical guide to building efficient, scalable factories in Satisfactory — from your first iron plate to a mega-factory fed by trains and drones.

@@ -1,3 +1,9 @@
+---
+title: Satisfactory Tier Progression Guide
+description: Last updated: June 2026 | Game version: 1.0+
+date: 2026-06-27
+---
+
 # Satisfactory Tier Progression Guide
 
 *Last updated: June 2026 | Game version: 1.0+*

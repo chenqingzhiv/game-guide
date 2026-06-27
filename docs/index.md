@@ -1,3 +1,9 @@
+---
+title: 🏭 Game Guide Club — Factory & Survival Game Guides
+description: Blueprints, calculators & guides for factory automation and survival games — Satisfactory, Factorio, Dyson Sphere Program, Valheim, and more.
+date: 2026-06-27
+---
+
 <div class="home-hero">
   <div class="home-hero-logo">
     <div class="home-hero-logo-icon">🏭</div>

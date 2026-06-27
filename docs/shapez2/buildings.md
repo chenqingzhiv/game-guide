@@ -1,3 +1,9 @@
+---
+title: Shapez 2 Buildings & Strategies
+description: > A comprehensive guide to every building, machine, and strategy in Shapez 2 — from your first extractor to late-game train networks and crystal generators.
+date: 2026-06-27
+---
+
 # Shapez 2 Buildings & Strategies
 
 > A comprehensive guide to every building, machine, and strategy in Shapez 2 — from your first extractor to late-game train networks and crystal generators.

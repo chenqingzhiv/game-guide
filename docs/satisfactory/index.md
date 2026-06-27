@@ -1,3 +1,9 @@
+---
+title: ⚙️ Satisfactory — Game Overview
+description: Satisfactory is a 3D first-person factory automation game developed and published by Coffee Stain Studios . Part open-world exploration, part logistics puzzl...
+date: 2026-06-27
+---
+
 # ⚙️ Satisfactory — Game Overview
 
 **Satisfactory** is a 3D first-person factory automation game developed and published by **Coffee Stain Studios** (the creators of *Goat Simulator*). Part open-world exploration, part logistics puzzle, and part base-building simulation, it challenges players to transform an alien planet into a sprawling industrial empire — one conveyor belt at a time.

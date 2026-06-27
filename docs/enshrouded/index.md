@@ -1,3 +1,9 @@
+---
+title: Enshrouded 🔥
+description: Rise from the ashes of a fallen kingdom. Explore a vast, open world, build your base, craft legendary gear, and conquer the Shroud — a deadly mist that corru...
+date: 2026-06-27
+---
+
 # Enshrouded 🔥
 
 **Rise from the ashes of a fallen kingdom.** Explore a vast, open world, build your base, craft legendary gear, and conquer the Shroud — a deadly mist that corrupts all it touches.
