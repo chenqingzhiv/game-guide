@@ -3,6 +3,11 @@ site_url: https://game-guide.club
 site_description: Complete guides, databases & interactive tools for factory automation, survival building, and strategy games
 site_author: game-guide
 
+extra:
+  analytics:
+    provider: google
+    property: G-NENYIKVWHL
+
 theme:
   name: material
   logo: material/factory
