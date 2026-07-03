@@ -1,5 +1,5 @@
 ---
-title: Enshrouded 🔥
+title: Enshrouded Guide — Tips, Crafting, Base Building & Boss Strategies
 description: Rise from the ashes of a fallen kingdom. Explore a vast, open world, build your base, craft legendary gear, and conquer the Shroud — a deadly mist that corru...
 date: 2026-06-27
 ---

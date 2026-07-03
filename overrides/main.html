@@ -1,20 +1,38 @@
 {#-
-  Override main.html to inject OG meta tags.
+  Override main.html to inject OG meta tags + JSON-LD schema.
   This extends the theme's base.html, not itself.
 -#}
 {% extends "base.html" %}
 
 {% block extrahead %}
 <!-- OG / Social Preview Tags -->
-<meta property="og:title" content="Factory Game Guides — game-guide.club" />
-<meta property="og:description" content="Complete guides, interactive calculators, and tools for Satisfactory, Factorio, Dyson Sphere Program, Timberborn, and Shapez 2." />
-<meta property="og:url" content="https://game-guide.club" />
-<meta property="og:image" content="https://game-guide.club/assets/img/og-image.png" />
+<meta property="og:title" content="{% if page and page.meta and page.meta.title %}{{ page.meta.title }} — {{ config.site_name }}{% else %}{{ config.site_name }}{% endif %}" />
+<meta property="og:description" content="{% if page and page.meta and page.meta.description %}{{ page.meta.description }}{% else %}{{ config.site_description }}{% endif %}" />
+<meta property="og:url" content="{{ config.site_url }}{{ page.url }}" />
+<meta property="og:image" content="{{ config.site_url }}assets/img/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="{{ config.site_name }}" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Factory Game Guides — game-guide.club" />
-<meta name="twitter:description" content="Guides, calculators & tools for factory automation games." />
-<meta name="twitter:image" content="https://game-guide.club/assets/img/og-image.png" />
+<meta name="twitter:title" content="{% if page and page.meta and page.meta.title %}{{ page.meta.title }}{% else %}{{ config.site_name }}{% endif %}" />
+<meta name="twitter:description" content="{% if page and page.meta and page.meta.description %}{{ page.meta.description }}{% else %}{{ config.site_description }}{% endif %}" />
+<meta name="twitter:image" content="{{ config.site_url }}assets/img/og-image.png" />
+
+<!-- JSON-LD Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{% if page and page.meta and page.meta.title %}{{ page.meta.title }}{% else %}{{ config.site_name }}{% endif %}",
+  "description": "{% if page and page.meta and page.meta.description %}{{ page.meta.description }}{% else %}{{ config.site_description }}{% endif %}",
+  "url": "{{ config.site_url }}{{ page.url }}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "{{ config.site_name }}",
+    "url": "{{ config.site_url }}"
+  }
+}
+</script>
 {% endblock %}

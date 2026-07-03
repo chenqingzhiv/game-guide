@@ -1,5 +1,5 @@
 ---
-title: "Timberborn Food & Population Guide"
+title: "Timberborn Best Food Setup — Crop Yields, Cooking Recipes & Population Guide"
 description: "Complete food chain reference for Timberborn. Crop yields, cooking recipes, happiness bonuses, and population management."
 ---
 

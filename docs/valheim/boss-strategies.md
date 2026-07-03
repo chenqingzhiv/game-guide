@@ -1,5 +1,5 @@
 ---
-title: "Valheim Boss Strategies Guide — Forsaken Boss Fights"
+title: "Valheim Boss Order Guide — How to Beat All 7 Forsaken (Strategies & Gear)"
 description: "Complete Valheim boss strategies for all 7 Forsaken. Learn spawn requirements, attack patterns, recommended gear, arena prep, and phase-by-phase fight tactics for Eikthyr through Fader."
 ---
 

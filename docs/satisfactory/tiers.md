@@ -1,6 +1,6 @@
 ---
 title: Satisfactory Tier Progression Guide
-description: Last updated: June 2026 | Game version: 1.0+
+description: Complete Satisfactory 1.0 tier progression guide — from HUB upgrades to nuclear power. Unlock every building, milestone, and resource across all 10 tiers.
 date: 2026-06-27
 ---
 

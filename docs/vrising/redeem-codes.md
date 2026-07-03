@@ -1,3 +1,8 @@
+---
+title: V Rising Redeem Codes (Active & Expired)
+description: Active V Rising redeem codes — Twitch drops, free cosmetics, and items. Updated regularly for 2026.
+---
+
 # 🎁 V Rising Redeem Codes (Active & Expired)
 
 > **Last Updated:** June 28, 2026 — This page is updated when new codes are released.

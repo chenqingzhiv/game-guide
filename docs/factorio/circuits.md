@@ -1,5 +1,5 @@
 ---
-title: Circuit Networks & Automation Guide
+title: Factorio Circuit Network Guide — How to Build Combinators, SR Latches & Clocks
 description: Master Factorio's circuit network — combinators, SR latches, clocks, belt balancing, train control, cracking control, and power switches with working examples.
 ---
 

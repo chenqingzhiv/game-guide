@@ -1,5 +1,5 @@
 ---
-title: ⚡ Satisfactory Power Systems Guide
+title: ⚡ Satisfactory Power Grid Guide — Coal, Nuclear & Fuel Generator Setup
 description: From flickering biomass burners to roaring nuclear reactors — master every power source in Satisfactory.
 date: 2026-06-27
 ---
