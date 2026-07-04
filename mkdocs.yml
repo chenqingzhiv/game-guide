@@ -116,6 +116,7 @@ nav:
       - factorio/mods.md
     - 🌌 Dyson Sphere:
       - dyson/index.md
+      - dyson/beginners-guide.md
       - dyson/production.md
       - dyson/logistics.md
       - dyson/sphere-design.md
@@ -146,6 +147,7 @@ nav:
       - 🛡️ Armor & Gear Guide: enshrouded/armor.md
     - 🩸 V Rising:
       - vrising/index.md
+      - "🩸 Beginner's Guide (First 50 Hours)": vrising/beginners-guide.md
       - V Blood Carriers Guide: vrising/v-blood-carriers.md
       - 📦 Materials & Resources: vrising/materials.md
       - ⚔️ Equipment Upgrade Path: vrising/equipment-upgrade.md
