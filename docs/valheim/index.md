@@ -51,6 +51,22 @@ Meadows (Eikthyr)
 
 Each biome requires better gear, food, and preparations before venturing in.
 
+---
+
+## Guides
+
+| Guide | Description |
+|:------|:------------|
+| 🌍 [Biome Guide](biomes.md) | Complete 7-biome walkthrough — entry requirements, resources, danger ratings, gear |
+| 🏗️ [Base Building](base-building.md) | Structural integrity, materials comparison, defense, terraforming, advanced techniques |
+| 🌾 [Farming & Cooking](farming-food.md) | All crops, recipes, food combos, meads, beekeeping, fermentation |
+| ⛵ [Sailing & Navigation](sailing.md) | Ship types, wind mechanics, navigation tips, ocean dangers, serpent hunting |
+| 📦 [Materials & Forging](materials.md) | Ore progression, smelting ratios, station upgrades, pre-boss checklists |
+| ⚔️ [Boss Strategies](boss-strategies.md) | All 7 Forsaken — Eikthyr through Fader — with arena prep and fight tactics |
+| 🛡️ [Equipment & Food](equipment.md) | Armor sets, weapon trees, food tiers, mead recipes, crafting priority |
+
+---
+
 ### 3. Essential Crafting Stations
 
 | Station | Upgrade Needed For |
@@ -87,7 +103,7 @@ Each biome requires better gear, food, and preparations before venturing in.
 ## Interactive Tools
 
 - 🔧 [Valheim Building Planner](/tools/valheim/building-planner/) — Plan your base layout *(coming soon)*
-- 🔧 [Boss Progression Tracker](../tools/boss-tracker.md) — Track your Forsaken kills *(coming soon)*
+- 🔧 [Boss Progression Tracker](../tools/boss-tracker.md) — Track your Forsaken kills
 
 ---
 

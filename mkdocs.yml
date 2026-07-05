@@ -107,6 +107,8 @@ nav:
       - satisfactory/resources.md
       - satisfactory/building.md
       - satisfactory/parts.md
+      - 📐 Blueprint System: satisfactory/blueprints.md
+      - 🚚 Logistics Optimization: satisfactory/logistics.md
     - 💡 Factorio:
       - factorio/index.md
       - factorio/production-ratios.md
@@ -114,6 +116,7 @@ nav:
       - factorio/circuits.md
       - factorio/strategies.md
       - factorio/mods.md
+      - 🚀 Space Age Expansion: factorio/space-age.md
     - 🌌 Dyson Sphere:
       - dyson/index.md
       - dyson/beginners-guide.md
@@ -138,17 +141,25 @@ nav:
   - 🌟 Survival & Building:
     - ⚔️ Valheim:
       - valheim/index.md
+      - 🌍 Biome Guide: valheim/biomes.md
       - ⚔️ Boss Strategies: valheim/boss-strategies.md
       - 🛡️ Equipment & Food: valheim/equipment.md
+      - 🏗️ Base Building Guide: valheim/base-building.md
+      - 🌾 Farming & Cooking: valheim/farming-food.md
+      - ⛵ Sailing & Navigation: valheim/sailing.md
+      - 📦 Materials & Forging: valheim/materials.md
     - 🔥 Enshrouded:
       - enshrouded/index.md
       - Boss & Elite Guide: enshrouded/bosses.md
       - ⚔️ Weapons Database: enshrouded/weapons.md
       - 🛡️ Armor & Gear Guide: enshrouded/armor.md
+      - 🏗️ Building & Base Guide: enshrouded/building.md
+      - 🗺️ Map & Exploration Guide: enshrouded/map-exploration.md
     - 🩸 V Rising:
       - vrising/index.md
       - "🩸 Beginner's Guide (First 50 Hours)": vrising/beginners-guide.md
       - V Blood Carriers Guide: vrising/v-blood-carriers.md
+      - 🏰 Castle Building Guide: vrising/castle-building.md
       - 📦 Materials & Resources: vrising/materials.md
       - ⚔️ Equipment Upgrade Path: vrising/equipment-upgrade.md
       - 🎁 Redeem Codes: vrising/redeem-codes.md
