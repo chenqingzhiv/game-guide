@@ -172,4 +172,11 @@ nav:
       - grounded/index.md
       - 🐛 Creature & Boss Guide: grounded/creatures.md
       - 🏗️ Base Building Guide: grounded/base-building.md
+  - 📰 News & Updates:
+    - news/index.md
+    - 📮 Latest Posts:
+      - 📰 Valheim Bog Witch Deep Dive: news/posts/2026-07-05-valheim-bog-witch-update.md
+      - ⚙️ Satisfactory 1.0 Meta: news/posts/2026-07-05-satisfactory-1-0-meta.md
+      - 🚀 Factorio Space Age Retrospective: news/posts/2026-07-05-factorio-space-age-retrospective.md
+      - 🔥 Enshrouded Horizons Update: news/posts/2026-07-05-enshrouded-horizons-update.md
   - 📬 Feedback: feedback/index.md

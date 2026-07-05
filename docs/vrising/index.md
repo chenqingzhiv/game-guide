@@ -6,7 +6,9 @@ date: 2026-06-27
 
 # V Rising 🩸
 
-**Awaken as a vampire.** Rise from your crypt, rebuild your castle, and feast on the blood of the living. Explore a sprawling open world, dominate the mortal kingdoms, and challenge other vampires in this gothic survival RPG.
+**Awaken as a vampire.** Rise from your crypt, rebuild your castle, and feast on the blood of your enemies in this dark fantasy survival game.
+
+[![V Rising Banner](/assets/images/vrising/library_hero.jpg){: .game-hero }](/assets/images/vrising/library_hero.jpg)
 
 ## What is V Rising?
 

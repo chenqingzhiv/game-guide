@@ -10,6 +10,8 @@ description: "Master Timberborn with our complete guide. Beaver factions, water 
 **Genre:** City-Builder / Survival / Colony Sim  
 **Current Version:** 1.0 (June 2026 Update)
 
+[![Timberborn Banner](/assets/images/timberborn/library_hero.jpg){: .game-hero }](/assets/images/timberborn/library_hero.jpg)
+
 ---
 
 ## 🎯 What is Timberborn?

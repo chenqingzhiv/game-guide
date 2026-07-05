@@ -8,6 +8,8 @@ date: 2026-06-27
 
 **Survive, build, and conquer in a Viking purgatory.** From a simple lean-to to a thriving longhouse — master the meadows, survive the swamps, and challenge the Forsaken bosses.
 
+[![Valheim Banner](/assets/images/valheim/library_hero.jpg){: .game-hero }](/assets/images/valheim/library_hero.jpg)
+
 ## What is Valheim?
 
 Valheim is a brutal exploration and survival game set in a procedurally-generated world inspired by Norse mythology. You play as a fallen Viking sent to the Tenth World, tasked with killing the Forsaken — ancient beasts that hold the secrets of the gods.

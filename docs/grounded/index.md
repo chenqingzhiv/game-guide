@@ -6,7 +6,9 @@ date: 2026-06-27
 
 # Grounded 🐞
 
-**Shrunk to the size of an ant.** Survive the hostile micro-world of a suburban backyard. Build shelters from grass and acorn shells, craft weapons from insect parts, and uncover the mystery of why you were shrunk. From spider-filled hedge forts to the depths of the sandbox — every inch of the yard wants you dead.
+**Shrunk to the size of an ant.** Survive the hostile micro-world of a suburban backyard.
+
+[![Grounded Banner](/assets/images/grounded/library_hero.jpg){: .game-hero }](/assets/images/grounded/library_hero.jpg)
 
 ## What is Grounded?
 

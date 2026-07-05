@@ -10,6 +10,8 @@ description: "Master Shapez 2. Learn the logic, shapes, production lines and aut
 **Genre:** Pure Factory Automation Puzzle  
 **Current Status:** Steam Next Fest demo available
 
+[![Shapez 2 Banner](/assets/images/shapez2/library_hero.jpg){: .game-hero }](/assets/images/shapez2/library_hero.jpg)
+
 ---
 
 ## 🎯 What is Shapez 2?

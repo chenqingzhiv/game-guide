@@ -6,7 +6,9 @@ date: 2026-06-27
 
 # Sons of the Forest 🌲
 
-**The island holds secrets.** Survive a remote island overrun by cannibals and mutants. Build shelter, craft weapons, explore caves, and uncover the truth behind your mission. The sequel to The Forest — bigger, deeper, and more terrifying.
+**The island holds secrets.** Survive a remote island overrun by cannibals and mutants in this terrifying open-world horror survival game.
+
+[![Sons of the Forest Banner](/assets/images/sons-forest/library_hero.jpg){: .game-hero }](/assets/images/sons-forest/library_hero.jpg)
 
 ## What is Sons of the Forest?
 

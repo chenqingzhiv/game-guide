@@ -17,12 +17,12 @@ Food is the single most important factor in Valheim survival. Your HP and stamin
 
 | Topic | Section |
 |:------|:--------|
-| Crop farming | [Crops & Farming](#-crops--farming) |
-| Cooking stations & upgrades | [Cooking Stations](#-cooking-stations) |
-| Full recipe tables | [Recipe Encyclopedia](#-recipe-encyclopedia) |
-| Food combos by biome | [Food Combinations by Stage](#-food-combinations-by-stage) |
-| Beekeeping | [Beekeeping & Honey](#-beekeeping--honey) |
-| Fermentation | [Fermenter & Mead Basics](#-fermenter--mead-basics) |
+| Crop farming | [Crops & Farming](#crops-farming) |
+| Cooking stations & upgrades | [Cooking Stations](#cooking-stations) |
+| Full recipe tables | [Recipe Encyclopedia](#recipe-encyclopedia) |
+| Food combos by biome | [Food Combinations by Stage](#food-combinations-by-stage) |
+| Beekeeping | [Beekeeping & Honey](#beekeeping-honey) |
+| Fermentation | [Fermenter & Mead Basics](#fermenter-mead-basics) |
 
 ---
 

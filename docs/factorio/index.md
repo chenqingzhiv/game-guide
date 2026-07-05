@@ -10,6 +10,8 @@ description: "Everything you need to master Factorio. From your first burner dri
 **Genre:** Factory Automation / Tower Defense / Survival  
 **Current Version:** 2.0 (Space Age DLC)
 
+[![Factorio Banner](/assets/images/factorio/library_hero.jpg){: .game-hero }](/assets/images/factorio/library_hero.jpg)
+
 ---
 
 ## 🎯 What is Factorio?

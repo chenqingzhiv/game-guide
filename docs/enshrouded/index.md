@@ -6,7 +6,9 @@ date: 2026-06-27
 
 # Enshrouded 🔥
 
-**Rise from the ashes of a fallen kingdom.** Explore a vast, open world, build your base, craft legendary gear, and conquer the Shroud — a deadly mist that corrupts all it touches.
+**Rise from the ashes of a fallen kingdom.** Explore a vast, open world, build your base from scratch, and defeat the monsters of the Shroud.
+
+[![Enshrouded Banner](/assets/images/enshrouded/library_hero.jpg){: .game-hero }](/assets/images/enshrouded/library_hero.jpg)
 
 ## What is Enshrouded?
 

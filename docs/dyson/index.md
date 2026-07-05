@@ -11,6 +11,8 @@ description: "From your first mecha startup to a complete Dyson sphere. Covers p
 **Genre:** Factory Automation / Space Simulation / Open-World Sandbox  
 **Current Version:** 0.10.x
 
+[![Dyson Sphere Program Banner](/assets/images/dyson/library_hero.jpg){: .game-hero }](/assets/images/dyson/library_hero.jpg)
+
 ---
 
 ## 🎯 What Is Dyson Sphere Program?
