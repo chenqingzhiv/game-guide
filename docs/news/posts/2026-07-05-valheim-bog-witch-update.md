@@ -10,7 +10,7 @@ categories:
 
 # Valheim Bog Witch Update: A Complete Guide to the Swamp's New Merchant
 
-The mists of the Swamp biome got a lot more interesting. Back in **October 2024**, Iron Gate Studio released the **Bog Witch update** (version 0.219.14), bringing Valheim's third NPC merchant, a suite of new foods that shook up the meta, fresh building pieces, and a generous helping of quality-of-life improvements. Nearly two years on, it remains one of the most impactful updates for mid-game progression. Here's everything you need to know.
+The mists of the Swamp biome got a lot more interesting. Back in **October 2024**, Iron Gate Studio released the **Bog Witch update** (version 0.219.14), bringing Valheim's third NPC merchant, a suite of new foods that shook up the meta, fresh building pieces, and a generous helping of quality-of-life improvements. Over a year and a half on, it remains one of the most impactful updates for mid-game progression. Here's everything you need to know.
 
 ## Meet the Bog Witch
 
@@ -37,7 +37,7 @@ These foods helped balance the classic "health-stamina split," giving Eitr build
 
 One of the headline additions is the **Feather Cape**, a new craftable cape that fundamentally changes how you navigate Valheim's vertical terrain.
 
-Crafted at the **Artisan Table** using feathers and linen thread, the Feather Cape grants the **Feather Fall** effect — significantly reducing fall damage. This is a game-changer for:
+Crafted at a **Workbench** using feathers and linen thread, the Feather Cape grants the **Feather Fall** effect — significantly reducing fall damage. This is a game-changer for:
 
 - **Building tall structures** — no more deaths from a misstep on scaffolding
 - **Exploring mountainous terrain** — jumping off cliffs becomes viable
