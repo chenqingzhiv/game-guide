@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best food in Valheim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Late-game: Blood Pudding, Lox Meat Pie, Fish Wraps. Mid-game: Serpent Stew, Turnip Stew, Sausages. Early-game: Cooked Meat, Queen's Jam, Grilled Neck Tail. Always maintain 3 different foods."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find silver in Valheim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Silver is in Mountain biome underground. Need Iron Pickaxe+ and Wishbone (Bonemass drop). Dig where Wishbone pulses fastest. Silver spawns at 80-100m elevation."
+      }
+    }
+  ]
+}
