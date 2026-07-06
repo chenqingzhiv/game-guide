@@ -85,8 +85,18 @@ extra:
     provider: google
     property: G-NENYIKVWHL
   generator: false
+  consent:
+    title: Notice
+    description: >-
+      This site uses cookies for analytics and contains affiliate links.
+      <a href="/privacy-policy/">Privacy Policy</a> |
+      <a href="/affiliate-disclosure/">Affiliate Disclosure</a>
 
-copyright: Copyright &copy; 2026 Game Guide Club
+copyright: >-
+  Game Guide Club &copy; 2026 |
+  <a href="/privacy-policy/">Privacy Policy</a> |
+  <a href="/affiliate-disclosure/">Affiliate Disclosure</a> |
+  As an Amazon Associate and Steam Partner, we earn from qualifying purchases.
 
 nav:
   - 🏠 Home: index.md
@@ -180,3 +190,5 @@ nav:
       - 🚀 Factorio Space Age Retrospective: news/posts/2026-07-05-factorio-space-age-retrospective.md
       - 🔥 Enshrouded Horizons Update: news/posts/2026-07-05-enshrouded-horizons-update.md
   - 📬 Feedback: feedback/index.md
+  - 🔒 Privacy Policy: privacy-policy.md
+  - ⚖️ Affiliate Disclosure: affiliate-disclosure.md
