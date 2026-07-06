@@ -23,8 +23,6 @@ theme:
         icon: material/lightbulb-outline
         name: Switch to dark mode
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
     - navigation.path
     - navigation.top
@@ -78,6 +76,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - tables
+  - pymdownx.keys
   - attr_list
   - md_in_html
 
@@ -87,7 +86,7 @@ extra:
     property: G-NENYIKVWHL
   generator: false
 
-copyright: Copyright &copy; 2026 Factory Game Guides
+copyright: Copyright &copy; 2026 Game Guide Club
 
 nav:
   - 🏠 Home: index.md
@@ -98,83 +97,81 @@ nav:
     - 🔧 Factory Planner: tools/factory-planner.md
     - 🗺️ Game Map Reference: tools/game-map.md
     - ⚔️ Valheim Boss Tracker: tools/boss-tracker.md
-  - 🏭 Factory Games:
-    - ⚙️ Satisfactory:
-      - satisfactory/index.md
-      - satisfactory/lines.md
-      - satisfactory/tiers.md
-      - satisfactory/power.md
-      - satisfactory/resources.md
-      - satisfactory/building.md
-      - satisfactory/parts.md
-      - 📐 Blueprint System: satisfactory/blueprints.md
-      - 🚚 Logistics Optimization: satisfactory/logistics.md
-    - 💡 Factorio:
-      - factorio/index.md
-      - factorio/production-ratios.md
-      - factorio/rail-system.md
-      - factorio/circuits.md
-      - factorio/strategies.md
-      - factorio/mods.md
-      - 🚀 Space Age Expansion: factorio/space-age.md
-    - 🌌 Dyson Sphere:
-      - dyson/index.md
-      - dyson/beginners-guide.md
-      - dyson/production.md
-      - dyson/logistics.md
-      - dyson/sphere-design.md
-      - 📦 Resources Database: dyson/resources.md
-    - 🌿 Timberborn:
-      - timberborn/index.md
-      - timberborn/water.md
-      - timberborn/food.md
-      - timberborn/buildings.md
-      - timberborn/districts.md
-      - timberborn/beavers.md
-      - 💧 Drought Survival Guide: timberborn/drought.md
-    - ⬡ Shapez 2:
-      - shapez2/index.md
-      - 🎨 Color Mixing Reference: shapez2/colors.md
-      - 📈 Milestone Unlock Table: shapez2/milestones.md
-      - 📐 Stamps & Blueprint Guide: shapez2/stamps.md
-      - shapez2/shapes.md
-      - shapez2/buildings.md
-      - shapez2/logic.md
-    - 🎮 Game Comparison: games/comparison.md
-  - 🌟 Survival & Building:
-    - ⚔️ Valheim:
-      - valheim/index.md
-      - 🌍 Biome Guide: valheim/biomes.md
-      - ⚔️ Boss Strategies: valheim/boss-strategies.md
-      - 🛡️ Equipment & Food: valheim/equipment.md
-      - 🏗️ Base Building Guide: valheim/base-building.md
-      - 🌾 Farming & Cooking: valheim/farming-food.md
-      - ⛵ Sailing & Navigation: valheim/sailing.md
-      - 📦 Materials & Forging: valheim/materials.md
-    - 🔥 Enshrouded:
-      - enshrouded/index.md
-      - Boss & Elite Guide: enshrouded/bosses.md
-      - ⚔️ Weapons Database: enshrouded/weapons.md
-      - 🛡️ Armor & Gear Guide: enshrouded/armor.md
-      - 🏗️ Building & Base Guide: enshrouded/building.md
-      - 🗺️ Map & Exploration Guide: enshrouded/map-exploration.md
-    - 🩸 V Rising:
-      - vrising/index.md
-      - "🩸 Beginner's Guide (First 50 Hours)": vrising/beginners-guide.md
-      - V Blood Carriers Guide: vrising/v-blood-carriers.md
-      - 🏰 Castle Building Guide: vrising/castle-building.md
-      - 📦 Materials & Resources: vrising/materials.md
-      - ⚔️ Equipment Upgrade Path: vrising/equipment-upgrade.md
-      - 🎁 Redeem Codes: vrising/redeem-codes.md
-    - 🌲 Sons of the Forest:
-      - sons-forest/index.md
-      - Caves & Walkthrough: sons-forest/caves-walkthrough.md
-      - 🗡️ Items & Weapons Database: sons-forest/items-weapons.md
-      - 🔨 Crafting & Building Guide: sons-forest/crafting.md
-    - 🐞 Grounded:
-      - grounded/index.md
-      - 🐛 Creature & Boss Guide: grounded/creatures.md
-      - 🏗️ Base Building Guide: grounded/base-building.md
+  - ⚙️ Satisfactory:
+    - satisfactory/index.md
+    - 🏭 Production Lines: satisfactory/lines.md
+    - 📊 Tier Progression: satisfactory/tiers.md
+    - ⚡ Power Systems: satisfactory/power.md
+    - 📦 Resources: satisfactory/resources.md
+    - 🏗️ Building Guide: satisfactory/building.md
+    - 🔩 Parts & Components: satisfactory/parts.md
+    - 📐 Blueprint System: satisfactory/blueprints.md
+    - 🚚 Logistics Optimization: satisfactory/logistics.md
+  - 💡 Factorio:
+    - factorio/index.md
+    - 📊 Production Ratios: factorio/production-ratios.md
+    - 🚂 Rail System: factorio/rail-system.md
+    - 🔌 Circuit Networks: factorio/circuits.md
+    - 🎯 Strategies: factorio/strategies.md
+    - 🔧 Mods Guide: factorio/mods.md
+    - 🚀 Space Age Expansion: factorio/space-age.md
+  - 🌌 Dyson Sphere Program:
+    - dyson/index.md
+    - 🆕 Beginner's Guide: dyson/beginners-guide.md
+    - ⚙️ Production Chains: dyson/production.md
+    - 🚚 Logistics: dyson/logistics.md
+    - 🌞 Sphere Design: dyson/sphere-design.md
+    - 📦 Resources Database: dyson/resources.md
+  - 🌿 Timberborn:
+    - timberborn/index.md
+    - 💧 Water Management: timberborn/water.md
+    - 🌾 Food & Farming: timberborn/food.md
+    - 🏗️ Buildings: timberborn/buildings.md
+    - 🏘️ Districts: timberborn/districts.md
+    - 🦫 Beavers Guide: timberborn/beavers.md
+    - 💧 Drought Survival: timberborn/drought.md
+  - ⬡ Shapez 2:
+    - shapez2/index.md
+    - 🎨 Color Mixing: shapez2/colors.md
+    - 📈 Milestones: shapez2/milestones.md
+    - 📐 Stamps & Blueprints: shapez2/stamps.md
+    - ⬠ Shapes Reference: shapez2/shapes.md
+    - 🏗️ Buildings: shapez2/buildings.md
+    - 🔌 Logic & Wiring: shapez2/logic.md
+  - ⚔️ Valheim:
+    - valheim/index.md
+    - 🌍 Biome Guide: valheim/biomes.md
+    - ⚔️ Boss Strategies: valheim/boss-strategies.md
+    - 🛡️ Equipment & Food: valheim/equipment.md
+    - 🏗️ Base Building: valheim/base-building.md
+    - 🌾 Farming & Cooking: valheim/farming-food.md
+    - ⛵ Sailing & Navigation: valheim/sailing.md
+    - 📦 Materials & Forging: valheim/materials.md
+  - 🔥 Enshrouded:
+    - enshrouded/index.md
+    - 👹 Boss & Elite Guide: enshrouded/bosses.md
+    - ⚔️ Weapons Database: enshrouded/weapons.md
+    - 🛡️ Armor & Gear: enshrouded/armor.md
+    - 🏗️ Building & Base: enshrouded/building.md
+    - 🗺️ Map & Exploration: enshrouded/map-exploration.md
+  - 🩸 V Rising:
+    - vrising/index.md
+    - "🩸 Beginner's Guide": vrising/beginners-guide.md
+    - 🩸 V Blood Carriers: vrising/v-blood-carriers.md
+    - 🏰 Castle Building: vrising/castle-building.md
+    - 📦 Materials & Resources: vrising/materials.md
+    - ⚔️ Equipment Upgrade: vrising/equipment-upgrade.md
+    - 🎁 Redeem Codes: vrising/redeem-codes.md
+  - 🌲 Sons of the Forest:
+    - sons-forest/index.md
+    - 🗺️ Caves & Walkthrough: sons-forest/caves-walkthrough.md
+    - 🗡️ Items & Weapons: sons-forest/items-weapons.md
+    - 🔨 Crafting & Building: sons-forest/crafting.md
+  - 🐞 Grounded:
+    - grounded/index.md
+    - 🐛 Creature & Bosses: grounded/creatures.md
+    - 🏗️ Base Building: grounded/base-building.md
+  - 🎮 Game Comparison: games/comparison.md
   - 📰 News & Updates:
     - news/index.md
     - 📮 Latest Posts:
