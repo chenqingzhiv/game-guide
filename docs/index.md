@@ -281,6 +281,18 @@
   </a>
 </div>
 
+<!-- ===== GAMING GEAR PROMO ===== -->
+<div class="gear-promo-banner">
+  <div class="gear-promo-content">
+    <div class="gear-promo-icon">🖥️</div>
+    <div class="gear-promo-text">
+      <h3>Build Better — Gaming Gear We Swear By</h3>
+      <p>Monitors for factory layouts, mechanical keyboards for blueprints, and chairs for 8-hour sessions.</p>
+    </div>
+    <a href="guides/best-gaming-gear/" class="gear-promo-cta">See Our Picks →</a>
+  </div>
+</div>
+
 <!-- ==================== -->
 <!-- FEEDBACK              -->
 <!-- ==================== -->

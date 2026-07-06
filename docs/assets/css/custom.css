@@ -832,3 +832,60 @@ body::before {
     gap: 4px;
   }
 }
+
+/* ============================================ */
+/* 🖥️ Gaming Gear Promo Banner                  */
+/* ============================================ */
+.gear-promo-banner {
+  background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 50%, #fff7ed 100%);
+  border: 2px solid #fb923c;
+  border-radius: 16px;
+  padding: 1.5rem 2rem;
+  margin: 1.5rem 0;
+  transition: box-shadow 0.2s;
+}
+.gear-promo-banner:hover {
+  box-shadow: 0 4px 20px rgba(251, 146, 60, 0.15);
+}
+.gear-promo-content {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+.gear-promo-icon {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+.gear-promo-text {
+  flex: 1;
+  min-width: 200px;
+}
+.gear-promo-text h3 {
+  margin: 0 0 0.15rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #9a3412;
+}
+.gear-promo-text p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color--light);
+}
+.gear-promo-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.6rem 1.25rem;
+  background: #ea580c;
+  color: #fff !important;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+.gear-promo-cta:hover {
+  background: #c2410c;
+}
