@@ -1,32 +1,17 @@
-<!-- Custom footer with affiliate links and disclosures -->
 <footer class="md-footer">
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        {% if config.copyright %}
-          <div class="md-footer-copyright__highlight">
-            {{ config.copyright }}
-          </div>
-        {% endif %}
-        <div class="md-footer-affiliate">
-          <p style="font-size: 0.75rem; color: var(--md-default-fg-color--light); margin-top: 0.5rem;">
-            ⚠️ <strong>Affiliate Disclosure</strong>: Some links on this site are Steam affiliate links (<code>curator_clanid=45416337</code>).
-            We may earn a small commission if you purchase through these links, at no extra cost to you.
-            All guides are independently written and not influenced by sponsors. Thank you for supporting the site!
-          </p>
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding: 12px 0; width: 100%;">
+        <div style="font-size: 0.78rem; color: var(--text-secondary);">
+          © 2026 <strong style="color: var(--orange);">Game Guide Club</strong>
+        </div>
+        <div style="display: flex; gap: 16px; font-size: 0.72rem;">
+          <a href="{{ config.site_url }}" style="color: var(--text-secondary); text-decoration: none;">Home</a>
+          <a href="{{ config.site_url }}tools/" style="color: var(--text-secondary); text-decoration: none;">Tools</a>
+          <a href="{{ config.site_url }}games/comparison/" style="color: var(--text-secondary); text-decoration: none;">Compare</a>
+          <a href="{{ config.site_url }}feedback/" style="color: var(--text-secondary); text-decoration: none;">Feedback</a>
         </div>
       </div>
-      {% if config.extra.social %}
-        <div class="md-footer-social">
-          {% for social in config.extra.social %}
-            <a href="{{ social.link }}" target="_blank" rel="noopener" title="{{ social.name }}">
-              {% if social.icon %}
-                <span class="twemoji">{% include ".icons/" ~ social.icon ~ ".svg" %}</span>
-              {% endif %}
-            </a>
-          {% endfor %}
-        </div>
-      {% endif %}
     </div>
   </div>
 </footer>
