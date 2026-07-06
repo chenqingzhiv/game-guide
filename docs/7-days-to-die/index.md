@@ -11,7 +11,5 @@ Open-world zombie survival crafting. Every 7th night a massive horde attacks. Fu
 
 ## Quick Links
 
-- Beginners: /7-days-to-die/beginners-guide/
-- Base Building: /7-days-to-die/base-building/
-- Blood Moon: /7-days-to-die/blood-moon/
-- Skills: /7-days-to-die/skills-guide/
+- [Beginners Guide](beginners-guide.md) — Survival starts here
+- [Base Building](base-building.md) — Fortify against the horde

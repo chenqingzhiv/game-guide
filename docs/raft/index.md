@@ -11,6 +11,6 @@ Ocean survival game. Start on a small raft, gather debris, expand, visit story i
 
 ## Quick Links
 
-- Beginners: /raft/beginners-guide/
-- Story Islands: /raft/story-islands/
-- Building: /raft/advanced-building/
+- [Beginners Guide](beginners-guide.md) — Your first raft
+- Story Islands — Explore the radio tower, Vasagatan, Balboa & Tangaroa
+- Advanced Building — learn foundations, engines, nets & steering

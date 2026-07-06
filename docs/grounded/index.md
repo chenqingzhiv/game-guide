@@ -113,8 +113,8 @@ Each biome requires better gear. Don't enter the Hedge without an acorn shovel a
 
 ## Interactive Tools
 
-- 🐞 [Creature & Weakness Database](/tools/grounded/creature-db/) — Every bug, its drops, and elemental weaknesses *(coming soon)*
-- 🏗️ [Base Defense Planner](/tools/grounded/defense-planner/) — Plan your backyard fortifications *(coming soon)*
+- 🐞 Creature & Weakness Database — Every bug, its drops, and elemental weaknesses *(coming soon)*
+- 🏗️ Base Defense Planner — Plan your backyard fortifications *(coming soon)*
 
 ---
 

@@ -11,7 +11,7 @@ Underwater survival on an alien ocean planet. Gather resources, build bases, pil
 
 ## Quick Links
 
-- Beginners: /subnautica/beginners-guide/
-- Biomes: /subnautica/biomes/
-- Vehicles: /subnautica/vehicles/
-- Base Building: /subnautica/base-building/
+- [Beginners Guide](beginners-guide.md) — Survive your first day
+- [Biomes Guide](biomes.md) — Explore the depths
+- Vehicles — Seamoth, Prawn & Cyclops piloting guide
+- Base Building — Build an underwater home
