@@ -129,3 +129,5 @@ Below is a summary of all major production chains from raw material to final pro
 8. **Food variety matters.** Cooked food provides more nutrition than raw. Bread and grilled potatoes are excellent mid-game staples.
 9. **Rain barrels** can supplement water during wet seasons, but don't rely on them for drought survival.
 10. **Always keep a buffer** of 50 planks and 20 gears for emergency repairs or new building construction.
+> 🛒 [**Buy Timberborn on Steam**](https://store.steampowered.com/app/1062090/) — Build a beaver civilization!
+> *This is an affiliate link. If you purchase through it, we may earn a small commission at no extra cost to you.*

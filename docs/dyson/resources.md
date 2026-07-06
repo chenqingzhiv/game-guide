@@ -152,3 +152,5 @@ Proliferators can boost production at the cost of extra materials. The three tie
 9. **Matrix Labs for research.** Each cube type (Blue, Red, Yellow, Purple, Green) requires its own production chain. Plan your research labs in a dedicated area with separate input belts for each cube color.
 
 10. **Use the calculator.** For complex production chains, use an online Dyson Sphere Program calculator or the in-game production statistics panel (P key) to check your throughput. This will save hours of debugging.
+> 🛒 [**Buy Dyson Sphere Program on Steam**](https://store.steampowered.com/app/1366540/) — Build the ultimate factory across the galaxy!
+> *This is an affiliate link. If you purchase through it, we may earn a small commission at no extra cost to you.*

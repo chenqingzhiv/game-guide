@@ -319,3 +319,5 @@ A: Grilled Potatoes (1 potato + 1 log = 3 nutrition) is the most efficient. See 
 Droughts are the defining challenge of Timberborn. Success depends on three pillars: **water management**, **food reserves**, and **district planning**. Choose your faction wisely—Iron Teeth for underground storage and efficiency, Folktails for fast growth and farming. Build reservoirs, stockpile food, and plan your districts for self-sufficiency. With the strategies in this guide, your colony will not only survive but thrive through the longest droughts.
 
 Remember: In Timberborn, the drought is not the end—it's the test. Prepare well, and your beavers will build a civilization that lasts for generations.
+> 🛒 [**Buy Timberborn on Steam**](https://store.steampowered.com/app/1062090/) — Build a beaver civilization!
+> *This is an affiliate link. If you purchase through it, we may earn a small commission at no extra cost to you.*

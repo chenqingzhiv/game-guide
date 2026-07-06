@@ -279,3 +279,5 @@ Your base needs a renewable food source. Hunting is fine early on, but farming i
 ---
 
 > *Data sourced from the [Grounded Wiki](https://grounded.fandom.com/wiki/Building) and verified in-game (v1.4 "Fully Yoked"). Base raid mechanics confirmed through testing of all raid types. Structural integrity rules tested on creative mode.*
+> 🛒 [**Buy Grounded on Steam**](https://store.steampowered.com/app/962130/) — Survive the backyard!
+> *This is an affiliate link. If you purchase through it, we may earn a small commission at no extra cost to you.*

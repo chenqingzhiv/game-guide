@@ -254,3 +254,5 @@ Stamina is the most important stat in Grounded. Running out of stamina mid-comba
 ---
 
 > *Data sourced from the [Grounded Wiki](https://grounded.fandom.com/wiki/Creatures) and verified in-game (v1.4 "Fully Yoked"). Boss mechanics and loot tables verified against Obsidian's official patch notes. Elemental weakness system confirmed through weapon testing on the Practice Stick at the Hedge lab.*
+> 🛒 [**Buy Grounded on Steam**](https://store.steampowered.com/app/962130/) — Survive the backyard!
+> *This is an affiliate link. If you purchase through it, we may earn a small commission at no extra cost to you.*

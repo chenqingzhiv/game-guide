@@ -154,3 +154,5 @@ Enshrouded offers a deep weapon system with **6 weapon classes**, each with uniq
 ---
 
 > *Data source: Enshrouded Wiki 1.0 — weapon stats verified in-game. Balance changes may occur with future patches.*
+> 🛒 [**Buy Enshrouded on Steam**](https://store.steampowered.com/app/1203620/) — Survive, build, and explore the迷雾!
+> *This is an affiliate link. If you purchase through it, we may earn a small commission at no extra cost to you.*

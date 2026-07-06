@@ -198,3 +198,5 @@ Day 5+:  Stone foundations, electric fence, full compound
 ---
 
 > *Data source: Sons of the Forest Wiki 1.0 — all building structures and recipes verified in-game. Material counts are per structure piece.*
+> 🛒 [**Buy Sons of the Forest on Steam**](https://store.steampowered.com/app/1326470/) — Face the horrors of the island!
+> *This is an affiliate link. If you purchase through it, we may earn a small commission at no extra cost to you.*

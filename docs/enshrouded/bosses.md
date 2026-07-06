@@ -293,3 +293,5 @@ Not all dangerous fights are bosses. These elite enemies frequently appear in th
 ---
 
 > *Data sourced from the [Enshrouded Wiki](https://enshrouded.wiki.gg/wiki/Bosses) and verified in-game (v1.0). Boss stats and loot tables may change with patches — check the wiki for the latest.*
+> 🛒 [**Buy Enshrouded on Steam**](https://store.steampowered.com/app/1203620/) — Survive, build, and explore the迷雾!
+> *This is an affiliate link. If you purchase through it, we may earn a small commission at no extra cost to you.*

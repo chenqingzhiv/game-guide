@@ -185,3 +185,5 @@ The best armor in the game. Requires rare materials from Kindlewastes and endgam
 ---
 
 > *Data source: Enshrouded Wiki 1.0 — armor stats verified in-game. Crafting costs reflect v1.0 stable build.*
+> 🛒 [**Buy Enshrouded on Steam**](https://store.steampowered.com/app/1203620/) — Survive, build, and explore the迷雾!
+> *This is an affiliate link. If you purchase through it, we may earn a small commission at no extra cost to you.*

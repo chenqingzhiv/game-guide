@@ -175,3 +175,5 @@ Use this to track your progression:
 ---
 
 > *Data source: Sons of the Forest Wiki 1.0 — item stats and locations verified in-game. Some item values may vary slightly between game versions.*
+> 🛒 [**Buy Sons of the Forest on Steam**](https://store.steampowered.com/app/1326470/) — Face the horrors of the island!
+> *This is an affiliate link. If you purchase through it, we may earn a small commission at no extra cost to you.*

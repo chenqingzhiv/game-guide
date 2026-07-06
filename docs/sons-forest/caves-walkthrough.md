@@ -350,3 +350,5 @@ After escaping the final bunker with the Artifact, you have **3 endings** depend
 ---
 
 > *Data sourced from the [Sons of the Forest Wiki](https://sons-of-the-forest.fandom.com/wiki/Caves) and verified in-game (v1.1). Cave layouts and loot are stable across patches but enemy spawns may vary slightly.*
+> 🛒 [**Buy Sons of the Forest on Steam**](https://store.steampowered.com/app/1326470/) — Face the horrors of the island!
+> *This is an affiliate link. If you purchase through it, we may earn a small commission at no extra cost to you.*

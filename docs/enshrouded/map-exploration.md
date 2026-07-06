@@ -469,3 +469,5 @@ Activate Spire → Oasis forward base → Dragon's Maw (boss)
 ---
 
 > *Data sourced from the [Enshrouded Wiki](https://enshrouded.wiki.gg/wiki/World_map) and verified in-game (v1.0). Coordinates are approximate — use map markers to track exact locations.*
+> 🛒 [**Buy Enshrouded on Steam**](https://store.steampowered.com/app/1203620/) — Survive, build, and explore the迷雾!
+> *This is an affiliate link. If you purchase through it, we may earn a small commission at no extra cost to you.*
