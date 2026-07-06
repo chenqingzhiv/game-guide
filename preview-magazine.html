@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="en" data-md-color-scheme="default">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Guide Club — Magazine Preview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<style>
+/* ============================================ */
+/* game-guide.club — Game Magazine Theme v5    */
+/* Standalone preview — clickable game pages   */
+/* ============================================ */
+
+:root {
+  --magazine-black: #f4f2ee;
+  --magazine-dark: #e8e4de;
+  --magazine-card: #ffffff;
+  --magazine-card-hover: #faf8f5;
+  --magazine-border: rgba(0,0,0,0.08);
+  --magazine-border-hover: rgba(0,0,0,0.15);
+  --orange: #f97316;
+  --orange-dark: #ea580c;
+  --orange-glow: rgba(249,115,22,0.08);
+  --text-primary: rgba(0,0,0,0.88);
+  --text-secondary: rgba(0,0,0,0.48);
+  --text-muted: rgba(0,0,0,0.30);
+  --section-gap: 52px;
+  --card-radius: 14px;
+  --text-on-orange: #fff;
+  --body-bg: #f4f2ee;
+  --card-bg: #ffffff;
+  --card-bg-hover: #faf8f5;
+  --header-bg: rgba(244, 242, 238, 0.92);
+  --footer-bg: rgba(0,0,0,0.03);
+  --border-color: rgba(0,0,0,0.08);
+  --border-hover: rgba(0,0,0,0.15);
+  --gradient-overlay: linear-gradient(180deg, transparent 30%, rgba(244,242,238,0.9) 100%);
+}
+
+body.dark-mode {
+  --magazine-black: #0b0d14;
+  --magazine-dark: #11131f;
+  --magazine-card: #151726;
+  --magazine-card-hover: #1c1f30;
+  --magazine-border: rgba(255,255,255,0.06);
+  --magazine-border-hover: rgba(255,255,255,0.12);
+  --text-primary: rgba(255,255,255,0.92);
+  --text-secondary: rgba(255,255,255,0.55);
+  --text-muted: rgba(255,255,255,0.35);
+  --orange-glow: rgba(249,115,22,0.15);
+  --text-on-orange: #fff;
+  --body-bg: #0b0d14;
+  --card-bg: #151726;
+  --card-bg-hover: #1c1f30;
+  --header-bg: rgba(11, 13, 20, 0.92);
+  --footer-bg: rgba(255,255,255,0.02);
+  --border-color: rgba(255,255,255,0.06);
+  --border-hover: rgba(255,255,255,0.12);
+  --gradient-overlay: linear-gradient(180deg, transparent 30%, rgba(11,13,20,0.85) 100%);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  min-height: 100vh;
+}
+
+/* ===== PAGES ===== */
+.page { display: none; }
+.page.active { display: block; }
+
+/* ===== HOME PAGE ===== */
+.page-home {
+  background: var(--body-bg);
+  min-height: 100vh;
+}
+.page-home::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 20% 20%, rgba(249,115,22,0.03) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, rgba(59,130,246,0.02) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ===== GAME DETAIL PAGES ===== */
+.game-page {
+  min-height: 100vh;
+  position: relative;
+  display: none;
+}
+.game-page.active { display: block; }
+.page-home.active ~ .game-page { display: none; }
+
+.game-page-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+}
+.game-page-content {
+  position: relative;
+  z-index: 1;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 24px 80px;
+}
+
+/* Game page header area */
+.game-page-header {
+  text-align: center;
+  padding: 60px 20px 40px;
+  border-radius: var(--card-radius);
+  margin-bottom: 32px;
+  backdrop-filter: blur(8px);
+}
+.game-page-header h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+  line-height: 1.2;
+}
+.game-page-header p {
+  font-size: 1.1rem;
+  opacity: 0.8;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.game-page-header .game-count {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 4px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+/* Game detail sections */
+.game-detail-section {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--card-radius);
+  padding: 28px;
+  margin-bottom: 20px;
+  transition: border-color 0.2s;
+}
+.game-detail-section h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.game-detail-section ul {
+  list-style: none;
+  padding: 0;
+}
+.game-detail-section li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.game-detail-section li:last-child {
+  border-bottom: none;
+}
+.game-detail-section li::before {
+  content: "▸";
+  opacity: 0.5;
+  font-weight: 700;
+}
+.guide-link {
+  color: var(--orange);
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+.guide-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+.guide-count {
+  font-size: 0.8rem;
+  opacity: 0.5;
+  margin-left: auto;
+}
+
+/* Back button */
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 20px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 20px;
+}
+.back-btn:hover {
+  border-color: var(--border-hover);
+  transform: translateX(-2px);
+}
+
+/* Buy link */
+.buy-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: var(--orange);
+  color: var(--text-on-orange);
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: opacity 0.2s;
+  margin-top: 8px;
+}
+.buy-link:hover {
+  opacity: 0.85;
+}
+
+/* ===== REST OF HOME STYLES (same as before) ===== */
+.mag-header {
+  position: sticky;
+  top: 0;
+  background: var(--header-bg);
+  backdrop-filter: blur(20px) saturate(1.5);
+  border-bottom: 1px solid var(--magazine-border);
+  z-index: 100;
+}
+.mag-header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mag-logo {
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  cursor: pointer;
+}
+.mag-logo span { color: var(--orange); }
+.mag-nav { display: flex; align-items: center; gap: 8px; }
+.mag-nav a, .theme-toggle {
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: all 0.2s;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: inherit;
+}
+.mag-nav a:hover, .theme-toggle:hover {
+  background: var(--magazine-card);
+  color: var(--text-primary);
+}
+.theme-toggle { font-size: 1.1rem; padding: 6px 10px; }
+
+.mag-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 24px 60px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 40px 0 52px;
+  border-bottom: 1px solid var(--magazine-border);
+  margin-bottom: var(--section-gap);
+}
+.hero-text { flex: 1; }
+.hero-badge {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 20px;
+  background: var(--orange-glow);
+  color: var(--orange);
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+.hero-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 12px;
+}
+.hero-text p {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+.hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  padding: 12px 28px;
+  border-radius: 10px;
+  background: var(--orange);
+  color: var(--text-on-orange);
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+.hero-cta:hover { opacity: 0.9; }
+.hero-cta span { transition: transform 0.2s; }
+.hero-cta:hover span { transform: translateX(4px); }
+.hero-visual {
+  flex-shrink: 0;
+  width: 240px;
+  height: 240px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, var(--orange), #f43f5e, #a855f7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+/* Cover story */
+.cover-story {
+  margin-bottom: var(--section-gap);
+}
+.cover-story-tag {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--orange);
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.cover-story h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  margin-bottom: 4px;
+}
+.cover-story-sub {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+}
+.cover-card {
+  display: flex;
+  border-radius: var(--card-radius);
+  overflow: hidden;
+  border: 1px solid var(--magazine-border);
+  background: var(--card-bg);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.cover-card:hover {
+  border-color: var(--border-hover);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+}
+.cover-card-img {
+  width: 280px;
+  min-height: 180px;
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+  flex-shrink: 0;
+}
+.cover-card-body {
+  padding: 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cover-card-body h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.cover-card-body p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  flex: 1;
+}
+.cover-card-meta {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* Article cards */
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: var(--section-gap);
+}
+.mag-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.mag-section-header h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.mag-section-link {
+  font-size: 0.85rem;
+  color: var(--orange);
+  text-decoration: none;
+  font-weight: 500;
+}
+.mag-article-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--card-radius);
+  overflow: hidden;
+  border: 1px solid var(--magazine-border);
+  background: var(--card-bg);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.mag-article-card:hover {
+  border-color: var(--border-hover);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+  transform: translateY(-2px);
+}
+.article-card-img {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+.article-card-body {
+  padding: 16px 20px 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.article-card-tag {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  color: var(--orange);
+  margin-bottom: 4px;
+}
+.article-card-body h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+  line-height: 1.3;
+}
+.article-card-body p {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  flex: 1;
+}
+.article-card-date {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 8px;
+}
+
+/* Genre headers */
+.mag-genre-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+.mag-genre-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+.mag-genre-icon.factory { background: linear-gradient(135deg, #dbeafe, #bfdbfe); }
+.mag-genre-icon.survival { background: linear-gradient(135deg, #dcfce7, #bbf7d0); }
+body.dark-mode .mag-genre-icon.factory { background: linear-gradient(135deg, #1e3a5f, #1e40af); }
+body.dark-mode .mag-genre-icon.survival { background: linear-gradient(135deg, #14532d, #166534); }
+.mag-genre-text h3 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.mag-genre-text p {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+
+/* Game grid */
+.mag-game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 16px;
+  margin-bottom: var(--section-gap);
+}
+.mag-game-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--card-radius);
+  overflow: hidden;
+  border: 1px solid var(--magazine-border);
+  background: var(--card-bg);
+  transition: all 0.2s;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+.mag-game-card:hover {
+  border-color: var(--border-hover);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+  transform: translateY(-3px);
+}
+.mag-game-img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  display: block;
+  background: var(--magazine-dark);
+}
+.mag-game-info {
+  padding: 14px 16px 16px;
+  flex: 1;
+}
+.mag-game-name {
+  font-size: 0.92rem;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 3px;
+}
+.mag-game-sub {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  margin-bottom: 6px;
+}
+.mag-game-count {
+  font-size: 0.75rem;
+  color: var(--orange);
+  font-weight: 600;
+}
+
+/* Tools */
+.mag-tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+  margin-bottom: var(--section-gap);
+}
+.mag-tool-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px;
+  border-radius: var(--card-radius);
+  border: 1px solid var(--magazine-border);
+  background: var(--card-bg);
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s;
+}
+.mag-tool-card:hover {
+  border-color: var(--border-hover);
+  transform: translateY(-1px);
+}
+.mag-tool-icon {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+.mag-tool-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: block;
+}
+.mag-tool-desc {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+/* Feedback */
+.mag-feedback {
+  text-align: center;
+  padding: 48px 24px;
+  border-radius: var(--card-radius);
+  background: var(--card-bg);
+  border: 1px solid var(--magazine-border);
+  margin-bottom: var(--section-gap);
+}
+.mag-feedback h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.mag-feedback p {
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
+/* Footer */
+.mag-footer {
+  border-top: 1px solid var(--magazine-border);
+  background: var(--footer-bg);
+}
+.mag-footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+.mag-footer-nav { display: flex; gap: 20px; }
+.mag-footer-nav a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.mag-footer-nav a:hover { color: var(--text-primary); }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero { flex-direction: column; text-align: center; padding: 24px 0 36px; }
+  .hero-text h1 { font-size: 1.8rem; }
+  .hero-visual { width: 160px; height: 160px; font-size: 3rem; }
+  .cover-card { flex-direction: column; }
+  .cover-card-img { width: 100%; height: 140px; }
+  .mag-game-grid { grid-template-columns: repeat(2, 1fr); }
+  .game-page-content { padding: 20px 16px 60px; }
+  .game-page-header { padding: 40px 16px 28px; }
+  .game-page-header h1 { font-size: 1.8rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- ============================================ -->
+<!-- HOME PAGE                                    -->
+<!-- ============================================ -->
+<div class="page page-home active" id="page-home">
+  <header class="mag-header">
+    <div class="mag-header-inner">
+      <div class="mag-logo" onclick="showHome()">🎮 Game <span>Guide</span> Club</div>
+      <div class="mag-nav">
+        <a href="#" onclick="showHome()">Home</a>
+        <a href="#" onclick="scrollToGames()">Games</a>
+        <a href="#" onclick="scrollToTools()">Tools</a>
+        <a href="#" onclick="scrollToFeedback()">Feedback</a>
+        <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="mag-main">
+    <div class="hero">
+      <div class="hero-text">
+        <div class="hero-badge">🎮 Curated Game Guides</div>
+        <h1>Your Pocket Strategy Guide</h1>
+        <p>Deep guides, smart tools, and build planning for the best factory & survival games — all in one place.</p>
+        <a href="#" class="hero-cta" onclick="scrollToGames()">
+          Explore Games <span>→</span>
+        </a>
+      </div>
+      <div class="hero-visual">🎲</div>
+    </div>
+
+    <!-- Cover Story -->
+    <div class="cover-story" id="game-valheim-cover" onclick="showGame('valheim')">
+      <div class="cover-story-tag">✦ Cover Story</div>
+      <h2>Valheim: The Viking Survival Phenomenon</h2>
+      <p class="cover-story-sub">From your first raft to the final boss — everything you need to thrive in the Tenth World.</p>
+      <div class="cover-card">
+        <div class="cover-card-img">⚔️</div>
+        <div class="cover-card-body">
+          <h3>Valheim Complete Guide</h3>
+          <p>8 in-depth guides covering biomes, bosses, base building, farming, sailing, equipment, and materials. Updated for the Bog Witch update.</p>
+          <div class="cover-card-meta">
+            <span>📖 8 guides</span>
+            <span>⭐ Bog Witch update</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Latest Articles -->
+    <div class="mag-section-header">
+      <h2>📰 Latest Articles</h2>
+      <a href="#" class="mag-section-link">All News →</a>
+    </div>
+    <div class="articles-grid">
+      <div class="mag-article-card">
+        <div class="article-card-img" style="background:linear-gradient(135deg,#0f172a,#1e293b)">🏭</div>
+        <div class="article-card-body">
+          <div class="article-card-tag">Retrospective</div>
+          <h3>Factorio: Space Age — One Year Later</h3>
+          <p>The expansion that redefined factory gaming. Our team shares their 500-hour verdict.</p>
+          <span class="article-card-date">Jul 5, 2026</span>
+        </div>
+      </div>
+      <div class="mag-article-card">
+        <div class="article-card-img" style="background:linear-gradient(135deg,#1a1a2e,#16213e)">🌌</div>
+        <div class="article-card-body">
+          <div class="article-card-tag">Update</div>
+          <h3>Enshrouded: Horizons Update Review</h3>
+          <p>New biome, new monsters, new building pieces — is it time to return?</p>
+          <span class="article-card-date">Jul 5, 2026</span>
+        </div>
+      </div>
+      <div class="mag-article-card">
+        <div class="article-card-img" style="background:linear-gradient(135deg,#422006,#78350f)">⚙️</div>
+        <div class="article-card-body">
+          <div class="article-card-tag">Meta Analysis</div>
+          <h3>Satisfactory 1.0: The Factory Meta in 2026</h3>
+          <p>Blueprints, power optimizations, and the best resource node strategies.</p>
+          <span class="article-card-date">Jul 5, 2026</span>
+        </div>
+      </div>
+    </div>
+
+    <a name="games"></a>
+
+    <!-- Factory Games -->
+    <div class="mag-genre-header">
+      <div class="mag-genre-icon factory">🏭</div>
+      <div class="mag-genre-text">
+        <h3>Factory Automation</h3>
+        <p>Build, optimize, automate — the best factory games</p>
+      </div>
+    </div>
+    <div class="mag-game-grid">
+      <a class="mag-game-card" onclick="showGame('satisfactory')">
+        <div class="mag-game-img" style="background:linear-gradient(135deg,#1a3a1a,#2d5a2d);display:flex;align-items:center;justify-content:center;font-size:2.5rem;color:#fff">⚙️</div>
+        <div class="mag-game-info">
+          <span class="mag-game-name">⚙️ Satisfactory</span>
+          <p class="mag-game-sub">3D first-person factory builder with exploration</p>
+          <span class="mag-game-count">9 guides</span>
+        </div>
+      </a>
+      <a class="mag-game-card" onclick="showGame('factorio')">
+        <div class="mag-game-img" style="background:linear-gradient(135deg,#0f172a,#1e3a5f);display:flex;align-items:center;justify-content:center;font-size:2.5rem;color:#fff">💡</div>
+        <div class="mag-game-info">
+          <span class="mag-game-name">💡 Factorio</span>
+          <p class="mag-game-sub">The gold standard of factory automation</p>
+          <span class="mag-game-count">7 guides</span>
+        </div>
+      </a>
+      <a class="mag-game-card" onclick="showGame('dyson')">
+        <div class="mag-game-img" style="background:linear-gradient(135deg,#1a0a2e,#3a1a6e);display:flex;align-items:center;justify-content:center;font-size:2.5rem;color:#fff">🌌</div>
+        <div class="mag-game-info">
+          <span class="mag-game-name">🌌 Dyson Sphere Program</span>
+          <p class="mag-game-sub">Interstellar factory simulation</p>
+          <span class="mag-game-count">6 guides</span>
+        </div>
+      </a>
+      <a class="mag-game-card" onclick="showGame('timberborn')">
+        <div class="mag-game-img" style="background:linear-gradient(135deg,#2d1a0a,#4a3a1a);display:flex;align-items:center;justify-content:center;font-size:2.5rem;color:#fff">🌿</div>
+        <div class="mag-game-info">
+          <span class="mag-game-name">🌿 Timberborn</span>
+          <p class="mag-game-sub">Beaver-powered colony survival</p>
+          <span class="mag-game-count">7 guides</span>
+        </div>
+      </a>
+      <a class="mag-game-card" onclick="showGame('shapez2')">
+        <div class="mag-game-img" style="background:linear-gradient(135deg,#0a1a2e,#1a3a5e);display:flex;align-items:center;justify-content:center;font-size:2.5rem;color:#fff">⬡</div>
+        <div class="mag-game-info">
+          <span class="mag-game-name">⬡ Shapez 2</span>
+          <p class="mag-game-sub">Pure logistics puzzle optimization</p>
+          <span class="mag-game-count">6 guides</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- Survival & Building -->
+    <div class="mag-genre-header">
+      <div class="mag-genre-icon survival">🌍</div>
+      <div class="mag-genre-text">
+        <h3>Survival & Building</h3>
+        <p>Explore, craft, build — open-world survival at its best</p>
+      </div>
+    </div>
+    <div class="mag-game-grid">
+      <a class="mag-game-card" onclick="showGame('valheim')">
+        <div class="mag-game-img" style="background:linear-gradient(135deg,#1a2a1a,#2d4a2d);display:flex;align-items:center;justify-content:center;font-size:2.5rem;color:#fff">⚔️</div>
+        <div class="mag-game-info">
+          <span class="mag-game-name">⚔️ Valheim</span>
+          <p class="mag-game-sub">Viking survival with epic boss fights</p>
+          <span class="mag-game-count">8 guides</span>
+        </div>
+      </a>
+      <a class="mag-game-card" onclick="showGame('enshrouded')">
+        <div class="mag-game-img" style="background:linear-gradient(135deg,#2a1a3a,#4a2a5e);display:flex;align-items:center;justify-content:center;font-size:2.5rem;color:#fff">🔥</div>
+        <div class="mag-game-info">
+          <span class="mag-game-name">🔥 Enshrouded</span>
+          <p class="mag-game-sub">Action survival in a fantasy wasteland</p>
+          <span class="mag-game-count">5 guides</span>
+        </div>
+      </a>
+      <a class="mag-game-card" onclick="showGame('vrising')">
+        <div class="mag-game-img" style="background:linear-gradient(135deg,#2a0a0a,#4a1a2a);display:flex;align-items:center;justify-content:center;font-size:2.5rem;color:#fff">🩸</div>
+        <div class="mag-game-info">
+          <span class="mag-game-name">🩸 V Rising</span>
+          <p class="mag-game-sub">Vampire survival with castle building</p>
+          <span class="mag-game-count">6 guides</span>
+        </div>
+      </a>
+      <a class="mag-game-card" onclick="showGame('sons-forest')">
+        <div class="mag-game-img" style="background:linear-gradient(135deg,#1a1a1a,#2a0a0a);display:flex;align-items:center;justify-content:center;font-size:2.5rem;color:#fff">🌲</div>
+        <div class="mag-game-info">
+          <span class="mag-game-name">🌲 Sons of the Forest</span>
+          <p class="mag-game-sub">Horror survival on a remote island</p>
+          <span class="mag-game-count">3 guides</span>
+        </div>
+      </a>
+      <a class="mag-game-card" onclick="showGame('grounded')">
+        <div class="mag-game-img" style="background:linear-gradient(135deg,#0a2a0a,#1a4a1a);display:flex;align-items:center;justify-content:center;font-size:2.5rem;color:#fff">🐞</div>
+        <div class="mag-game-info">
+          <span class="mag-game-name">🐞 Grounded</span>
+          <p class="mag-game-sub">Shrunken survival in a backyard</p>
+          <span class="mag-game-count">3 guides</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- Tools -->
+    <div class="mag-section-header" id="tools-section">
+      <h2>🛠 Tools & Resources</h2>
+      <a href="#" class="mag-section-link">All Tools →</a>
+    </div>
+    <div class="mag-tools-grid">
+      <a href="#" class="mag-tool-card">
+        <span class="mag-tool-icon">📊</span>
+        <span class="mag-tool-info">
+          <span class="mag-tool-name">Production Calculator</span>
+          <span class="mag-tool-desc">Perfect ratios for any factory</span>
+        </span>
+      </a>
+      <a href="#" class="mag-tool-card">
+        <span class="mag-tool-icon">⚡</span>
+        <span class="mag-tool-info">
+          <span class="mag-tool-name">Power Planner</span>
+          <span class="mag-tool-desc">Calculate your energy needs</span>
+        </span>
+      </a>
+      <a href="#" class="mag-tool-card">
+        <span class="mag-tool-icon">🏭</span>
+        <span class="mag-tool-info">
+          <span class="mag-tool-name">Factory Planner</span>
+          <span class="mag-tool-desc">Design your production line</span>
+        </span>
+      </a>
+      <a href="#" class="mag-tool-card">
+        <span class="mag-tool-icon">🗺️</span>
+        <span class="mag-tool-info">
+          <span class="mag-tool-name">Game Map</span>
+          <span class="mag-tool-desc">Interactive maps for every game</span>
+        </span>
+      </a>
+      <a href="#" class="mag-tool-card">
+        <span class="mag-tool-icon">⚔️</span>
+        <span class="mag-tool-info">
+          <span class="mag-tool-name">Boss Tracker</span>
+          <span class="mag-tool-desc">Track boss progression</span>
+        </span>
+      </a>
+      <a href="#" class="mag-tool-card">
+        <span class="mag-tool-icon">📊</span>
+        <span class="mag-tool-info">
+          <span class="mag-tool-name">Game Comparison</span>
+          <span class="mag-tool-desc">Find your next obsession</span>
+        </span>
+      </a>
+    </div>
+
+    <!-- Feedback -->
+    <div class="mag-feedback" id="feedback-section">
+      <h2>📬 Got a Request?</h2>
+      <p>Missing a guide? Want a tool for a specific game? Let us know — we build what the community needs.</p>
+      <a href="#" class="hero-cta">
+        Submit Feedback <span>→</span>
+      </a>
+    </div>
+  </main>
+
+  <footer class="mag-footer">
+    <div class="mag-footer-inner">
+      <div class="mag-footer-copy">© 2026 <strong>Game Guide Club</strong></div>
+      <div class="mag-footer-nav">
+        <a href="#" onclick="showHome()">Home</a>
+        <a href="#">Tools</a>
+        <a href="#">Compare</a>
+        <a href="#">Feedback</a>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- ============================================ -->
+<!-- GAME DETAIL PAGES                            -->
+<!-- ============================================ -->
+
+<div class="game-page" id="page-satisfactory">
+  <div class="game-page-bg" style="background: linear-gradient(135deg, #0d1f1a 0%, #1a3a2d 30%, #2d4a2d 60%, #1a2a1a 100%);"></div>
+  <div class="game-page-content">
+    <button class="back-btn" onclick="showHome()">← Back to Home</button>
+    
+    <div class="game-page-header" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08);">
+      <div style="font-size: 3rem; margin-bottom: 8px;">⚙️</div>
+      <h1 style="color: #ffffff;">Satisfactory</h1>
+      <p style="color: rgba(255,255,255,0.7);">Explore a lush alien world, build massive factories from first-person perspective, and optimize your production lines to create the ultimate automated empire.</p>
+      <div class="game-count" style="background: #4ade8022; color: #4ade80; border: 1px solid #4ade8044;">
+        9 guides available
+      </div>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #4ade80;">🎯 Key Features</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li>First-person factory building — see your factory from the inside</li><li>Massive 3D world with multiple biomes to explore</li><li>Tier-based progression system with hundreds of unlocks</li><li>Multiplayer co-op for up to 4 players</li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #4ade80;">📚 Available Guides</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li><span class="guide-link" href="#">Getting Started</span><span class="guide-count">⚙️</span></li><li><span class="guide-link" href="#">Building & Foundations</span><span class="guide-count">⚙️</span></li><li><span class="guide-link" href="#">Production Lines</span><span class="guide-count">⚙️</span></li><li><span class="guide-link" href="#">Logistics & Transport</span><span class="guide-count">⚙️</span></li><li><span class="guide-link" href="#">Power Generation</span><span class="guide-count">⚙️</span></li><li><span class="guide-link" href="#">Resources & Mining</span><span class="guide-count">⚙️</span></li><li><span class="guide-link" href="#">Blueprints & Design</span><span class="guide-count">⚙️</span></li><li><span class="guide-link" href="#">Tiers & Progression</span><span class="guide-count">⚙️</span></li><li><span class="guide-link" href="#">Parts & Components</span><span class="guide-count">⚙️</span></li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08); text-align: center;">
+      <h2 style="color: #4ade80;">🎮 Play Satisfactory</h2>
+      <p style="color: rgba(255,255,255,0.6); margin-bottom: 12px;">Available on Steam</p>
+      <a href="https://store.steampowered.com/app/526870/" class="buy-link" target="_blank" style="background: #4ade80; color: #000;">
+        View on Steam →
+      </a>
+    </div>
+  </div>
+</div>
+<div class="game-page" id="page-factorio">
+  <div class="game-page-bg" style="background: linear-gradient(135deg, #0a0e1a 0%, #1a2a4a 30%, #0f172a 60%, #1e3a5f 100%);"></div>
+  <div class="game-page-content">
+    <button class="back-btn" onclick="showHome()">← Back to Home</button>
+    
+    <div class="game-page-header" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08);">
+      <div style="font-size: 3rem; margin-bottom: 8px;">💡</div>
+      <h1 style="color: #ffffff;">Factorio</h1>
+      <p style="color: rgba(255,255,255,0.7);">The definitive factory automation game. Mine resources, research technologies, build ever-expanding factories, and defend against native lifeforms.</p>
+      <div class="game-count" style="background: #facc1522; color: #facc15; border: 1px solid #facc1544;">
+        7 guides available
+      </div>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #facc15;">🎯 Key Features</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li>Infinite scalability — from a single miner to megabase</li><li>Complex logistics with trains, bots, and belts</li><li>Circuit network for programmable automation</li><li>Massive modding community with thousands of mods</li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #facc15;">📚 Available Guides</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li><span class="guide-link" href="#">Getting Started</span><span class="guide-count">💡</span></li><li><span class="guide-link" href="#">Production Ratios</span><span class="guide-count">💡</span></li><li><span class="guide-link" href="#">Rail System Design</span><span class="guide-count">💡</span></li><li><span class="guide-link" href="#">Circuit Networks</span><span class="guide-count">💡</span></li><li><span class="guide-link" href="#">Space Age Expansion</span><span class="guide-count">💡</span></li><li><span class="guide-link" href="#">Modding Guide</span><span class="guide-count">💡</span></li><li><span class="guide-link" href="#">Advanced Strategies</span><span class="guide-count">💡</span></li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08); text-align: center;">
+      <h2 style="color: #facc15;">🎮 Play Factorio</h2>
+      <p style="color: rgba(255,255,255,0.6); margin-bottom: 12px;">Available on Steam</p>
+      <a href="https://store.steampowered.com/app/427520/" class="buy-link" target="_blank" style="background: #facc15; color: #000;">
+        View on Steam →
+      </a>
+    </div>
+  </div>
+</div>
+<div class="game-page" id="page-dyson">
+  <div class="game-page-bg" style="background: linear-gradient(135deg, #0a0520 0%, #1a0a3a 30%, #2a1050 60%, #0d001a 100%);"></div>
+  <div class="game-page-content">
+    <button class="back-btn" onclick="showHome()">← Back to Home</button>
+    
+    <div class="game-page-header" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08);">
+      <div style="font-size: 3rem; margin-bottom: 8px;">🌌</div>
+      <h1 style="color: #ffffff;">Dyson Sphere Program</h1>
+      <p style="color: rgba(255,255,255,0.7);">Harness the power of entire star systems. Build a Dyson Sphere across multiple planets while managing interplanetary logistics at cosmic scale.</p>
+      <div class="game-count" style="background: #a78bfa22; color: #a78bfa; border: 1px solid #a78bfa44;">
+        5 guides available
+      </div>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #a78bfa;">🎯 Key Features</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li>Multi-planet logistics across entire star systems</li><li>Build actual Dyson Sphere structures visible from orbit</li><li>Interstellar travel and resource management</li><li>Stunning cosmic scale — from conveyor belts to solar sails</li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #a78bfa;">📚 Available Guides</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li><span class="guide-link" href="#">Getting Started</span><span class="guide-count">🌌</span></li><li><span class="guide-link" href="#">Resource Management</span><span class="guide-count">🌌</span></li><li><span class="guide-link" href="#">Production Lines</span><span class="guide-count">🌌</span></li><li><span class="guide-link" href="#">Logistics & Drones</span><span class="guide-count">🌌</span></li><li><span class="guide-link" href="#">Sphere Design & Strategy</span><span class="guide-count">🌌</span></li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08); text-align: center;">
+      <h2 style="color: #a78bfa;">🎮 Play Dyson Sphere Program</h2>
+      <p style="color: rgba(255,255,255,0.6); margin-bottom: 12px;">Available on Steam</p>
+      <a href="https://store.steampowered.com/app/1366540/" class="buy-link" target="_blank" style="background: #a78bfa; color: #000;">
+        View on Steam →
+      </a>
+    </div>
+  </div>
+</div>
+<div class="game-page" id="page-timberborn">
+  <div class="game-page-bg" style="background: linear-gradient(135deg, #1a1208 0%, #2a1a0a 30%, #3a2a1a 60%, #1a0a00 100%);"></div>
+  <div class="game-page-content">
+    <button class="back-btn" onclick="showHome()">← Back to Home</button>
+    
+    <div class="game-page-header" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08);">
+      <div style="font-size: 3rem; margin-bottom: 8px;">🌿</div>
+      <h1 style="color: #ffffff;">Timberborn</h1>
+      <p style="color: rgba(255,255,255,0.7);">Control a colony of beavers in a post-human world. Manage resources, build dams, and survive droughts in this unique colony sim.</p>
+      <div class="game-count" style="background: #84cc1622; color: #84cc16; border: 1px solid #84cc1644;">
+        7 guides available
+      </div>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #84cc16;">🎯 Key Features</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li>Unique vertical building — stackable structures</li><li>Dynamic water physics with dam building</li><li>Two beaver factions with different playstyles</li><li>Seasonal drought cycles to survive</li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #84cc16;">📚 Available Guides</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li><span class="guide-link" href="#">Getting Started</span><span class="guide-count">🌿</span></li><li><span class="guide-link" href="#">Beaver Breeding & Jobs</span><span class="guide-count">🌿</span></li><li><span class="guide-link" href="#">Building Guide</span><span class="guide-count">🌿</span></li><li><span class="guide-link" href="#">District Management</span><span class="guide-count">🌿</span></li><li><span class="guide-link" href="#">Water Management</span><span class="guide-count">🌿</span></li><li><span class="guide-link" href="#">Food Production</span><span class="guide-count">🌿</span></li><li><span class="guide-link" href="#">Materials & Industry</span><span class="guide-count">🌿</span></li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08); text-align: center;">
+      <h2 style="color: #84cc16;">🎮 Play Timberborn</h2>
+      <p style="color: rgba(255,255,255,0.6); margin-bottom: 12px;">Available on Steam</p>
+      <a href="https://store.steampowered.com/app/1062090/" class="buy-link" target="_blank" style="background: #84cc16; color: #000;">
+        View on Steam →
+      </a>
+    </div>
+  </div>
+</div>
+<div class="game-page" id="page-shapez2">
+  <div class="game-page-bg" style="background: linear-gradient(135deg, #060d1a 0%, #0d1a2e 30%, #1a2a4a 60%, #0a1520 100%);"></div>
+  <div class="game-page-content">
+    <button class="back-btn" onclick="showHome()">← Back to Home</button>
+    
+    <div class="game-page-header" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08);">
+      <div style="font-size: 3rem; margin-bottom: 8px;">⬡</div>
+      <h1 style="color: #ffffff;">Shapez 2</h1>
+      <p style="color: rgba(255,255,255,0.7);">A pure logistics and automation puzzle. No enemies, no combat — just shapes, belts, and the satisfaction of an perfectly optimized factory floor.</p>
+      <div class="game-count" style="background: #38bdf822; color: #38bdf8; border: 1px solid #38bdf844;">
+        6 guides available
+      </div>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #38bdf8;">🎯 Key Features</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li>Pure logistics — no enemies, no combat, no RNG</li><li>Shape-based production with infinite combinations</li><li>Blueprint system for reusable factory designs</li><li>Color mixing and shape stamping mechanics</li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #38bdf8;">📚 Available Guides</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li><span class="guide-link" href="#">Getting Started</span><span class="guide-count">⬡</span></li><li><span class="guide-link" href="#">Shapes & Colors</span><span class="guide-count">⬡</span></li><li><span class="guide-link" href="#">Buildings Guide</span><span class="guide-count">⬡</span></li><li><span class="guide-link" href="#">Logic & Circuits</span><span class="guide-count">⬡</span></li><li><span class="guide-link" href="#">Milestones & Progression</span><span class="guide-count">⬡</span></li><li><span class="guide-link" href="#">Stamps & Blueprints</span><span class="guide-count">⬡</span></li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08); text-align: center;">
+      <h2 style="color: #38bdf8;">🎮 Play Shapez 2</h2>
+      <p style="color: rgba(255,255,255,0.6); margin-bottom: 12px;">Available on Steam</p>
+      <a href="https://store.steampowered.com/app/2162800/" class="buy-link" target="_blank" style="background: #38bdf8; color: #000;">
+        View on Steam →
+      </a>
+    </div>
+  </div>
+</div>
+<div class="game-page" id="page-valheim">
+  <div class="game-page-bg" style="background: linear-gradient(135deg, #0a1a0a 0%, #1a2a1a 30%, #2a3a1a 60%, #0d1a0d 100%);"></div>
+  <div class="game-page-content">
+    <button class="back-btn" onclick="showHome()">← Back to Home</button>
+    
+    <div class="game-page-header" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08);">
+      <div style="font-size: 3rem; margin-bottom: 8px;">⚔️</div>
+      <h1 style="color: #ffffff;">Valheim</h1>
+      <p style="color: rgba(255,255,255,0.7);">A brutal Viking survival adventure. Explore a purgatory-like world, defeat mythical bosses, build grand halls, and sail the seas of the Tenth World.</p>
+      <div class="game-count" style="background: #fbbf2422; color: #fbbf24; border: 1px solid #fbbf2444;">
+        8 guides available
+      </div>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #fbbf24;">🎯 Key Features</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li>Massive procedurally-generated Viking world</li><li>Five biome bosses with unique mechanics</li><li>Advanced building system with structural integrity</li><li>Co-op multiplayer for up to 10 players</li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #fbbf24;">📚 Available Guides</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li><span class="guide-link" href="#">Getting Started</span><span class="guide-count">⚔️</span></li><li><span class="guide-link" href="#">Biomes & Exploration</span><span class="guide-count">⚔️</span></li><li><span class="guide-link" href="#">Boss Strategies</span><span class="guide-count">⚔️</span></li><li><span class="guide-link" href="#">Base Building</span><span class="guide-count">⚔️</span></li><li><span class="guide-link" href="#">Farming & Food</span><span class="guide-count">⚔️</span></li><li><span class="guide-link" href="#">Sailing & Navigation</span><span class="guide-count">⚔️</span></li><li><span class="guide-link" href="#">Equipment & Weapons</span><span class="guide-count">⚔️</span></li><li><span class="guide-link" href="#">Materials & Crafting</span><span class="guide-count">⚔️</span></li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08); text-align: center;">
+      <h2 style="color: #fbbf24;">🎮 Play Valheim</h2>
+      <p style="color: rgba(255,255,255,0.6); margin-bottom: 12px;">Available on Steam</p>
+      <a href="https://store.steampowered.com/app/892970/" class="buy-link" target="_blank" style="background: #fbbf24; color: #000;">
+        View on Steam →
+      </a>
+    </div>
+  </div>
+</div>
+<div class="game-page" id="page-enshrouded">
+  <div class="game-page-bg" style="background: linear-gradient(135deg, #1a0510 0%, #2a1020 30%, #3a1a2a 60%, #1a0010 100%);"></div>
+  <div class="game-page-content">
+    <button class="back-btn" onclick="showHome()">← Back to Home</button>
+    
+    <div class="game-page-header" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08);">
+      <div style="font-size: 3rem; margin-bottom: 8px;">🔥</div>
+      <h1 style="color: #ffffff;">Enshrouded</h1>
+      <p style="color: rgba(255,255,255,0.7);">Rise from the ashes in a vast fantasy wasteland. Battle through the Shroud, build your stronghold, and uncover the secrets of a fallen kingdom.</p>
+      <div class="game-count" style="background: #fb923c22; color: #fb923c; border: 1px solid #fb923c44;">
+        6 guides available
+      </div>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #fb923c;">🎯 Key Features</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li>Voxel-based building and terraforming</li><li>The Shroud — a deadly magical fog to navigate</li><li>Class-less skill tree with hybrid builds</li><li>Up to 16-player co-op multiplayer</li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #fb923c;">📚 Available Guides</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li><span class="guide-link" href="#">Getting Started</span><span class="guide-count">🔥</span></li><li><span class="guide-link" href="#">Map & Exploration</span><span class="guide-count">🔥</span></li><li><span class="guide-link" href="#">Weapons & Combat</span><span class="guide-count">🔥</span></li><li><span class="guide-link" href="#">Armor & Gear</span><span class="guide-count">🔥</span></li><li><span class="guide-link" href="#">Building Guide</span><span class="guide-count">🔥</span></li><li><span class="guide-link" href="#">Boss Encounters</span><span class="guide-count">🔥</span></li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08); text-align: center;">
+      <h2 style="color: #fb923c;">🎮 Play Enshrouded</h2>
+      <p style="color: rgba(255,255,255,0.6); margin-bottom: 12px;">Available on Steam</p>
+      <a href="https://store.steampowered.com/app/1203620/" class="buy-link" target="_blank" style="background: #fb923c; color: #000;">
+        View on Steam →
+      </a>
+    </div>
+  </div>
+</div>
+<div class="game-page" id="page-vrising">
+  <div class="game-page-bg" style="background: linear-gradient(135deg, #0a0000 0%, #1a0505 30%, #2a0a1a 60%, #0d0005 100%);"></div>
+  <div class="game-page-content">
+    <button class="back-btn" onclick="showHome()">← Back to Home</button>
+    
+    <div class="game-page-header" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08);">
+      <div style="font-size: 3rem; margin-bottom: 8px;">🩸</div>
+      <h1 style="color: #ffffff;">V Rising</h1>
+      <p style="color: rgba(255,255,255,0.7);">Awaken as a weakened vampire. Hunt for blood, build a dark castle, forge alliances, and conquer the world of Vardoran in this gothic survival RPG.</p>
+      <div class="game-count" style="background: #f43f5e22; color: #f43f5e; border: 1px solid #f43f5e44;">
+        7 guides available
+      </div>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #f43f5e;">🎯 Key Features</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li>Blood system — different blood types give different powers</li><li>Castle building with gothic architecture</li><li>V-Blood boss progression with unique abilities</li><li>PvP and PvE server options</li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #f43f5e;">📚 Available Guides</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li><span class="guide-link" href="#">Getting Started</span><span class="guide-count">🩸</span></li><li><span class="guide-link" href="#">Castle Building</span><span class="guide-count">🩸</span></li><li><span class="guide-link" href="#">Equipment & Upgrade</span><span class="guide-count">🩸</span></li><li><span class="guide-link" href="#">Materials Guide</span><span class="guide-count">🩸</span></li><li><span class="guide-link" href="#">Redeem Codes</span><span class="guide-count">🩸</span></li><li><span class="guide-link" href="#">V-Blood Carriers</span><span class="guide-count">🩸</span></li><li><span class="guide-link" href="#">Beginners Tips</span><span class="guide-count">🩸</span></li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08); text-align: center;">
+      <h2 style="color: #f43f5e;">🎮 Play V Rising</h2>
+      <p style="color: rgba(255,255,255,0.6); margin-bottom: 12px;">Available on Steam</p>
+      <a href="https://store.steampowered.com/app/1604030/" class="buy-link" target="_blank" style="background: #f43f5e; color: #000;">
+        View on Steam →
+      </a>
+    </div>
+  </div>
+</div>
+<div class="game-page" id="page-sons-forest">
+  <div class="game-page-bg" style="background: linear-gradient(135deg, #0a0500 0%, #1a0a00 30%, #1a1a1a 60%, #0a0005 100%);"></div>
+  <div class="game-page-content">
+    <button class="back-btn" onclick="showHome()">← Back to Home</button>
+    
+    <div class="game-page-header" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08);">
+      <div style="font-size: 3rem; margin-bottom: 8px;">🌲</div>
+      <h1 style="color: #ffffff;">Sons of the Forest</h1>
+      <p style="color: rgba(255,255,255,0.7);">Stranded on a remote island after a helicopter crash. Build shelter, craft weapons, and survive against cannibalistic mutants in this terrifying open-world horror.</p>
+      <div class="game-count" style="background: #ef444422; color: #ef4444; border: 1px solid #ef444444;">
+        4 guides available
+      </div>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #ef4444;">🎯 Key Features</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li>Horror-themed open-world survival</li><li>AI companion Kelvin who follows your commands</li><li>Dynamic building system with logs and tarps</li><li>Cave systems with story and loot</li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #ef4444;">📚 Available Guides</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li><span class="guide-link" href="#">Getting Started</span><span class="guide-count">🌲</span></li><li><span class="guide-link" href="#">Crafting Guide</span><span class="guide-count">🌲</span></li><li><span class="guide-link" href="#">Items & Weapons</span><span class="guide-count">🌲</span></li><li><span class="guide-link" href="#">Caves & Walkthrough</span><span class="guide-count">🌲</span></li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08); text-align: center;">
+      <h2 style="color: #ef4444;">🎮 Play Sons of the Forest</h2>
+      <p style="color: rgba(255,255,255,0.6); margin-bottom: 12px;">Available on Steam</p>
+      <a href="https://store.steampowered.com/app/1326470/" class="buy-link" target="_blank" style="background: #ef4444; color: #000;">
+        View on Steam →
+      </a>
+    </div>
+  </div>
+</div>
+<div class="game-page" id="page-grounded">
+  <div class="game-page-bg" style="background: linear-gradient(135deg, #051005 0%, #0a2a0a 30%, #1a3a1a 60%, #051005 100%);"></div>
+  <div class="game-page-content">
+    <button class="back-btn" onclick="showHome()">← Back to Home</button>
+    
+    <div class="game-page-header" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08);">
+      <div style="font-size: 3rem; margin-bottom: 8px;">🐞</div>
+      <h1 style="color: #ffffff;">Grounded</h1>
+      <p style="color: rgba(255,255,255,0.7);">Shrunk to the size of an ant. Explore the dangers of a suburban backyard — from towering grass blades to fearsome spiders — in this cooperative survival adventure.</p>
+      <div class="game-count" style="background: #4ade8022; color: #4ade80; border: 1px solid #4ade8044;">
+        3 guides available
+      </div>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #4ade80;">🎯 Key Features</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li>Unique micro-scale backyard world</li><li>Base building on and around giant objects</li><li>Creature-filled world with boss bugs</li><li>Full 4-player co-op campaign</li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08);">
+      <h2 style="color: #4ade80;">📚 Available Guides</h2>
+      <ul style="color: rgba(255,255,255,0.85);">
+        <li><span class="guide-link" href="#">Getting Started</span><span class="guide-count">🐞</span></li><li><span class="guide-link" href="#">Base Building</span><span class="guide-count">🐞</span></li><li><span class="guide-link" href="#">Creatures & Combat</span><span class="guide-count">🐞</span></li>
+      </ul>
+    </div>
+
+    <div class="game-detail-section" style="background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-color: rgba(255,255,255,0.08); text-align: center;">
+      <h2 style="color: #4ade80;">🎮 Play Grounded</h2>
+      <p style="color: rgba(255,255,255,0.6); margin-bottom: 12px;">Available on Steam</p>
+      <a href="https://store.steampowered.com/app/962130/" class="buy-link" target="_blank" style="background: #4ade80; color: #000;">
+        View on Steam →
+      </a>
+    </div>
+  </div>
+</div>
+<script>
+function showHome() {
+  document.querySelectorAll('.page, .game-page').forEach(el => el.classList.remove('active'));
+  document.getElementById('page-home').classList.add('active');
+  window.scrollTo(0, 0);
+}
+
+function showGame(slug) {
+  document.querySelectorAll('.page, .game-page').forEach(el => el.classList.remove('active'));
+  const page = document.getElementById('page-' + slug);
+  if (page) page.classList.add('active');
+  window.scrollTo(0, 0);
+}
+
+function scrollToGames() {
+  document.querySelectorAll('.page, .game-page').forEach(el => el.classList.remove('active'));
+  document.getElementById('page-home').classList.add('active');
+  setTimeout(() => {
+    const el = document.querySelector('a[name="games"]');
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, 50);
+}
+
+function scrollToTools() {
+  document.querySelectorAll('.page, .game-page').forEach(el => el.classList.remove('active'));
+  document.getElementById('page-home').classList.add('active');
+  setTimeout(() => {
+    const el = document.getElementById('tools-section');
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, 50);
+}
+
+function scrollToFeedback() {
+  document.querySelectorAll('.page, .game-page').forEach(el => el.classList.remove('active'));
+  document.getElementById('page-home').classList.add('active');
+  setTimeout(() => {
+    const el = document.getElementById('feedback-section');
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, 50);
+}
+
+function toggleTheme() {
+  document.body.classList.toggle('dark-mode');
+  const btn = document.querySelector('.theme-toggle');
+  btn.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+}
+</script>
+
+</body>
+</html>
