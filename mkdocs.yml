@@ -117,6 +117,9 @@ nav:
     - 🔩 Parts & Components: satisfactory/parts.md
     - 📐 Blueprint System: satisfactory/blueprints.md
     - 🚚 Logistics Optimization: satisfactory/logistics.md
+    - 🚂 Train Guide: satisfactory/trains.md
+    - 🔄 Alternate Recipes: satisfactory/alternate-recipes.md
+    - 🆕 Beginners Tips: satisfactory/beginners-tips.md
   - 💡 Factorio:
     - factorio/index.md
     - 📊 Production Ratios: factorio/production-ratios.md
@@ -125,6 +128,9 @@ nav:
     - 🎯 Strategies: factorio/strategies.md
     - 🔧 Mods Guide: factorio/mods.md
     - 🚀 Space Age Expansion: factorio/space-age.md
+    - 🛡️ Defense Guide: factorio/defense-guide.md
+    - 📘 Blueprint Book: factorio/blueprint-book.md
+    - 🆕 Beginners Tips: factorio/beginners-tips.md
   - 🌌 Dyson Sphere Program:
     - dyson/index.md
     - 🆕 Beginner's Guide: dyson/beginners-guide.md
@@ -132,6 +138,8 @@ nav:
     - 🚚 Logistics: dyson/logistics.md
     - 🌞 Sphere Design: dyson/sphere-design.md
     - 📦 Resources Database: dyson/resources.md
+    - ⚔️ Combat Guide: dyson/combat.md
+    - 🌑 Dark Fog Guide: dyson/dark-fog.md
   - 🌿 Timberborn:
     - timberborn/index.md
     - 💧 Water Management: timberborn/water.md
@@ -140,6 +148,7 @@ nav:
     - 🏘️ Districts: timberborn/districts.md
     - 🦫 Beavers Guide: timberborn/beavers.md
     - 💧 Drought Survival: timberborn/drought.md
+    - 🏆 Endgame Guide: timberborn/endgame.md
   - ⬡ Shapez 2:
     - shapez2/index.md
     - 🎨 Color Mixing: shapez2/colors.md
@@ -148,6 +157,7 @@ nav:
     - ⬠ Shapes Reference: shapez2/shapes.md
     - 🏗️ Buildings: shapez2/buildings.md
     - 🔌 Logic & Wiring: shapez2/logic.md
+    - ⚡ Optimization Tips: shapez2/optimization.md
   - ⚔️ Valheim:
     - valheim/index.md
     - 🌍 Biome Guide: valheim/biomes.md
@@ -157,6 +167,8 @@ nav:
     - 🌾 Farming & Cooking: valheim/farming-food.md
     - ⛵ Sailing & Navigation: valheim/sailing.md
     - 📦 Materials & Forging: valheim/materials.md
+    - 🍳 Cooking Recipes: valheim/cooking-recipes.md
+    - 🏛️ Building Aesthetics: valheim/building-aesthetics.md
   - 🔥 Enshrouded:
     - enshrouded/index.md
     - 👹 Boss & Elite Guide: enshrouded/bosses.md
@@ -166,30 +178,94 @@ nav:
     - 🗺️ Map & Exploration: enshrouded/map-exploration.md
   - 🩸 V Rising:
     - vrising/index.md
-    - "🩸 Beginner's Guide": vrising/beginners-guide.md
+    - 🩸 Beginner's Guide: vrising/beginners-guide.md
     - 🩸 V Blood Carriers: vrising/v-blood-carriers.md
     - 🏰 Castle Building: vrising/castle-building.md
     - 📦 Materials & Resources: vrising/materials.md
     - ⚔️ Equipment Upgrade: vrising/equipment-upgrade.md
     - 🎁 Redeem Codes: vrising/redeem-codes.md
+    - ⚔️ PvP Strategies: vrising/pvp-strategies.md
   - 🌲 Sons of the Forest:
     - sons-forest/index.md
     - 🗺️ Caves & Walkthrough: sons-forest/caves-walkthrough.md
     - 🗡️ Items & Weapons: sons-forest/items-weapons.md
     - 🔨 Crafting & Building: sons-forest/crafting.md
+    - 🏆 Endgame Guide: sons-forest/endgame-guide.md
+    - 🆕 Survival Tips: sons-forest/survival-tips.md
   - 🐞 Grounded:
     - grounded/index.md
     - 🐛 Creature & Bosses: grounded/creatures.md
     - 🏗️ Base Building: grounded/base-building.md
+    - ⚔️ Equipment Guide: grounded/equipment-guide.md
+    - 📖 Story Walkthrough: grounded/story-walkthrough.md
   - 🖥️ Gaming Gear: guides/best-gaming-gear.md
+  - 🛡️ Gaming Setup Guide: guides/gaming-setup.md
   - 🎮 Game Comparison: games/comparison.md
+  - 🏆 Survival Tier List: games/survival-tiers.md
+  - 🦀 Rust:
+    - rust/index.md
+    - 🆕 Beginner's Guide: rust/beginners-guide.md
+    - 🏗️ Base Building: rust/base-building.md
+    - 🗺️ Monuments: rust/monuments.md
+    - 🌾 Farming: rust/farming.md
+    - ⚔️ PvP Guide: rust/pvp-guide.md
+    - 💥 Raid Guide: rust/raid-guide.md
+  - 🐻 Don't Starve Together:
+    - dst/index.md
+    - 🆕 Beginner's Guide: dst/beginners-guide.md
+    - 👥 Character Guide: dst/characters.md
+    - 🏗️ Base Building: dst/base-building.md
+    - 🌾 Farming: dst/farming.md
+    - ⚔️ Boss Fights: dst/boss-fights.md
+  - 🌽 Stardew Valley:
+    - stardew-valley/index.md
+    - 🆕 Beginner's Guide: stardew-valley/beginners-guide.md
+    - 🌾 Farming Guide: stardew-valley/farming.md
+    - 🎣 Fishing Guide: stardew-valley/fishing.md
+    - ⛏️ Mining Guide: stardew-valley/mining.md
+    - 💝 Relationships: stardew-valley/relationships.md
+    - 💰 Money Making: stardew-valley/money-making.md
+  - 👾 Palworld:
+    - palworld/index.md
+    - 🆕 Beginner's Guide: palworld/beginners-guide.md
+    - 🏗️ Base Building: palworld/base-building.md
+    - 🧬 Breeding Guide: palworld/breeding.md
+  - ⛏️ Core Keeper:
+    - core-keeper/index.md
+    - 🆕 Beginner's Guide: core-keeper/beginners-guide.md
+    - 🌍 Biomes Guide: core-keeper/biomes.md
+    - ⚔️ Boss Fights: core-keeper/boss-fights.md
+  - 🧟 7 Days to Die:
+    - 7-days-to-die/index.md
+    - 🆕 Beginner's Guide: 7-days-to-die/beginners-guide.md
+    - 🏗️ Base Building: 7-days-to-die/base-building.md
+  - 🌊 Subnautica:
+    - subnautica/index.md
+    - 🆕 Beginner's Guide: subnautica/beginners-guide.md
+    - 🌊 Biomes Guide: subnautica/biomes.md
+  - 🚢 Raft:
+    - raft/index.md
+    - 🆕 Beginner's Guide: raft/beginners-guide.md
+  - 🧊 Minecraft:
+    - minecraft/index.md
+    - 🆕 Beginner's Guide: minecraft/beginners-guide.md
+    - 🏗️ Building Tips: minecraft/building-tips.md
+    - 🔴 Redstone Guide: minecraft/redstone.md
+    - 🌾 Farming Guide: minecraft/farming.md
+    - ⚔️ Enchanting: minecraft/enchanting.md
+    - 🏆 Endgame Guide: minecraft/endgame.md
+    - ⚔️ Combat Guide: minecraft/combat-guide.md
   - 📰 News & Updates:
     - news/index.md
     - 📮 Latest Posts:
-      - 📰 Valheim Bog Witch Deep Dive: news/posts/2026-07-05-valheim-bog-witch-update.md
-      - ⚙️ Satisfactory 1.0 Meta: news/posts/2026-07-05-satisfactory-1-0-meta.md
-      - 🚀 Factorio Space Age Retrospective: news/posts/2026-07-05-factorio-space-age-retrospective.md
-      - 🔥 Enshrouded Horizons Update: news/posts/2026-07-05-enshrouded-horizons-update.md
+      - 📰 Core Keeper Music Update: news/posts/2026-07-06-core-keeper-music-update.md
+      - 🌸 Palworld Sakurajima DLC: news/posts/2026-07-06-palworld-sakurajima-dlc.md
+      - 🔫 Rust July Wipe: news/posts/2026-07-06-rust-july-wipe-changes.md
+      - 🌽 Stardew 1.7 Update: news/posts/2026-07-06-stardew-1-7-update.md
+      - 🎃 DST Hallowed Nights: news/posts/2026-07-06-dst-hallowed-nights.md
+      - ⚙️ Satisfactory 1.1 Patch: news/posts/2026-07-06-satisfactory-1-1-patch.md
+      - ❄️ Valheim Deep North: news/posts/2026-07-06-valheim-deep-north.md
+      - 🌊 Subnautica 2 Announced: news/posts/2026-07-06-subnautica-2-announcement.md
   - 📬 Feedback: feedback/index.md
   - 🔒 Privacy Policy: privacy-policy.md
   - ⚖️ Affiliate Disclosure: affiliate-disclosure.md
