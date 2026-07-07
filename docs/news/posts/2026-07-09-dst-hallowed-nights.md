@@ -1,7 +1,7 @@
 ---
 title: "Don't Starve Together Hallowed Nights 2026 — New Boss, Skins, and Recipes"
 description: "Klei Entertainment's annual Halloween event returns with a brand-new boss encounter, 30+ character skins, exclusive crafting recipes, and a limited-time lore questline."
-date: 2026-07-06
+date: 2026-07-09
 author: game-guide
 tags: [news, update, dont-starve]
 ---

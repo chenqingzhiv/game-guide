@@ -1,7 +1,7 @@
 ---
 title: "Palworld Sakurajima DLC — New Island, 16 New Pals, and Combat Rework"
 description: "Pocketpair launches the paid Sakurajima DLC expansion with a cherry-blossom themed island, dragon-type Pals, new building sets, and major combat balance changes."
-date: 2026-07-06
+date: 2026-07-13
 author: game-guide
 tags: [news, update, palworld]
 ---

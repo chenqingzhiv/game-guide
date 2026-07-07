@@ -49,6 +49,7 @@ plugins:
         dyson.md: dyson/index.md
         shapez2.md: shapez2/index.md
         grounded.md: grounded/index.md
+        stardew.md: stardew-valley/index.md
 
 extra_javascript:
   - assets/vendor/jquery.min.js
@@ -107,6 +108,7 @@ nav:
     - 🔧 Factory Planner: tools/factory-planner.md
     - 🗺️ Game Map Reference: tools/game-map.md
     - ⚔️ Valheim Boss Tracker: tools/boss-tracker.md
+    - 🛠️ Crafting Calculator: tools/crafting-calculator.md
   - ⚙️ Satisfactory:
     - satisfactory/index.md
     - 🏭 Production Lines: satisfactory/lines.md
@@ -240,6 +242,7 @@ nav:
     - 7-days-to-die/index.md
     - 🆕 Beginner's Guide: 7-days-to-die/beginners-guide.md
     - 🏗️ Base Building: 7-days-to-die/base-building.md
+    - 🔫 Weapons & Tools Database: 7-days-to-die/weapons-database.md
   - 🌊 Subnautica:
     - subnautica/index.md
     - 🆕 Beginner's Guide: subnautica/beginners-guide.md
@@ -247,6 +250,7 @@ nav:
   - 🚢 Raft:
     - raft/index.md
     - 🆕 Beginner's Guide: raft/beginners-guide.md
+    - 📦 Items & Resources Database: raft/items-database.md
   - 🧊 Minecraft:
     - minecraft/index.md
     - 🆕 Beginner's Guide: minecraft/beginners-guide.md
@@ -256,24 +260,7 @@ nav:
     - ⚔️ Enchanting: minecraft/enchanting.md
     - 🏆 Endgame Guide: minecraft/endgame.md
     - ⚔️ Combat Guide: minecraft/combat-guide.md
-  - 📰 News & Updates:
-    - news/index.md
-    - 📮 Latest Posts:
-      - 📰 Core Keeper Music Update: news/posts/2026-07-06-core-keeper-music-update.md
-      - 🌸 Palworld Sakurajima DLC: news/posts/2026-07-06-palworld-sakurajima-dlc.md
-      - 🔫 Rust July Wipe: news/posts/2026-07-06-rust-july-wipe-changes.md
-      - 🌽 Stardew 1.7 Update: news/posts/2026-07-06-stardew-1-7-update.md
-      - 🎃 DST Hallowed Nights: news/posts/2026-07-06-dst-hallowed-nights.md
-      - ⚙️ Satisfactory 1.1 Patch: news/posts/2026-07-06-satisfactory-1-1-patch.md
-      - ❄️ Valheim Deep North: news/posts/2026-07-06-valheim-deep-north.md
-      - 🌊 Subnautica 2 Announced: news/posts/2026-07-06-subnautica-2-announcement.md
-      - 🧟 7 Days Alpha 22: news/posts/2026-07-06-7d2d-alpha-22.md
-      - ⚔️ Dyson Combat Overhaul: news/posts/2026-07-06-dyson-combat-overhaul.md
-      - 🌿 Grounded 2 Tease: news/posts/2026-07-06-grounded-2-tease.md
-      - ⛏️ Minecraft Snapshot: news/posts/2026-07-06-minecraft-snapshot-1-22.md
-      - ⬡ Shapez2 Content Update: news/posts/2026-07-06-shapez2-content-update.md
-      - 🪓 Sons Forest Patch: news/posts/2026-07-06-sons-forest-patch.md
-      - 🦫 Timberborn Update 7: news/posts/2026-07-06-timberborn-update-7.md
+  - 📰 News & Updates: news/index.md
   - 📬 Feedback: feedback/index.md
   - 🔒 Privacy Policy: privacy-policy.md
   - ⚖️ Affiliate Disclosure: affiliate-disclosure.md

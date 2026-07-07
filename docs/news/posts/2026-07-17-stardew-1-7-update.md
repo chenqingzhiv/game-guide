@@ -1,7 +1,7 @@
 ---
 title: "Stardew Valley 1.7 Update — New Farm Map, Multiplayer QoL, and Late-Game Expansion"
 description: "ConcernedApe releases Stardew Valley 1.7 with a new tropical farm map, dedicated server support, expanded late-game content, and dozens of multiplayer quality-of-life improvements."
-date: 2026-07-06
+date: 2026-07-17
 author: game-guide
 tags: [news, update, stardew-valley]
 ---

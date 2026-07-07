@@ -1,7 +1,7 @@
 ---
 title: "Core Keeper Music Update — 20 New Tracks and Ambient Overhaul"
 description: "Pugstorm drops the massive 'Songs of the Core' update featuring a 20-track original soundtrack, biome-specific ambient layers, and a live-composer interview."
-date: 2026-07-06
+date: 2026-07-08
 author: game-guide
 tags: [news, update, core-keeper]
 ---

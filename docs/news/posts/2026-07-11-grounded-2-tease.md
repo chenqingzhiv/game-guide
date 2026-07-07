@@ -1,7 +1,7 @@
 ---
 title: "Grounded 2 Officially Teased by Obsidian Entertainment"
 description: "Obsidian Entertainment drops a cryptic teaser image and senior developer comments all but confirming Grounded 2 is in early development at a new satellite studio."
-date: 2026-07-06
+date: 2026-07-11
 author: game-guide
 tags: [news, grounded, obsidian]
 ---

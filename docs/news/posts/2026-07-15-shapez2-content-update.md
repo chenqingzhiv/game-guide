@@ -1,7 +1,7 @@
 ---
 title: "Shapez 2 Content Update — New Shapes, Logic Components, and Modular Belt System"
 description: "Tobspr Games drops a major free content update for Shapez 2 with 8 new shape types, programmable logic gates, modular belt junctions, and a new endgame milestone."
-date: 2026-07-06
+date: 2026-07-15
 author: game-guide
 tags: [news, update, shapez-2]
 ---

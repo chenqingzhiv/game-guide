@@ -45,14 +45,6 @@ date: 2026-06-27
     </div>
     <span class="status status-live">Live</span>
   </div>
-  <div class="tool-card-home">
-    <div class="tool-icon">🗺️</div>
-    <div class="tool-info">
-      <h4>Interactive Map Reference</h4>
-      <p>Satisfactory · Factorio · DSP</p>
-    </div>
-    <span class="status status-live">Live</span>
-  </div>
 </div>
 
 ---
@@ -74,6 +66,6 @@ date: 2026-06-27
       <h4>Crafting Calculator</h4>
       <p>Survival recipes · plan materials</p>
     </div>
-    <span class="status status-soon">Soon</span>
+    <span class="status status-live">Live</span>
   </div>
 </div>

@@ -1,7 +1,7 @@
 ---
 title: "Dyson Sphere Program Combat Overhaul — New Dark Fog Difficulty Settings"
 description: "Youthcat Studio expands the combat system with scalable Dark Fog difficulty, new planetary defense structures, and mid-game combat progression walls."
-date: 2026-07-06
+date: 2026-07-10
 author: game-guide
 tags: [news, update, dyson-sphere-program]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Subnautica 2 Announced — New Planet, Full Co-op Campaign, and 2028 Release Window"
 description: "Unknown Worlds Entertainment officially announces Subnautica 2 with a reveal trailer showcasing a frozen ocean planet, full cooperative campaign support, and a Q1 2028 release target."
-date: 2026-07-06
+date: 2026-07-18
 author: game-guide
 tags: [news, update, subnautica]
 ---

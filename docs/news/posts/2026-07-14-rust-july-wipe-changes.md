@@ -1,7 +1,7 @@
 ---
 title: "Rust July 2026 Wipe — New Monument, Weapon Balance, and Underwater Labs Rework"
 description: "Facepunch's July 2026 forced wipe adds the Abandoned Refinery monument, a full weapon recoil rebalance, and significant changes to Underwater Labs loot tables."
-date: 2026-07-06
+date: 2026-07-14
 author: game-guide
 tags: [news, update, rust]
 ---

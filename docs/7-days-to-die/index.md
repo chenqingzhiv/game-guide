@@ -13,3 +13,4 @@ Open-world zombie survival crafting. Every 7th night a massive horde attacks. Fu
 
 - [Beginners Guide](beginners-guide.md) — Survival starts here
 - [Base Building](base-building.md) — Fortify against the horde
+- [Weapons & Tools Database](weapons-database.md) — Complete weapon, tool & armor stats

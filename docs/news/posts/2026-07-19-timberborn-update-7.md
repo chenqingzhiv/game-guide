@@ -1,7 +1,7 @@
 ---
 title: "Timberborn Update 7 — Bots, Water Physics Rework, and New Diorama Mode"
 description: "Mechanistry's Update 7 for Timberborn introduces autonomous bots that work without sleep, a complete water physics engine overhaul, and a creative Diorama Mode."
-date: 2026-07-06
+date: 2026-07-19
 author: game-guide
 tags: [news, update, timberborn]
 ---

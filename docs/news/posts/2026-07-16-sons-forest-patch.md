@@ -1,7 +1,7 @@
 ---
 title: "Sons of the Forest Patch — New Building Pieces, Bug Fixes, and Creature AI Improvements"
 description: "Endnight Games releases a substantial patch for Sons of the Forest with over 30 new building pieces, creature AI pathfinding reworks, and stability fixes."
-date: 2026-07-06
+date: 2026-07-16
 author: game-guide
 tags: [news, update, sons-of-the-forest]
 ---

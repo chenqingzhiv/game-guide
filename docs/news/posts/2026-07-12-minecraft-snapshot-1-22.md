@@ -1,7 +1,7 @@
 ---
 title: "Minecraft 1.22 Snapshot — New Desert Mobs, Temples, and Archaeology Expansion"
 description: "Mojang releases the first 1.22 snapshot with scorpions, dune stalkers, procedurally generated desert temples, and a major archaeology system overhaul."
-date: 2026-07-06
+date: 2026-07-12
 author: game-guide
 tags: [news, update, minecraft]
 ---
