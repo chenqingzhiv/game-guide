@@ -233,24 +233,29 @@ nav:
     - 🆕 Beginner's Guide: palworld/beginners-guide.md
     - 🏗️ Base Building: palworld/base-building.md
     - 🧬 Breeding Guide: palworld/breeding.md
+    - 🐾 Pals Database: palworld/pals-database.md
   - ⛏️ Core Keeper:
     - core-keeper/index.md
     - 🆕 Beginner's Guide: core-keeper/beginners-guide.md
     - 🌍 Biomes Guide: core-keeper/biomes.md
     - ⚔️ Boss Fights: core-keeper/boss-fights.md
+    - ⚔️ Equipment Database: core-keeper/equipment-database.md
   - 🧟 7 Days to Die:
     - 7-days-to-die/index.md
     - 🆕 Beginner's Guide: 7-days-to-die/beginners-guide.md
     - 🏗️ Base Building: 7-days-to-die/base-building.md
     - 🔫 Weapons & Tools Database: 7-days-to-die/weapons-database.md
+    - 📈 Loot Stage & Progression: 7-days-to-die/loot-progression.md
   - 🌊 Subnautica:
     - subnautica/index.md
     - 🆕 Beginner's Guide: subnautica/beginners-guide.md
     - 🌊 Biomes Guide: subnautica/biomes.md
+    - 🐟 Creature Database: subnautica/creatures-database.md
   - 🚢 Raft:
     - raft/index.md
     - 🆕 Beginner's Guide: raft/beginners-guide.md
     - 📦 Items & Resources Database: raft/items-database.md
+    - 🏝️ Islands Database: raft/islands-database.md
   - 🧊 Minecraft:
     - minecraft/index.md
     - 🆕 Beginner's Guide: minecraft/beginners-guide.md
