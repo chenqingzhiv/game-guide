@@ -240,6 +240,7 @@ nav:
     - 🌍 Biomes Guide: core-keeper/biomes.md
     - ⚔️ Boss Fights: core-keeper/boss-fights.md
     - ⚔️ Equipment Database: core-keeper/equipment-database.md
+    - 📦 Items & Resources Database: core-keeper/items-database.md
   - 🧟 7 Days to Die:
     - 7-days-to-die/index.md
     - 🆕 Beginner's Guide: 7-days-to-die/beginners-guide.md
@@ -251,11 +252,14 @@ nav:
     - 🆕 Beginner's Guide: subnautica/beginners-guide.md
     - 🌊 Biomes Guide: subnautica/biomes.md
     - 🐟 Creature Database: subnautica/creatures-database.md
+    - 🚗 Vehicles Guide: subnautica/vehicles.md
+    - 📦 Materials & Resources: subnautica/resources.md
   - 🚢 Raft:
     - raft/index.md
     - 🆕 Beginner's Guide: raft/beginners-guide.md
     - 📦 Items & Resources Database: raft/items-database.md
     - 🏝️ Islands Database: raft/islands-database.md
+    - 🍳 Cooking Recipes & Food Guide: raft/cooking-recipes.md
   - 🧊 Minecraft:
     - minecraft/index.md
     - 🆕 Beginner's Guide: minecraft/beginners-guide.md

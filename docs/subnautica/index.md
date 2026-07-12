@@ -14,5 +14,6 @@ Underwater survival on an alien ocean planet. Gather resources, build bases, pil
 - [Beginners Guide](beginners-guide.md) — Survive your first day
 - [Biomes Guide](biomes.md) — Explore the depths
 - [Creature Database](creatures-database.md) — Every fish, predator & leviathan
-- Vehicles — Seamoth, Prawn & Cyclops piloting guide
+- [Vehicles Guide](vehicles.md) — Seamoth, Prawn & Cyclops specs and upgrades
+- [Materials & Resources Database](resources.md) — All ores, flora, and crafting materials
 - Base Building — Build an underwater home

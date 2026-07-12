@@ -27,6 +27,7 @@ Mining sandbox survival game where you explore a vast underground world. Gather 
 | 🆕 [Beginners Guide](beginners-guide.md) | First base, ore, equipment, survival tips |
 | 🗺️ [Biomes Guide](biomes.md) | All biomes with gear requirements and resources |
 | 👹 [Boss Fights](boss-fights.md) | All bosses, summoning items, gear checklists |
+| 🪵 [Items & Resources Database](items-database.md) | Ores, gems, food, and crafting materials |
 
 ## Quick Progression
 
