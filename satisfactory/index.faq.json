@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I start Satisfactory 1.0?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hand-mine Iron/Copper, build Craft Bench, make Iron Plates/Wire/Cable. Build 3-4 Biomass Burners powered by Leaves/Wood. Rush to Coal Power (Tier 3) for automated power."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best Satisfactory starting location?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rocky Desert/Northern Forest: Iron, Copper, Limestone, Coal close together. Grass Fields: most space for building. Dune Desert: abundant resources, more exploration."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the most efficient power in Satisfactory?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Coal (Tier 3): 8 generators per pure node underclocked to 75%. Fuel Generators + Diluted Fuel alt (Tier 5): mid-game. Nuclear (Tier 7): 1 Uranium node = 100GW."
+      }
+    }
+  ]
+}

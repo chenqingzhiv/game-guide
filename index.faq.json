@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best factory game for beginners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shapez 2 is the best entry \u2014 no enemies, clean isometric view. Satisfactory is next (3D first-person). Factorio has deepest mechanics but steepest learning curve."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I optimize production ratios?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use our production ratio calculator. Belt speeds: Mk1=60/min, Mk2=120, Mk3=270, Mk4=480, Mk5=780. Underclock unused machines to save power."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do train signals work in Factorio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rail signals divide tracks into blocks. Chain signals at intersections prevent deadlocks. Rule: Chain Signal before intersection, Rail Signal after."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I kill the first boss in Valheim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Eikthyr: craft bow + 100 wood arrows, eat 2-3 foods. Summon at Altar with 2 Deer Trophies. Keep distance, dodge lightning strikes. Reward: Hard Antler pickaxe."
+      }
+    }
+  ]
+}

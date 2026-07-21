@@ -1,0 +1,891 @@
+/* ============================================ */
+/* game-guide.club — Game Magazine Theme v4    */
+/* Premium magazine-style game guide website   */
+/* ============================================ */
+
+/* --- IMPORTS --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap');
+
+/* --- GLOBAL DARK THEME --- */
+:root {
+  --magazine-black: #0b0d14;
+  --magazine-dark: #11131f;
+  --magazine-card: #151726;
+  --magazine-card-hover: #1c1f30;
+  --magazine-border: rgba(255,255,255,0.06);
+  --magazine-border-hover: rgba(255,255,255,0.12);
+  --orange: #f97316;
+  --orange-dark: #ea580c;
+  --orange-glow: rgba(249,115,22,0.15);
+  --text-primary: rgba(255,255,255,0.92);
+  --text-secondary: rgba(255,255,255,0.55);
+  --text-muted: rgba(255,255,255,0.35);
+  --section-gap: 52px;
+  --card-radius: 14px;
+}
+
+/* --- SUBTLE BACKGROUND TEXTURE --- */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 20% 20%, rgba(249,115,22,0.03) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, rgba(59,130,246,0.02) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0.2) 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* --- HEADER — Magazine Masthead --- */
+.md-header {
+  background: rgba(11, 13, 20, 0.92) !important;
+  backdrop-filter: blur(20px) saturate(1.5);
+  border-bottom: 1px solid var(--magazine-border);
+  z-index: 100 !important;
+}
+
+.md-header__title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-size: 1.3rem !important;
+  letter-spacing: -0.5px;
+}
+
+.md-header__title .md-header__topic {
+  color: var(--orange) !important;
+}
+
+/* Tabs as magazine section headers */
+.md-tabs {
+  background: rgba(11, 13, 20, 0.7);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--magazine-border);
+}
+
+.md-tabs__link {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  opacity: 0.6;
+  transition: all 0.25s;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+  opacity: 1;
+  color: #fff !important;
+}
+
+.md-tabs__link::after {
+  content: '';
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--orange);
+  transition: all 0.25s;
+  transform: translateX(-50%);
+}
+
+.md-tabs__link:hover::after,
+.md-tabs__link--active::after {
+  width: 60%;
+}
+
+/* ============================================ */
+/* MAGAZINE HERO — COVER STORY                  */
+/* ============================================ */
+.mag-cover {
+  position: relative;
+  margin: -20px -24px 48px;
+  padding: 0;
+  min-height: 480px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  border-radius: 0 0 20px 20px;
+}
+
+.mag-cover-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center 30%;
+  z-index: 0;
+}
+
+.mag-cover-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(11,13,20,0.1) 0%,
+    rgba(11,13,20,0.3) 30%,
+    rgba(11,13,20,0.85) 65%,
+    var(--magazine-black) 100%
+  );
+}
+
+.mag-cover-content {
+  position: relative;
+  z-index: 1;
+  padding: 60px 48px 40px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.mag-cover-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 14px;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background: var(--orange);
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.mag-cover-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem !important;
+  font-weight: 800 !important;
+  line-height: 1.1 !important;
+  color: #fff !important;
+  letter-spacing: -1.5px !important;
+  margin: 0 0 8px !important;
+  border: none !important;
+  text-shadow: 0 2px 30px rgba(0,0,0,0.5);
+}
+
+.mag-cover-sub {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.6);
+  max-width: 560px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.mag-cover-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border-radius: 10px;
+  background: var(--orange);
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-decoration: none !important;
+  transition: all 0.3s;
+  box-shadow: 0 4px 20px rgba(249,115,22,0.3);
+}
+
+.mag-cover-cta:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(249,115,22,0.4);
+  background: var(--orange-dark);
+}
+
+.mag-cover-meta {
+  display: flex;
+  gap: 24px;
+  margin-top: 14px;
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.4);
+}
+
+.mag-cover-meta span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* ============================================ */
+/* FEATURED ARTICLES — Magazine Grid            */
+/* ============================================ */
+.mag-section-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--magazine-border);
+}
+
+.mag-section-header h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.5px !important;
+  border: none !important;
+  margin: 0 !important;
+  color: #fff !important;
+}
+
+.mag-section-header .mag-section-link {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--orange) !important;
+  text-decoration: none !important;
+  transition: 0.2s;
+}
+
+.mag-section-header .mag-section-link:hover {
+  color: #fff !important;
+}
+
+/* Magazine story cards — horizontal layout */
+.mag-article-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+  margin-bottom: var(--section-gap);
+}
+
+.mag-article-card {
+  position: relative;
+  border-radius: var(--card-radius);
+  overflow: hidden;
+  background: var(--magazine-card);
+  border: 1px solid var(--magazine-border);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.mag-article-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--magazine-border-hover);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+}
+
+.mag-article-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  background: var(--magazine-card);
+}
+
+.mag-article-body {
+  padding: 16px 20px 20px;
+}
+
+.mag-article-category {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: var(--orange);
+  margin-bottom: 6px;
+}
+
+.mag-article-body h3 {
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;
+  line-height: 1.3 !important;
+  margin: 0 0 6px !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.mag-article-body p {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin: 0 0 10px;
+}
+
+.mag-article-meta {
+  display: flex;
+  gap: 12px;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+/* ============================================ */
+/* GAME LIBRARY — Magazine Cover Gallery        */
+/* ============================================ */
+.mag-game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: var(--section-gap);
+}
+
+.mag-game-card {
+  position: relative;
+  border-radius: var(--card-radius);
+  overflow: hidden;
+  background: var(--magazine-card);
+  border: 1px solid var(--magazine-border);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none !important;
+  display: block;
+}
+
+.mag-game-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--orange-glow);
+  box-shadow: 0 12px 36px rgba(0,0,0,0.5);
+}
+
+.mag-game-img {
+  width: 100%;
+  aspect-ratio: 460/215;
+  object-fit: cover;
+  display: block;
+  background: var(--magazine-card);
+  transition: transform 0.4s ease;
+}
+
+.mag-game-card:hover .mag-game-img {
+  transform: scale(1.05);
+}
+
+.mag-game-info {
+  padding: 12px 14px 14px;
+  position: relative;
+  background: linear-gradient(180deg, transparent, var(--magazine-card) 40%);
+}
+
+.mag-game-name {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #fff;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.mag-game-sub {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  line-height: 1.3;
+  margin: 0;
+}
+
+.mag-game-count {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* Genre style variations */
+.mag-game-factory {
+  border-left: 3px solid var(--orange);
+}
+
+.mag-game-survival {
+  border-left: 3px solid #ef4444;
+}
+
+/* ============================================ */
+/* SECTION DIVIDERS — Magazine Style            */
+/* ============================================ */
+.mag-genre-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.mag-genre-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+
+.mag-genre-icon.factory {
+  background: var(--orange-glow);
+}
+
+.mag-genre-icon.survival {
+  background: rgba(239,68,68,0.12);
+}
+
+.mag-genre-text h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem !important;
+  font-weight: 800 !important;
+  margin: 0 !important;
+  border: none !important;
+  color: #fff !important;
+  letter-spacing: -0.3px !important;
+}
+
+.mag-genre-text p {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* ============================================ */
+/* TOOLS SECTION — Magazine Compact            */
+/* ============================================ */
+.mag-tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 10px;
+  margin-bottom: var(--section-gap);
+}
+
+.mag-tool-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: var(--magazine-card);
+  border: 1px solid var(--magazine-border);
+  transition: all 0.25s;
+  text-decoration: none !important;
+}
+
+.mag-tool-card:hover {
+  background: var(--magazine-card-hover);
+  border-color: var(--orange-glow);
+  transform: translateY(-2px);
+}
+
+.mag-tool-icon {
+  font-size: 1.3rem;
+  flex-shrink: 0;
+  width: 32px;
+  text-align: center;
+}
+
+.mag-tool-info { flex: 1; min-width: 0; }
+
+.mag-tool-name {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #fff;
+  display: block;
+  line-height: 1.2;
+}
+
+.mag-tool-desc {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  display: block;
+}
+
+/* ============================================ */
+/* MAIN CONTENT AREA                           */
+/* ============================================ */
+.md-main__inner {
+  position: relative;
+  z-index: 1;
+}
+
+.md-content {
+  background: transparent !important;
+  backdrop-filter: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+/* Only page content area gets subtle card treatment */
+.md-content__inner {
+  background: rgba(13, 15, 23, 0.5);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  padding: 20px 24px;
+  border: 1px solid var(--magazine-border);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+}
+
+/* ============================================ */
+/* SIDEBAR                                     */
+/* ============================================ */
+.md-sidebar {
+  position: relative;
+  z-index: 1;
+}
+
+.md-sidebar--primary .md-sidebar__scrollwrap {
+  background: rgba(13, 15, 23, 0.45);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  border: 1px solid var(--magazine-border);
+  padding: 8px;
+}
+
+/* ============================================ */
+/* TYPOGRAPHY — Magazine                       */
+/* ============================================ */
+.md-typeset {
+  font-size: 0.8rem;
+}
+
+.md-typeset h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-size: 2rem !important;
+  letter-spacing: -0.8px;
+  border-bottom: none;
+  margin-bottom: 0.6em;
+}
+
+.md-typeset h2 {
+  font-weight: 700;
+  font-size: 1.35rem;
+  letter-spacing: -0.3px;
+  margin-top: 1.8em;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--orange);
+}
+
+.md-typeset h3 {
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-top: 1.4em;
+}
+
+/* ============================================ */
+/* ADMONITIONS — Magazine Cards                */
+/* ============================================ */
+.md-typeset .admonition,
+.md-typeset details {
+  background: var(--magazine-card) !important;
+  border: 1px solid var(--magazine-border) !important;
+  border-radius: 12px;
+  transition: 0.2s;
+}
+
+.md-typeset .admonition:hover,
+.md-typeset details:hover {
+  border-color: var(--magazine-border-hover) !important;
+}
+
+.md-typeset .admonition-title {
+  font-weight: 700;
+}
+
+/* ============================================ */
+/* TABLES                                      */
+/* ============================================ */
+.md-typeset table:not(.md-typeset__table) {
+  background: var(--magazine-card);
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--magazine-border);
+}
+
+.md-typeset table th {
+  background: rgba(249,115,22,0.1);
+  color: var(--orange);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
+}
+
+.md-typeset table tbody tr:hover {
+  background: rgba(249,115,22,0.06);
+}
+
+/* ============================================ */
+/* CODE                                        */
+/* ============================================ */
+.md-typeset code {
+  background: rgba(255,255,255,0.06);
+  border-radius: 5px;
+  padding: 2px 7px;
+  font-size: 0.75rem;
+}
+
+.md-typeset pre code {
+  background: var(--magazine-card);
+  border: 1px solid var(--magazine-border);
+  border-radius: 10px;
+}
+
+/* ============================================ */
+/* BLOCKQUOTES — Magazine Pull Quotes          */
+/* ============================================ */
+.md-typeset blockquote {
+  border-left: 4px solid var(--orange);
+  background: rgba(249,115,22,0.04);
+  padding: 14px 20px;
+  border-radius: 0 12px 12px 0;
+  font-style: italic;
+}
+
+/* ============================================ */
+/* FOOTER — Magazine Style                     */
+/* ============================================ */
+.md-footer {
+  background: var(--magazine-black);
+  border-top: 1px solid var(--magazine-border);
+  margin-top: 40px;
+}
+
+.md-footer-meta {
+  background: rgba(0,0,0,0.3);
+  border-top: 1px solid var(--magazine-border);
+}
+
+/* ============================================ */
+/* FEEDBACK / COMMUNITY                        */
+/* ============================================ */
+.mag-feedback {
+  margin-top: var(--section-gap);
+  padding: 28px 32px;
+  background: var(--magazine-card);
+  border: 1px solid var(--magazine-border);
+  border-radius: 16px;
+  text-align: center;
+}
+
+.mag-feedback h2 {
+  font-family: 'Playfair Display', serif;
+  border: none !important;
+  margin-top: 0 !important;
+  font-size: 1.6rem !important;
+}
+
+.mag-feedback p {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  max-width: 500px;
+  margin: 0 auto 16px;
+}
+
+.mag-feedback .hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 28px;
+  border-radius: 10px;
+  background: var(--orange);
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-decoration: none !important;
+  transition: 0.3s;
+}
+
+.mag-feedback .hero-cta:hover {
+  background: var(--orange-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(249,115,22,0.3);
+}
+
+/* ============================================ */
+/* LIGHT MODE OVERRIDES                        */
+/* ============================================ */
+[data-md-color-scheme="default"] {
+  --magazine-black: #f8f9fb;
+  --magazine-dark: #f0f1f5;
+  --magazine-card: #ffffff;
+  --magazine-card-hover: #f5f6fa;
+  --magazine-border: rgba(0,0,0,0.08);
+  --magazine-border-hover: rgba(0,0,0,0.15);
+  --text-primary: rgba(0,0,0,0.88);
+  --text-secondary: rgba(0,0,0,0.5);
+  --text-muted: rgba(0,0,0,0.3);
+}
+
+[data-md-color-scheme="default"] .mag-cover-bg::after {
+  background: linear-gradient(
+    180deg,
+    rgba(248,249,251,0) 0%,
+    rgba(248,249,251,0.3) 30%,
+    rgba(248,249,251,0.85) 65%,
+    rgba(248,249,251,1) 100%
+  );
+}
+
+[data-md-color-scheme="default"] .mag-cover-title,
+[data-md-color-scheme="default"] .mag-game-name,
+[data-md-color-scheme="default"] .mag-article-body h3,
+[data-md-color-scheme="default"] .mag-genre-text h3,
+[data-md-color-scheme="default"] .mag-section-header h2,
+[data-md-color-scheme="default"] .md-typeset h1,
+[data-md-color-scheme="default"] .mag-tool-name,
+[data-md-color-scheme="default"] .mag-feedback h2 {
+  color: #111 !important;
+}
+
+[data-md-color-scheme="default"] .mag-cover-sub,
+[data-md-color-scheme="default"] .mag-article-body p,
+[data-md-color-scheme="default"] .mag-game-sub {
+  color: rgba(0,0,0,0.5);
+}
+
+[data-md-color-scheme="default"] .mag-cover-meta,
+[data-md-color-scheme="default"] .mag-article-meta {
+  color: rgba(0,0,0,0.35);
+}
+
+[data-md-color-scheme="default"] .md-header {
+  background: rgba(255,255,255,0.92) !important;
+}
+
+[data-md-color-scheme="default"] .md-content__inner {
+  background: rgba(255,255,255,0.7);
+  border-color: rgba(0,0,0,0.06);
+}
+
+[data-md-color-scheme="default"] .md-sidebar--primary .md-sidebar__scrollwrap {
+  background: rgba(255,255,255,0.5);
+}
+
+[data-md-color-scheme="default"] body::before {
+  background:
+    radial-gradient(ellipse at 20% 20%, rgba(249,115,22,0.03) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, rgba(59,130,246,0.02) 0%, transparent 50%);
+}
+
+/* ============================================ */
+/* GAME PAGE HERO IMAGE                        */
+/* ============================================ */
+.game-hero {
+  display: block;
+  width: 100%;
+  max-width: 920px;
+  height: auto;
+  border-radius: 14px;
+  margin: 1.2em auto;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-hero:hover {
+  transform: scale(1.01);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.7);
+}
+
+/* ============================================ */
+/* RESPONSIVE — Mobile                         */
+/* ============================================ */
+@media (max-width: 768px) {
+  .mag-cover {
+    min-height: 360px;
+    margin: -20px -16px 32px;
+    border-radius: 0 0 14px 14px;
+  }
+
+  .mag-cover-content {
+    padding: 40px 20px 30px;
+  }
+
+  .mag-cover-title {
+    font-size: 2rem !important;
+  }
+
+  .mag-article-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mag-game-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 12px;
+  }
+
+  .mag-tools-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .md-content__inner {
+    padding: 12px 16px;
+  }
+
+  .mag-feedback {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mag-cover-title {
+    font-size: 1.5rem !important;
+  }
+
+  .mag-cover-tag {
+    font-size: 0.6rem;
+  }
+
+  .mag-game-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .mag-section-header {
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+
+/* ============================================ */
+/* 🖥️ Gaming Gear Promo Banner                  */
+/* ============================================ */
+.gear-promo-banner {
+  background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 50%, #fff7ed 100%);
+  border: 2px solid #fb923c;
+  border-radius: 16px;
+  padding: 1.5rem 2rem;
+  margin: 1.5rem 0;
+  transition: box-shadow 0.2s;
+}
+.gear-promo-banner:hover {
+  box-shadow: 0 4px 20px rgba(251, 146, 60, 0.15);
+}
+.gear-promo-content {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+.gear-promo-icon {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+.gear-promo-text {
+  flex: 1;
+  min-width: 200px;
+}
+.gear-promo-text h3 {
+  margin: 0 0 0.15rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #9a3412;
+}
+.gear-promo-text p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color--light);
+}
+.gear-promo-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.6rem 1.25rem;
+  background: #ea580c;
+  color: #fff !important;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+.gear-promo-cta:hover {
+  background: #c2410c;
+}
