@@ -135,7 +135,6 @@ Some early bosses are meant to be fought later. If you're getting stomped, walk 
 | Unlock fast travel | Find "?" icons on the map |
 | Get the Force Palm triple jump | Tap Force Palm 3× in mid-air |
 | Refine your sword | Blacksmith in Hernand after "Turnali's Request" |
-| Buy inventory bags | Every shopkeeper sells a Small Bag |
 | Rob the bank | Mask + northwest Hernand building, second floor |
 | Recruit a pet | Feed/pet an animal until 100 Trust |
 | Cook food constantly | Campfire or cooking pot: meat + fruit/vegetable |
