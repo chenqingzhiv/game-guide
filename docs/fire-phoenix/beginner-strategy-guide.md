@@ -17,60 +17,59 @@ keywords: "Three Kingdoms Fire Phoenix guide, Fire Phoenix beginner tips, 三国
 
 ## Table of Contents
 
-1. [First Impressions: Why This Game Stands Out](#first-impressions)
-2. [Game Overview & Core Mechanics](#game-overview)
-3. [Getting Started: The First 72 Hours](#getting-started)
-4. [Strategist Card System Deep Dive](#strategist-card-system)
-5. [Best Character Lineups for Beginners](#beginner-lineups)
-6. [Resource Optimization: Data-Backed Efficiency Guide](#resource-optimization)
-7. [Dynamic Terrain Mastery](#dynamic-terrain)
-8. [Daily Routine for Maximum Progress](#daily-routine)
-9. [Long-Term Development Roadmap](#long-term)
-10. [FAQ: Common Beginner Questions](#faq)
-11. [Final Thoughts](#final-thoughts)
+1. [First impressions: why this game stands out](#first-impressions)
+2. [Game overview & core mechanics](#game-overview)
+3. [Getting started: the first 72 hours](#getting-started)
+4. [Strategist card system deep dive](#strategist-card-system)
+5. [Best character lineups for beginners](#beginner-lineups)
+6. [Resource optimization: data-backed efficiency guide](#resource-optimization)
+7. [Dynamic terrain mastery](#dynamic-terrain)
+8. [Daily routine for maximum progress](#daily-routine)
+9. [Long-term development roadmap](#long-term)
+10. [FAQ: common beginner questions](#faq)
+11. [Final thoughts](#final-thoughts)
 
 ---
 
 <a name="first-impressions"></a>
-## 1. First Impressions: Why This Game Stands Out
+## 1. First impressions: why this game stands out
 
-I've been playing strategy RPGs for over a decade — from Fire Emblem to Langrisser to XCOM — and *Three Kingdoms: Fire Phoenix* hit me differently. Developed and published by **Bilibili Games**, based on Chan Mou's legendary manhua that has run for **20+ years across 80+ volumes**, this isn't just another Three Kingdoms reskin.
+*Three Kingdoms: Fire Phoenix* is developed and published by **Bilibili Games**, based on Chan Mou's manhua that has run for **20+ years across 80+ volumes**. This isn't a typical Three Kingdoms reskin — the **Strategist Card System** changes how you approach every battle. You're not just moving units on a grid and hoping your numbers are bigger. Each fight is a puzzle where your pre-battle strategy loadout and in-battle card execution decide the outcome, not your wallet.
 
-What grabbed me in the first hour was the **Strategist Card System**. You're not just moving units on a grid and hoping your numbers are bigger. Every battle is a puzzle where your pre-battle **strategy loadout** and in-battle **card execution** determine victory — not your wallet. The CB1 (Fire Seed Test) launched on **July 23, 2026**, and after spending **30+ hours** across Android and PC, here's everything I wish I knew before starting.
+The CB1 (Fire Seed Test) launched on **July 23, 2026**. After 30+ hours across Android and PC, here's everything I wish I knew before starting.
 
-### How It Compares to Other Strategy RPGs
+### How it compares to other strategy RPGs
 
 | Feature | Three Kingdoms: Fire Phoenix | Fire Emblem Heroes | Langrisser Mobile | XCOM 2 |
 |---------|---------------------------|-------------------|-------------------|--------|
-| **Battle System** | Card-based strategist skills + grid tactics | Grid tactics + skill inheritance | Grid tactics + class system | Turn-based cover shooting |
-| **Terrain System** | Dynamic (changes mid-battle) | Static | Static terrain bonuses | Destructible cover |
-| **Pre-battle Strategy** | Deep (adjustable terrain, traps, card loadout) | Minimal (team composition only) | Moderate (formation + class matchups) | Moderate (loadout + positioning) |
-| **Gacha/Collectible** | Character banner + strategist cards | Character banner | Character banner | No gacha |
-| **F2P Friendliness** | High (all strategist cards earnable) | Medium | Medium | N/A |
-| **Auto-Battle** | Available (cloud hosting for grinding) | Yes | Yes | No |
-| **Cross-Platform** | Android + PC | Mobile only | Mobile + PC | PC/Console only |
+| **Battle system** | Card-based strategist skills + grid tactics | Grid tactics + skill inheritance | Grid tactics + class system | Turn-based cover shooting |
+| **Terrain system** | Dynamic (changes mid-battle) | Static | Static terrain bonuses | Destructible cover |
+| **Pre-battle strategy** | Deep (adjustable terrain, traps, card loadout) | Minimal (team composition only) | Moderate (formation + class matchups) | Moderate (loadout + positioning) |
+| **Gacha/collectible** | Character banner + strategist cards | Character banner | Character banner | No gacha |
+| **F2P friendliness** | High (all strategist cards earnable) | Medium | Medium | N/A |
+| **Auto-battle** | Available (cloud hosting for grinding) | Yes | Yes | No |
+| **Cross-platform** | Android + PC | Mobile only | Mobile + PC | PC/Console only |
 
-**The verdict:** If you love *XCOM*-style tactical depth but want a mobile-friendly experience with a rich narrative, this is the game you've been waiting for.
+If you love *XCOM*-style tactical depth but want a mobile-friendly experience with a rich narrative, this is the game you've been waiting for.
 
 ---
 
 <a name="game-overview"></a>
-## 2. Game Overview & Core Mechanics
+## 2. Game overview & core mechanics
 
-![Strategist card selection interface](assets/images/fire-phoenix/fire-phoenix-strategist-cards.webp "Strategist Card System — pre-battle loadout with four advisor cards")
+![Strategist card selection interface](assets/images/fire-phoenix/fire-phoenix-strategist-cards.webp "Strategist card system — pre-battle loadout with four advisor cards")
 
-### The World
+### The world
 
-*Three Kingdoms: Fire Phoenix* faithfully adapts the dark, morally complex universe of Chan Mou's manhua. Unlike typical Three Kingdoms games that romanticize heroes, Fire Phoenix presents a world where **strategy and deception** are the true weapons. You follow the dual-protagonist narrative of **Sima Yi** (the calculating strategist) and **Liao Yuan Huo** (the enigmatic assassin), experiencing the chaos of the Three Kingdoms from the shadows.
+*Three Kingdoms: Fire Phoenix* adapts the dark, morally complex universe of Chan Mou's manhua. Unlike typical Three Kingdoms games that romanticize heroes, Fire Phoenix presents a world where **strategy and deception** are the real weapons. You follow the dual-protagonist narrative of **Sima Yi** (the calculating strategist) and **Liao Yuan Huo** (the enigmatic assassin), navigating the chaos of the Three Kingdoms from the shadows.
 
-### Core Loop
+### Core loop
 
 ```
-Accept Mission → Build Strategist Loadout → Deploy on Dynamic Terrain → 
-Execute Cards Mid-Battle → Capture/Advance → Upgrade Strategists & Characters
+Accept Mission → Build Strategist Loadout → Deploy on Dynamic Terrain → Execute Cards Mid-Battle → Capture/Advance → Upgrade Strategists & Characters
 ```
 
-### Key Stats Overview
+### Key stats overview
 
 Each character has four primary stats:
 
@@ -84,15 +83,15 @@ Each character has four primary stats:
 ---
 
 <a name="getting-started"></a>
-## 3. Getting Started: The First 72 Hours
+## 3. Getting started: the first 72 hours
 
 ![Character selection screen showing starter lineup](assets/images/fire-phoenix/fire-phoenix-starter-lineup.webp "Your starting lineup in Three Kingdoms: Fire Phoenix")
 
 Your first three days determine how smoothly the rest of your progress goes. Here's the exact roadmap I followed that got me to **Chapter 5 with minimal friction**.
 
-### Hour 0–8: Rush the Main Story
+### Hour 0–8: rush the main story
 
-**Do not** touch the gacha. **Do not** farm side content. Push main story until you hit a wall.
+**Don't** touch the gacha. **Don't** farm side content. Push main story until you hit a wall.
 
 - **Chapter 1-2:** Unlock basic combat tutorial (15 minutes)
 - **Chapter 3:** Unlocks **Resource Dungeons** — this is where your daily grind happens
@@ -100,18 +99,18 @@ Your first three days determine how smoothly the rest of your progress goes. Her
 
 > **Pro tip:** The game's **3-star clear bonus** is generous in the early chapters. Don't stress about 3-star on first try — come back later when you're stronger. The real reward is unlocking systems, not the bonus diamonds.
 
-### Hour 8–24: Build Your Core Team
+### Hour 8–24: build your core team
 
 By now you should have your first **10-pull** from tutorial rewards. Here's the thing — **don't chase SSR units**. A well-built SR core team outperforms a mismatched SSR squad every time.
 
 **My recommended starter core:**
 
-1. **Main DPS (Strategist type):** Prioritize characters with AOE strategist cards. Think of them as your "nuke button."
+1. **Main DPS (Strategist type):** Prioritize characters with AOE strategist cards. Think of them as your nuke button.
 2. **Frontline Tank (STR type):** One unit with taunt/hold ground. They'll eat 60% of incoming damage.
 3. **Support/Healer (middle row):** Positioned in the **middle row** for max healing coverage (~90% of the battlefield).
 4. **Flex (AGI or INT):** Your choice — ranged AGI for single-target burst, or INT for additional control.
 
-### Hour 24–48: Unlock All Core Systems
+### Hour 24–48: unlock all core systems
 
 This is where the game opens up:
 
@@ -119,7 +118,7 @@ This is where the game opens up:
 - **Guild System:** Join one ASAP for **Guild Raid** rewards and **Strategist Card fragments**.
 - **Terrain Training:** Unlocks the advanced terrain mechanics. **Complete this** — many players skip it and get destroyed later.
 
-### Hour 48–72: Stabilize Your Daily Loop
+### Hour 48–72: stabilize your daily loop
 
 By now you should be in a rhythm:
 
@@ -131,17 +130,17 @@ By now you should be in a rhythm:
 ---
 
 <a name="strategist-card-system"></a>
-## 4. Strategist Card System Deep Dive
+## 4. Strategist card system deep dive
 
 ![Strategist cards being played in battle](assets/images/fire-phoenix/fire-phoenix-card-battle.webp "Strategist cards in combat showing AOE targeting")
 
-This is the game's signature system — and the biggest skill gap between new and experienced players.
+This is the game's defining system — and the biggest skill gap between new and experienced players.
 
-### What Are Strategist Cards?
+### What are strategist cards?
 
 Strategist cards represent the **military advisors' unique tactics**. Each card costs a certain amount of **Strategy Points (SP)** and can be played during your turn on the grid. Think of them as a **hand of cards you build before battle**, similar to a deck-building game.
 
-### Card Rarity Comparison
+### Card rarity comparison
 
 | Rarity | Base Stats | Max Level | Upgrade Cost (Gold) | Drop Source |
 |--------|-----------|-----------|-------------------|-------------|
@@ -153,7 +152,7 @@ Strategist cards represent the **military advisors' unique tactics**. Each card 
 
 **Reality check:** A maxed Rare (Blue) card outperforms a level 30 Epic (Purple) card in raw stats. **Level matters more than rarity** until mid-game.
 
-### Essential Starter Cards
+### Essential starter cards
 
 These are the cards you should prioritize in the first week:
 
@@ -165,21 +164,21 @@ These are the cards you should prioritize in the first week:
 | **Mist Screen** | Reduces enemy accuracy by 40% | 1 SP | Ranged-heavy enemy comps | ★★★★☆ |
 | **Reinforce** | Summons a temporary unit | 3 SP | Maps where you're outnumbered | ★★★☆☆ |
 
-### The 3-Card Synergy Rule
+### The 3-card synergy rule
 
 Never build a loadout of 5 independent cards. Always look for **3-card combos**:
 
-**Example: The "Cluster Bomb" Combo**
+**Example: the "Cluster Bomb" combo**
 1. **Lure the Enemy Deep** (pull enemies together)
 2. **Blazing Terrain** (place fire under the cluster)
 3. **Decisive Victory** (nuke the burning cluster for bonus damage)
 
-This combo deals approximately **340% more damage** than using the same cards separately against scattered enemies.
+This combo deals roughly **340% more damage** than using the same cards separately against scattered enemies.
 
 ---
 
 <a name="beginner-lineups"></a>
-## 5. Best Character Lineups for Beginners
+## 5. Best character lineups for beginners
 
 ![Formation layout showing front-mid-back row positioning](assets/images/fire-phoenix/fire-phoenix-formation-guide.webp "Optimal formation positioning for different team compositions")
 
@@ -189,7 +188,7 @@ Positioning isn't optional in this game. The damage distribution formula is:
 - **Middle row:** Takes ~20% of AOE damage
 - **Back row:** Takes minimal splash damage
 
-### Lineup 1: The F2P Standard (Zero Spending)
+### Lineup 1: the F2P standard (zero spending)
 
 | Position | Character | Role | Why |
 |----------|-----------|------|-----|
@@ -201,7 +200,7 @@ Positioning isn't optional in this game. The damage distribution formula is:
 **Damage split:** ~35% Guan Yu / 40% Liao Yuan Huo / 25% Zhuge Liang
 **Upgrade priority:** Liao Yuan Huo > Zhuge Liang > Guan Yu > Healer
 
-### Lineup 2: The Balanced Push (Mid-Game)
+### Lineup 2: the balanced push (mid-game)
 
 | Position | Character | Role | Why |
 |----------|-----------|------|-----|
@@ -216,13 +215,13 @@ Positioning isn't optional in this game. The damage distribution formula is:
 ---
 
 <a name="resource-optimization"></a>
-## 6. Resource Optimization: Data-Backed Efficiency Guide
+## 6. Resource optimization: data-backed efficiency guide
 
 ![Resource efficiency comparison chart](assets/images/fire-phoenix/fire-phoenix-resource-guide.webp "Stamina efficiency across different game modes")
 
-Let me show you the numbers I tracked over my play sessions. This data is from CN CB1 and may shift at global launch, but the **relative efficiency** should hold.
+Here are the numbers I tracked over my play sessions. This data is from CN CB1 and may shift at global launch, but the **relative efficiency** should hold.
 
-### Stamina Efficiency Rankings
+### Stamina efficiency rankings
 
 | Activity | Stamina Cost | Expected Value | Efficiency Score | Notes |
 |----------|-------------|---------------|-----------------|-------|
@@ -232,17 +231,17 @@ Let me show you the numbers I tracked over my play sessions. This data is from C
 | **Normal Story Stages** | 8 | Basic materials | **★★☆☆☆** | Only for 3-star clear rewards |
 | **Material Dungeon** | 12 | Enhancement items | **★★★★☆** | Farm after reaching Level 20 |
 
-### Gold Spending Priority
+### Gold spending priority
 
 ```
-Level 1-20: Skills & Leveling → 
-Level 20-40: Equipment Enhancement (takes priority) → 
+Level 1-20: Skills & Leveling →
+Level 20-40: Equipment Enhancement (takes priority) →
 Level 40+: Strategist Card upgrades (costs spike here)
 ```
 
 **Why the shift at Level 20?** Equipment enhancement adds **flat stats** that matter more in mid-game scaling. Before Level 20, skill levels give bigger percentage increases per gold spent.
 
-### Diamond Spending: The 80/20 Rule
+### Diamond spending: the 80/20 rule
 
 80% of your diamonds should go to **Limited Strategist Card banners**, not character banners. Here's why:
 
@@ -256,13 +255,13 @@ Level 40+: Strategist Card upgrades (costs spike here)
 ---
 
 <a name="dynamic-terrain"></a>
-## 7. Dynamic Terrain Mastery
+## 7. Dynamic terrain mastery
 
 ![Battle map showing terrain evolution](assets/images/fire-phoenix/fire-phoenix-terrain-evolution.webp "Dynamic terrain evolution through different battle phases")
 
-The biggest noob trap in Fire Phoenix is treating terrain like any other tactics game. **It changes mid-battle.** Here's what you need to know.
+The biggest mistake new players make in Fire Phoenix is treating terrain like any other tactics game. **It changes mid-battle.** Here's what you need to know.
 
-### Terrain Types & Effects
+### Terrain types & effects
 
 | Terrain | Effect | Appears In | Counter Strategy |
 |---------|--------|------------|-----------------|
@@ -272,7 +271,7 @@ The biggest noob trap in Fire Phoenix is treating terrain like any other tactics
 | **Collapse** | Terrain becomes impassable, splits your formation | Cave/ruin maps, trigger conditions | Pre-position before the collapse triggers |
 | **Blessed Ground** | Boosts healing by 30%, SP regen by 1/turn | Rare, hidden objective reward | Fight to control this zone |
 
-### Terrain Prediction Checklist
+### Terrain prediction checklist
 
 Before every battle, ask yourself:
 
@@ -282,7 +281,7 @@ Before every battle, ask yourself:
 4. **Where are the terrain dead zones** — spots where I can funnel enemies?
 5. **Can I pre-place traps in the predicted terrain path?**
 
-### Advanced Technique: The Pre-Battle Layout
+### Advanced technique: the pre-battle layout
 
 This is a mechanic most beginners ignore. Before combat starts, you can:
 
@@ -295,11 +294,11 @@ Skipping this step is the #1 reason players hit a wall around Chapter 4-6.
 ---
 
 <a name="daily-routine"></a>
-## 8. Daily Routine for Maximum Progress
+## 8. Daily routine for maximum progress
 
 Here's my optimized daily checklist. Total time: **30-45 minutes** active, with auto-battle running in the background.
 
-### Priority Order
+### Priority order
 
 ```
 ☐ Login rewards & check-in (2 min)
@@ -312,7 +311,7 @@ Here's my optimized daily checklist. Total time: **30-45 minutes** active, with 
 ☐ Claim idle/offline rewards (1 min)
 ```
 
-### Weekly Checklist
+### Weekly checklist
 
 ```
 ☐ Clear all Trial Tower floors unlocked this week
@@ -325,23 +324,23 @@ Here's my optimized daily checklist. Total time: **30-45 minutes** active, with 
 ---
 
 <a name="long-term"></a>
-## 9. Long-Term Development Roadmap
+## 9. Long-term development roadmap
 
 ![Progression roadmap chart](assets/images/fire-phoenix/fire-phoenix-roadmap.webp "Progression path from CB1 through full release")
 
-### Phase 1: CB1 — Fire Seed Test (Now)
+### Phase 1: CB1 — Fire Seed Test (now)
 **Focus:** Learn mechanics, test different lineups, provide feedback
 **Don't:** Overspend resources that won't carry over (if wipe happens)
 
-### Phase 2: Between Betas (Expected Q3-Q4 2026)
+### Phase 2: between betas (expected Q3-Q4 2026)
 **Focus:** Community guide creation, theorycrafting
 **Prep:** Join the Discord/community to prepare for launch strategies
 
-### Phase 3: Full Launch
+### Phase 3: full launch
 **Focus:** Efficient launch — the first 72 hours are critical
 **Key tip:** The CB1 tier list WILL shift. Don't chase burnt-out meta units.
 
-### Expected Power Progression Curve
+### Expected power progression curve
 
 | Week | Team Power (Approx.) | Notable Milestone |
 |------|---------------------|-------------------|
@@ -354,7 +353,7 @@ Here's my optimized daily checklist. Total time: **30-45 minutes** active, with 
 ---
 
 <a name="faq"></a>
-## 10. FAQ: Common Beginner Questions
+## 10. FAQ: common beginner questions
 
 ### Q: Is this pay-to-win?
 **A:** Less than most gacha strategy games. The Strategist Card system is entirely earnable through gameplay. Characters matter less than your tactical decisions and card loadout. I cleared Chapter 8 with zero spending.
@@ -372,16 +371,16 @@ Here's my optimized daily checklist. Total time: **30-45 minutes** active, with 
 **A:** CB1 is Chinese-only. English version expected closer to SEA/global launch. This guide will be updated when official English terminology is confirmed.
 
 ### Q: What's the first thing I should spend real money on?
-**A:** If you spend anything, buy the **Monthly Stamina Pass** (best value at approximately 120 stamina/day for $5 USD equivalent). The growth pack is second-best.
+**A:** If you spend anything, buy the **Monthly Stamina Pass** (best value at roughly 120 stamina/day for $5 USD equivalent). The growth pack is second-best.
 
 ---
 
 <a name="final-thoughts"></a>
-## 11. Final Thoughts
+## 11. Final thoughts
 
-*Three Kingdoms: Fire Phoenix* is the most refreshing strategy RPG I've played in years. The Strategist Card system adds a layer of depth that rewards smart play over deep pockets, and the dynamic terrain keeps every battle feeling fresh. The CB1 is rough around the edges (localization, some UI polish), but the core gameplay loop is rock solid.
+*Three Kingdoms: Fire Phoenix* has the deepest tactical combat I've seen in a mobile strategy RPG. The Strategist Card system rewards smart play over deep pockets, and the dynamic terrain keeps every battle feeling different. The CB1 is rough around the edges (localization, some UI polish), but the core gameplay loop is solid.
 
-If you're a tactics fan sitting on the fence — jump in. The Fire Seed Test is the perfect time to learn the systems before the crowd arrives at launch. See you on the battlefield.
+If you're a tactics fan sitting on the fence, now's the time. The Fire Seed Test is the perfect window to learn the systems before the crowd arrives at launch. See you on the battlefield.
 
 ---
 
