@@ -19,13 +19,13 @@ This guide covers the entire building system: structural physics, material stats
 
 | Topic | Section |
 |:------|:--------|
-| Structural integrity (colors) | [Structural Support System](#-structural-support-system) |
-| Material comparison | [Building Materials](#-building-materials) |
-| Defenses | [Defense & Fortifications](#-defense--fortifications) |
-| Chimney & ventilation | [Smoke & Chimney Mechanics](#-smoke--chimney-mechanics) |
-| Terrain editing | [Terrain Manipulation](#-terrain-manipulation) |
-| Aesthetic tips | [Aesthetic Building Tips](#-aesthetic-building-tips) |
-| Advanced techniques | [Advanced Building Techniques](#-advanced-building-techniques) |
+| Structural integrity (colors) | [Structural Support System](#structural-support-system) |
+| Material comparison | [Building Materials](#building-materials) |
+| Defenses | [Defense & Fortifications](#defense-fortifications) |
+| Chimney & ventilation | [Smoke & Chimney Mechanics](#smoke-chimney-mechanics) |
+| Terrain editing | [Terrain Manipulation](#terrain-manipulation) |
+| Aesthetic tips | [Aesthetic Building Tips](#aesthetic-building-tips) |
+| Advanced techniques | [Advanced Building Techniques](#advanced-building-techniques) |
 
 ---
 
