@@ -1,0 +1,82 @@
+name: Vale - English Quality Check
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - '**.md'
+      - '.vale.ini'
+      - 'styles/**'
+      - 'scripts/check_readability.py'
+      - '.github/workflows/vale.yml'
+  workflow_dispatch:
+
+jobs:
+  vale:
+    name: Check English prose quality
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      # Only check files changed in this push
+      - name: Get changed .md files
+        id: changed
+        run: |
+          CHANGED=$(git diff --name-only HEAD~1 HEAD -- '*.md' 2>/dev/null || echo "")
+          if [ -z "$CHANGED" ]; then
+            echo "files=docs/" >> "$GITHUB_OUTPUT"
+            echo "count=all" >> "$GITHUB_OUTPUT"
+          else
+            FILES=$(echo "$CHANGED" | tr '\n' ' ')
+            echo "files=$FILES" >> "$GITHUB_OUTPUT"
+            echo "count=$(echo $FILES | wc -w)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install Vale
+        run: |
+          curl -fsSL https://github.com/vale-cli/vale/releases/download/v3.15.1/vale_3.15.1_Linux_64-bit.tar.gz \
+            -o /tmp/vale.tar.gz
+          tar -xzf /tmp/vale.tar.gz -C /usr/local/bin/ vale
+
+      - name: Sync Vale styles
+        run: vale sync
+
+      # Incremental check on changed files (fast)
+      - name: Run Vale (incremental)
+        continue-on-error: true
+        run: |
+          echo "### 🔍 Incremental Check (${{ steps.changed.outputs.count }} file(s))" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          vale --no-wrap --minAlertLevel suggestion \
+            ${{ steps.changed.outputs.files }} \
+            --config=.vale.ini 2>&1 | tee -a "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      # Full scan for complete report
+      - name: Run Vale (full report)
+        continue-on-error: true
+        run: |
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "### 📊 Full Site Scan (39 files)" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          vale --no-wrap --minAlertLevel warning docs/ \
+            --config=.vale.ini 2>&1 | tee -a "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          vale --no-wrap --minAlertLevel suggestion docs/ \
+            --config=.vale.ini 2>&1 | grep -E '✖|✔' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Readability check
+        run: |
+          pip install textstat -q
+          python3 scripts/check_readability.py docs/ >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Flag critical issues
+        run: |
+          ERR=$(vale --no-wrap --minAlertLevel error docs/ --config=.vale.ini 2>&1 | grep -cE '✖' || true)
+          if [ "$ERR" -gt 0 ]; then
+            echo "⚠️ **$ERR critical error(s) found!** Review them above." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "✅ **No critical errors.**" >> "$GITHUB_STEP_SUMMARY"
+          fi

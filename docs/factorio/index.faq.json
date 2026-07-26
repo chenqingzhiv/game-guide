@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What ratio of copper wire to green circuits in Factorio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "3 copper cable assemblers feed exactly 2 green circuit assemblers (ratio 3:2). Each green circuit needs 3 copper cable and 1 iron plate. One full red belt of iron plates + 1.5 belts of copper plates feeds ~24 circuit assemblers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I prevent train deadlocks in Factorio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use Chain Signals before every intersection and Rail Signals after. Keep intersections small (fewer crossing points). Use roundabouts only for low-traffic areas. One-way rail pairs are much more throughput-friendly than two-way single tracks."
+      }
+    }
+  ]
+}

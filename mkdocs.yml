@@ -1,0 +1,295 @@
+site_name: Game Guide Club
+site_url: https://game-guide.club
+site_description: Complete guides, databases & interactive tools for factory automation, survival building, and strategy games
+site_author: game-guide
+
+theme:
+  name: material
+  logo: material/factory
+  favicon: assets/img/og-image.png
+  language: en
+  custom_dir: overrides
+  palette:
+    - scheme: slate
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+    - scheme: default
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - header.autohide
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enabled: true
+      type: timeago
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      cache_safe: true
+  - glightbox
+  - redirects:
+      redirect_maps:
+        timberborn.md: timberborn/index.md
+        factorio.md: factorio/index.md
+        dyson.md: dyson/index.md
+        shapez2.md: shapez2/index.md
+        grounded.md: grounded/index.md
+        stardew.md: stardew-valley/index.md
+
+extra_javascript:
+  - assets/vendor/jquery.min.js
+  - assets/vendor/datatables.js
+  - assets/js/datatables-init.js
+  - assets/js/tools/production-calc.js
+  - assets/js/tools/power-planner.js
+  - assets/js/tools/boss-tracker.js
+  - assets/js/tools/factory-planner.js
+  - assets/js/tools/game-map.js
+
+extra_css:
+  - assets/css/custom.css
+  - assets/vendor/datatables.css
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+  - admonition
+  - pymdownx.details
+  - tables
+  - pymdownx.keys
+  - attr_list
+  - md_in_html
+
+extra:
+  analytics:
+    provider: google
+    property: G-NENYIKVWHL
+  generator: false
+  consent:
+    title: Notice
+    description: >-
+      This site uses cookies for analytics and contains affiliate links.
+      <a href="/privacy-policy/">Privacy Policy</a> |
+      <a href="/affiliate-disclosure/">Affiliate Disclosure</a>
+
+copyright: >-
+  Game Guide Club &copy; 2026 |
+  <a href="/privacy-policy/">Privacy Policy</a> |
+  <a href="/affiliate-disclosure/">Affiliate Disclosure</a> |
+  As an Amazon Associate and Steam Partner, we earn from qualifying purchases.
+
+nav:
+  - 🏠 Home: index.md
+  - 🛠️ Tools:
+    - tools/index.md
+    - 🧮 Production Ratio Calculator: tools/production-calculator.md
+    - ⚡ Power Grid Planner: tools/power-planner.md
+    - 🔧 Factory Planner: tools/factory-planner.md
+    - 🗺️ Game Map Reference: tools/game-map.md
+    - ⚔️ Valheim Boss Tracker: tools/boss-tracker.md
+    - 🛠️ Crafting Calculator: tools/crafting-calculator.md
+  - ⚙️ Satisfactory:
+    - satisfactory/index.md
+    - 🏭 Production Lines: satisfactory/lines.md
+    - 📊 Tier Progression: satisfactory/tiers.md
+    - ⚡ Power Systems: satisfactory/power.md
+    - 📦 Resources: satisfactory/resources.md
+    - 🏗️ Building Guide: satisfactory/building.md
+    - 🔩 Parts & Components: satisfactory/parts.md
+    - 📐 Blueprint System: satisfactory/blueprints.md
+    - 🚚 Logistics Optimization: satisfactory/logistics.md
+    - 🚂 Train Guide: satisfactory/trains.md
+    - 🔄 Alternate Recipes: satisfactory/alternate-recipes.md
+    - 🆕 Beginners Tips: satisfactory/beginners-tips.md
+  - 💡 Factorio:
+    - factorio/index.md
+    - 📊 Production Ratios: factorio/production-ratios.md
+    - 🚂 Rail System: factorio/rail-system.md
+    - 🔌 Circuit Networks: factorio/circuits.md
+    - 🎯 Strategies: factorio/strategies.md
+    - 🔧 Mods Guide: factorio/mods.md
+    - 🚀 Space Age Expansion: factorio/space-age.md
+    - 🛡️ Defense Guide: factorio/defense-guide.md
+    - 📘 Blueprint Book: factorio/blueprint-book.md
+    - 🆕 Beginners Tips: factorio/beginners-tips.md
+  - 🌌 Dyson Sphere Program:
+    - dyson/index.md
+    - 🆕 Beginner's Guide: dyson/beginners-guide.md
+    - ⚙️ Production Chains: dyson/production.md
+    - 🚚 Logistics: dyson/logistics.md
+    - 🌞 Sphere Design: dyson/sphere-design.md
+    - 📦 Resources Database: dyson/resources.md
+    - ⚔️ Combat Guide: dyson/combat.md
+    - 🌑 Dark Fog Guide: dyson/dark-fog.md
+  - 🌿 Timberborn:
+    - timberborn/index.md
+    - 💧 Water Management: timberborn/water.md
+    - 🌾 Food & Farming: timberborn/food.md
+    - 🏗️ Buildings: timberborn/buildings.md
+    - 🏘️ Districts: timberborn/districts.md
+    - 🦫 Beavers Guide: timberborn/beavers.md
+    - 💧 Drought Survival: timberborn/drought.md
+    - 🏆 Endgame Guide: timberborn/endgame.md
+    - 📦 Materials Database: timberborn/materials.md
+  - ⬡ Shapez 2:
+    - shapez2/index.md
+    - 🎨 Color Mixing: shapez2/colors.md
+    - 📈 Milestones: shapez2/milestones.md
+    - 📐 Stamps & Blueprints: shapez2/stamps.md
+    - ⬠ Shapes Reference: shapez2/shapes.md
+    - 🏗️ Buildings: shapez2/buildings.md
+    - 🔌 Logic & Wiring: shapez2/logic.md
+    - ⚡ Optimization Tips: shapez2/optimization.md
+  - ⚔️ Valheim:
+    - valheim/index.md
+    - 🌍 Biome Guide: valheim/biomes.md
+    - ⚔️ Boss Strategies: valheim/boss-strategies.md
+    - 🛡️ Equipment & Food: valheim/equipment.md
+    - 🏗️ Base Building: valheim/base-building.md
+    - 🌾 Farming & Cooking: valheim/farming-food.md
+    - ⛵ Sailing & Navigation: valheim/sailing.md
+    - 📦 Materials & Forging: valheim/materials.md
+    - 🍳 Cooking Recipes: valheim/cooking-recipes.md
+    - 🏛️ Building Aesthetics: valheim/building-aesthetics.md
+  - 🔥 Enshrouded:
+    - enshrouded/index.md
+    - 👹 Boss & Elite Guide: enshrouded/bosses.md
+    - ⚔️ Weapons Database: enshrouded/weapons.md
+    - 🛡️ Armor & Gear: enshrouded/armor.md
+    - 🏗️ Building & Base: enshrouded/building.md
+    - 🗺️ Map & Exploration: enshrouded/map-exploration.md
+  - 🩸 V Rising:
+    - vrising/index.md
+    - 🩸 Beginner's Guide: vrising/beginners-guide.md
+    - 🩸 V Blood Carriers: vrising/v-blood-carriers.md
+    - 🏰 Castle Building: vrising/castle-building.md
+    - 📦 Materials & Resources: vrising/materials.md
+    - ⚔️ Equipment Upgrade: vrising/equipment-upgrade.md
+    - 🎁 Redeem Codes: vrising/redeem-codes.md
+    - ⚔️ PvP Strategies: vrising/pvp-strategies.md
+  - 🌙 Moonlight Peaks:
+    - moonlight-peaks/index.md
+    - 🆕 Beginner's Guide: moonlight-peaks/beginners-guide.md
+    - 🌱 Crop & Farming Guide: moonlight-peaks/crops-farming.md
+    - 🔮 Vampire Powers & Spells: moonlight-peaks/vampire-powers.md
+    - 🎣 Fishing & Foraging: moonlight-peaks/fishing-foraging.md
+    - 👥 NPC & Romance Guide: moonlight-peaks/npc-social.md
+    - 💰 Money Making Guide: moonlight-peaks/money-making.md
+    - 🔧 Tool Upgrade Guide: moonlight-peaks/tools-upgrades.md
+    - 🏛️ Museum & Nokturna: moonlight-peaks/museum-nokturna.md
+  - 🌲 Sons of the Forest:
+    - sons-forest/index.md
+    - 🗺️ Caves & Walkthrough: sons-forest/caves-walkthrough.md
+    - 🗡️ Items & Weapons: sons-forest/items-weapons.md
+    - 🔨 Crafting & Building: sons-forest/crafting.md
+    - 🏆 Endgame Guide: sons-forest/endgame-guide.md
+    - 🆕 Survival Tips: sons-forest/survival-tips.md
+  - 🐞 Grounded:
+    - grounded/index.md
+    - 🐛 Creature & Bosses: grounded/creatures.md
+    - 🏗️ Base Building: grounded/base-building.md
+    - ⚔️ Equipment Guide: grounded/equipment-guide.md
+    - 📖 Story Walkthrough: grounded/story-walkthrough.md
+  - 🖥️ Gaming Gear: guides/best-gaming-gear.md
+  - 🛡️ Gaming Setup Guide: guides/gaming-setup.md
+  - 🎮 Game Comparison: games/comparison.md
+  - 🏆 Survival Tier List: games/survival-tiers.md
+  - 🦀 Rust:
+    - rust/index.md
+    - 🆕 Beginner's Guide: rust/beginners-guide.md
+    - 🏗️ Base Building: rust/base-building.md
+    - 🗺️ Monuments: rust/monuments.md
+    - 🌾 Farming: rust/farming.md
+    - ⚔️ PvP Guide: rust/pvp-guide.md
+    - 💥 Raid Guide: rust/raid-guide.md
+  - 🐻 Don't Starve Together:
+    - dst/index.md
+    - 🆕 Beginner's Guide: dst/beginners-guide.md
+    - 👥 Character Guide: dst/characters.md
+    - 🏗️ Base Building: dst/base-building.md
+    - 🌾 Farming: dst/farming.md
+    - ⚔️ Boss Fights: dst/boss-fights.md
+  - 🌽 Stardew Valley:
+    - stardew-valley/index.md
+    - 🆕 Beginner's Guide: stardew-valley/beginners-guide.md
+    - 🌾 Farming Guide: stardew-valley/farming.md
+    - 🎣 Fishing Guide: stardew-valley/fishing.md
+    - ⛏️ Mining Guide: stardew-valley/mining.md
+    - 💝 Relationships: stardew-valley/relationships.md
+    - 💰 Money Making: stardew-valley/money-making.md
+  - 👾 Palworld:
+    - palworld/index.md
+    - 🆕 Beginner's Guide: palworld/beginners-guide.md
+    - 🎮 1.0 Update Guide: palworld/1.0-guide.md
+    - 🏗️ Base Building: palworld/base-building.md
+    - 🧬 Breeding Guide: palworld/breeding.md
+    - 🐾 Pals Database: palworld/pals-database.md
+  - ⛏️ Core Keeper:
+    - core-keeper/index.md
+    - 🆕 Beginner's Guide: core-keeper/beginners-guide.md
+    - 🌍 Biomes Guide: core-keeper/biomes.md
+    - ⚔️ Boss Fights: core-keeper/boss-fights.md
+    - ⚔️ Equipment Database: core-keeper/equipment-database.md
+    - 📦 Items & Resources Database: core-keeper/items-database.md
+  - 🧟 7 Days to Die:
+    - 7-days-to-die/index.md
+    - 🆕 Beginner's Guide: 7-days-to-die/beginners-guide.md
+    - 🏗️ Base Building: 7-days-to-die/base-building.md
+    - 🔫 Weapons & Tools Database: 7-days-to-die/weapons-database.md
+    - 📈 Loot Stage & Progression: 7-days-to-die/loot-progression.md
+  - 🌊 Subnautica:
+    - subnautica/index.md
+    - 🆕 Beginner's Guide: subnautica/beginners-guide.md
+    - 🌊 Biomes Guide: subnautica/biomes.md
+    - 🐟 Creature Database: subnautica/creatures-database.md
+    - 🚗 Vehicles Guide: subnautica/vehicles.md
+    - 📦 Materials & Resources: subnautica/resources.md
+  - 🚢 Raft:
+    - raft/index.md
+    - 🆕 Beginner's Guide: raft/beginners-guide.md
+    - 📦 Items & Resources Database: raft/items-database.md
+    - 🏝️ Islands Database: raft/islands-database.md
+    - 🍳 Cooking Recipes & Food Guide: raft/cooking-recipes.md
+  - 🧊 Minecraft:
+    - minecraft/index.md
+    - 🆕 Beginner's Guide: minecraft/beginners-guide.md
+    - 🏗️ Building Tips: minecraft/building-tips.md
+    - 🔴 Redstone Guide: minecraft/redstone.md
+    - 🌾 Farming Guide: minecraft/farming.md
+    - ⚔️ Enchanting: minecraft/enchanting.md
+    - 🏆 Endgame Guide: minecraft/endgame.md
+    - ⚔️ Combat Guide: minecraft/combat-guide.md
+  - 🗡️ Crimson Desert:
+    - crimson-desert/index.md
+    - 🆕 Beginner's Guide: crimson-desert/beginners-guide.md
+  - "🔥 Three Kingdoms: Fire Phoenix":
+    - fire-phoenix/index.md
+    - 🆕 Beginner Strategy Guide: fire-phoenix/beginner-strategy-guide.md
+  - 🌻 Sunflower Land:
+    - sunflower-land/index.md
+    - 🌿 Saltwort Crop Week Guide: sunflower-land/saltwort-crop-week.md
+  - 📰 News & Updates: news/index.md
+  - 📬 Feedback: feedback/index.md
+  - 🔒 Privacy Policy: privacy-policy.md
+  - ⚖️ Affiliate Disclosure: affiliate-disclosure.md
