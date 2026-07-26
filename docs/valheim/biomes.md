@@ -72,7 +72,7 @@ The Meadows is your spawn biome. Lush green hills, gentle streams, and relativel
 
 ### Boss Association
 
-**Eikthyr** — summoned with 2 Deer Trophy + 1 Greydwarf Eye at his stone altar. See the [Boss Strategies guide](boss-strategies.md#-eikthyr--meadows) for the fight.
+**Eikthyr** — summoned with 2 Deer Trophy + 1 Greydwarf Eye at his stone altar. See the [Boss Strategies guide](boss-strategies.md#1-eikthyr-meadows-first-boss) for the fight.
 
 ---
 
@@ -128,7 +128,7 @@ Dense, dark forests with a greenish hue. The Black Forest is your first real cha
 
 ### Boss Association
 
-**The Elder** — summoned with 3 Ancient Seeds at his stone platform. Weak to **fire**. See the [Boss Strategies guide](boss-strategies.md#-the-elder--black-forest).
+**The Elder** — summoned with 3 Ancient Seeds at his stone platform. Weak to **fire**. See the [Boss Strategies guide](boss-strategies.md#2-the-elder-black-forest).
 
 ---
 
@@ -195,7 +195,7 @@ The Swamp is a miserable, rain-soaked hellscape. Poison, leeches, and **constant
 
 ### Boss Association
 
-**Bonemass** — summoned with 10 Withered Bone at his skull altar. Weak to **blunt**. See the [Boss Strategies guide](boss-strategies.md#-bonemass--swamp).
+**Bonemass** — summoned with 10 Withered Bone at his skull altar. Weak to **blunt**. See the [Boss Strategies guide](boss-strategies.md#3-bonemass-swamp-mid-game-wall).
 
 ---
 
@@ -262,7 +262,7 @@ Snow-capped peaks with howling winds and sub-zero temperatures. The Mountains bi
 
 ### Boss Association
 
-**Moder** — summoned with 3 Dragon Tear at a stone altar on the highest peak. Weak to **pierce/poison**. See the [Boss Strategies guide](boss-strategies.md#-moder--mountains).
+**Moder** — summoned with 3 Dragon Tear at a stone altar on the highest peak. Weak to **pierce/poison**. See the [Boss Strategies guide](boss-strategies.md#4-moder-mountains).
 
 ---
 
@@ -328,7 +328,7 @@ Golden, open plains under a warm sun — don't let the beauty fool you. The Plai
 
 ### Boss Association
 
-**Yagluth** — summoned with 5 Fuling Totem at a giant stone hand altar. See the [Boss Strategies guide](boss-strategies.md#-yagluth--plains).
+**Yagluth** — summoned with 5 Fuling Totem at a giant stone hand altar. See the [Boss Strategies guide](boss-strategies.md#5-yagluth-plains).
 
 ---
 
@@ -399,7 +399,7 @@ The Mistlands are Valheim's most visually oppressive biome — a thick, magical 
 
 ### Boss Association
 
-**The Queen** — summoned with 9 Seal Fragment at an Infested Citadel. See the [Boss Strategies guide](boss-strategies.md#-the-queen--mistlands).
+**The Queen** — summoned with 9 Seal Fragment at an Infested Citadel. See the [Boss Strategies guide](boss-strategies.md#6-the-queen-mistlands).
 
 ---
 
@@ -466,7 +466,7 @@ Volcanic wasteland at the southern edge of the world. Lava flows, ash storms, an
 
 ### Boss Association
 
-**Fader** — summoned with 1 Dyrnwyn Fragment + 3 Flame Metal at a peak altar. See the [Boss Strategies guide](boss-strategies.md#-fader--ashlands).
+**Fader** — summoned with 1 Dyrnwyn Fragment + 3 Flame Metal at a peak altar. See the [Boss Strategies guide](boss-strategies.md#7-fader-ashlands-final-boss).
 
 ---
 

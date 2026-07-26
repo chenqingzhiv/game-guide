@@ -7,7 +7,7 @@ keywords: "Three Kingdoms Fire Phoenix guide, Fire Phoenix beginner tips, 三国
 
 # Three Kingdoms: Fire Phoenix — Complete Beginner Strategy Guide (2026 CB1 Edition)
 
-![Three Kingdoms: Fire Phoenix game key art featuring Sima Yi and Liao Yuan Huo](assets/images/fire-phoenix/fire-phoenix-hero.webp "Three Kingdoms: Fire Phoenix official key art — dark Chinese fantasy tactical RPG")
+![Three Kingdoms: Fire Phoenix game key art featuring Sima Yi and Liao Yuan Huo](/assets/images/fire-phoenix/fire-phoenix-hero.webp "Three Kingdoms: Fire Phoenix official key art — dark Chinese fantasy tactical RPG")
 
 > **Last updated:** July 26, 2026 | **Game version:** Fire Seed CB1 (Closed Beta 1)
 > **Platforms:** Android, PC (cross-platform save)
@@ -57,7 +57,7 @@ If you love *XCOM*-style tactical depth but want a mobile-friendly experience wi
 <a name="game-overview"></a>
 ## 2. Game overview & core mechanics
 
-![Strategist card selection interface](assets/images/fire-phoenix/fire-phoenix-strategist-cards.webp "Strategist card system — pre-battle loadout with four advisor cards")
+![Strategist card selection interface](/assets/images/fire-phoenix/fire-phoenix-strategist-cards.webp "Strategist card system — pre-battle loadout with four advisor cards")
 
 ### The world
 
@@ -85,7 +85,7 @@ Each character has four primary stats:
 <a name="getting-started"></a>
 ## 3. Getting started: the first 72 hours
 
-![Character selection screen showing starter lineup](assets/images/fire-phoenix/fire-phoenix-starter-lineup.webp "Your starting lineup in Three Kingdoms: Fire Phoenix")
+![Character selection screen showing starter lineup](/assets/images/fire-phoenix/fire-phoenix-starter-lineup.webp "Your starting lineup in Three Kingdoms: Fire Phoenix")
 
 Your first three days determine how smoothly the rest of your progress goes. Here's the exact roadmap I followed that got me to **Chapter 5 with minimal friction**.
 
@@ -132,7 +132,7 @@ By now you should be in a rhythm:
 <a name="strategist-card-system"></a>
 ## 4. Strategist card system deep dive
 
-![Strategist cards being played in battle](assets/images/fire-phoenix/fire-phoenix-card-battle.webp "Strategist cards in combat showing AOE targeting")
+![Strategist cards being played in battle](/assets/images/fire-phoenix/fire-phoenix-card-battle.webp "Strategist cards in combat showing AOE targeting")
 
 This is the game's defining system — and the biggest skill gap between new and experienced players.
 
@@ -180,7 +180,7 @@ This combo deals roughly **340% more damage** than using the same cards separate
 <a name="beginner-lineups"></a>
 ## 5. Best character lineups for beginners
 
-![Formation layout showing front-mid-back row positioning](assets/images/fire-phoenix/fire-phoenix-formation-guide.webp "Optimal formation positioning for different team compositions")
+![Formation layout showing front-mid-back row positioning](/assets/images/fire-phoenix/fire-phoenix-formation-guide.webp "Optimal formation positioning for different team compositions")
 
 Positioning isn't optional in this game. The damage distribution formula is:
 
@@ -217,7 +217,7 @@ Positioning isn't optional in this game. The damage distribution formula is:
 <a name="resource-optimization"></a>
 ## 6. Resource optimization: data-backed efficiency guide
 
-![Resource efficiency comparison chart](assets/images/fire-phoenix/fire-phoenix-resource-guide.webp "Stamina efficiency across different game modes")
+![Resource efficiency comparison chart](/assets/images/fire-phoenix/fire-phoenix-resource-guide.webp "Stamina efficiency across different game modes")
 
 Here are the numbers I tracked over my play sessions. This data is from CN CB1 and may shift at global launch, but the **relative efficiency** should hold.
 
@@ -257,7 +257,7 @@ Level 40+: Strategist Card upgrades (costs spike here)
 <a name="dynamic-terrain"></a>
 ## 7. Dynamic terrain mastery
 
-![Battle map showing terrain evolution](assets/images/fire-phoenix/fire-phoenix-terrain-evolution.webp "Dynamic terrain evolution through different battle phases")
+![Battle map showing terrain evolution](/assets/images/fire-phoenix/fire-phoenix-terrain-evolution.webp "Dynamic terrain evolution through different battle phases")
 
 The biggest mistake new players make in Fire Phoenix is treating terrain like any other tactics game. **It changes mid-battle.** Here's what you need to know.
 
@@ -326,7 +326,7 @@ Here's my optimized daily checklist. Total time: **30-45 minutes** active, with 
 <a name="long-term"></a>
 ## 9. Long-term development roadmap
 
-![Progression roadmap chart](assets/images/fire-phoenix/fire-phoenix-roadmap.webp "Progression path from CB1 through full release")
+![Progression roadmap chart](/assets/images/fire-phoenix/fire-phoenix-roadmap.webp "Progression path from CB1 through full release")
 
 ### Phase 1: CB1 — Fire Seed Test (now)
 **Focus:** Learn mechanics, test different lineups, provide feedback
