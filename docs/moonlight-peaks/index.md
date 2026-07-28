@@ -23,6 +23,8 @@ Welcome to Moonlight Peaks, a cozy gothic life-sim where you play as the vampiri
 | [Money Making Guide](money-making.md) | Kegs, processing, profit strategies |
 | [Tool Upgrade Guide](tools-upgrades.md) | Costs, best order, Enchanted Tools |
 | [Museum & Nokturna](museum-nokturna.md) | Collections and card game |
+| [Cooking & Recipes Guide](cooking-recipes.md) | All recipes, best dishes, profit analysis |
+| [Festivals & Events Guide](festivals-events.md) | 8 festivals, birthdays, seasonal calendar |
 
 ## About the Game
 
