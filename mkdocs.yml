@@ -33,6 +33,8 @@ theme:
 
 plugins:
   - search
+  - macros:
+      module_name: hooks/main
   - git-revision-date-localized:
       enabled: true
       type: timeago

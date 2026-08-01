@@ -4,6 +4,47 @@ Provides template helpers for batch page generation.
 """
 
 import re
+from urllib.parse import quote, unquote
+
+# Auto-generated related-guides mapping (page path -> [(href, anchor), ...])
+from hooks.related import RELATED_GUIDES
+
+
+def on_post_page_macros(env):
+    """Append a Related Guides section to every page's markdown content.
+
+    Runs after all macros are expanded but before Markdown -> HTML rendering.
+    Mirrors the pattern used on farminggames.help.
+    """
+    page = env.page
+    raw_path = unquote(page.url).rstrip("/")
+    if not raw_path:
+        raw_path = unquote(page.url)
+
+    guides = (RELATED_GUIDES.get(raw_path)
+              or RELATED_GUIDES.get(raw_path + "/"))
+    if not guides:
+        return
+
+    # URL-encode hrefs for generated links (browsers need encoded paths)
+    def link_href(path):
+        parts = path.split("/")
+        return "/".join(quote(p) for p in parts)
+
+    links_html = "\n".join(
+        f'- <a href="/{link_href(href)}">{text}</a>'
+        for href, text in guides
+    )
+
+    related = f"""
+---
+
+## 📖 Related Guides
+
+{links_html}
+"""
+    env.markdown = env.markdown + related
+
 
 def define_env(env):
     """Define template variables and functions for MkDocs macros plugin."""
