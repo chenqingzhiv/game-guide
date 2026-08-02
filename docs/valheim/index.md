@@ -49,6 +49,7 @@ Meadows (Eikthyr)
         → Plains (Yagluth) 
           → Mistlands (Queen) 
             → Ashlands (Fader)
+              → Deep North (Frost King)
 ```
 
 Each biome requires better gear, food, and preparations before venturing in.
@@ -66,6 +67,7 @@ Each biome requires better gear, food, and preparations before venturing in.
 | 📦 [Materials & Forging](materials.md) | Ore progression, smelting ratios, station upgrades, pre-boss checklists |
 | ⚔️ [Boss Strategies](boss-strategies.md) | All 7 Forsaken — Eikthyr through Fader — with arena prep and fight tactics |
 | 🛡️ [Equipment & Food](equipment.md) | Armor sets, weapon trees, food tiers, mead recipes, crafting priority |
+| 🧊 [Deep North Complete Guide](deep-north-guide.md) | Final biome — cold survival rework, Frost Forge gear, Icebreaker ship, Frost King boss |
 
 ---
 

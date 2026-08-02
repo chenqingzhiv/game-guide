@@ -1,6 +1,6 @@
 ---
 title: "Valheim Biome Guide — Complete 7-Biome Walkthrough & Survival Guide"
-description: "Complete Valheim biome guide covering all 7 biomes — Meadows through Ashlands. Entry requirements, danger rating, resource tables, recommended gear, base tips, and upcoming Deep North preview."
+description: "Complete Valheim biome guide covering all 8 biomes — Meadows through Deep North. Entry requirements, danger rating, resource tables, recommended gear, base tips, and the Deep North endgame biome."
 ---
 
 # 🌍 Valheim Biome Guide — Complete 7-Biome Walkthrough
@@ -24,7 +24,7 @@ Valheim's world is divided into seven distinct biomes, each harder than the last
 | 5 | 🌾 Plains | Very High | Padded / Root Chest | Yagluth | Black Metal, Barley |
 | 6 | 🌫️ Mistlands | Extreme | Carapace / Feather Cape | The Queen | Black Marble, Soft Tissue |
 | 7 | 🔥 Ashlands | Extreme | Ashlands-tier (Fire Resist) | Fader | Flame Metal, Charcoal |
-| 8 | 🧊 Deep North | ??? (1.0) | TBA | TBA | TBA |
+| 8 | 🧊 Deep North | Extreme | Deep North frost gear (Hearthguard) | Frost King | Void Ore, Glacial Crystal |
 
 ---
 
@@ -470,41 +470,41 @@ Volcanic wasteland at the southern edge of the world. Lava flows, ash storms, an
 
 ---
 
-## 🧊 8. 🔮 Deep North — Coming in 1.0 (Sept 2026)
+## 🧊 8. Deep North — The Final Biome
 
-The Deep North is the **eighth biome** coming with the Valheim 1.0 update (expected September 2026). Currently visible on the world map but inaccessible — a frozen wasteland at the northern edge.
-
-### What We Know (Speculative)
+The Deep North is the **eighth and final biome**, released with the Deep North update. It's a frozen wasteland at the very top of the world — constant twilight, drifting auroras, and brutal blizzards that punish anyone who shows up without proper frost resistance. This is the hardest biome in Valheim, tuned for players who have already cleared the Ashlands.
 
 | Aspect | Details |
 |:-------|:--------|
-| **Theme** | Arctic / glacial / Norse underworld (Helheim) |
-| **Biome mechanic** | Extreme cold — stronger than Mountains. Possibly requires **new resist type** |
-| **New enemy type** | Ice giants? Frost draugr? Boss tied to Hel — the Norse goddess of the dead |
-| **New resources** | Likely: Frost Metal, Ice Stone, Frozen Core |
-| **New boss** | Hel or a frost giant — the final Forsaken |
-| **Story** | The 1.0 update is expected to conclude the main storyline |
-| **Release** | v1.0 — September 2026 (announced by Iron Gate) |
+| **Theme** | Arctic / glacial / Norse underworld — the polar frontier |
+| **Biome mechanic** | Cold-survival rework — scaled Frost Resistance (60+ ambient, 80+ blizzards) + Core Temperature |
+| **New enemy type** | Frost Golems (Frost Cores), Frost Wisps, and the Frost King — the final Forsaken |
+| **New resources** | Permafrost Stone, Frost Core, Glacial Crystal, Arctic Moss, Hearthwood, Void Ore |
+| **New boss** | **Frost King** — summoned at the Altar of Frost with 10 Frost Cores + 5 Glacial Crystals |
+| **New station** | Frost Forge (unlocked with the Glacial Heartstone) |
+| **New transport** | Icebreaker and Snekkja ships — ice-breaking and shallow-draft scouting |
+| **Release** | Deep North update — available now on Steam |
 
 ### How to Prepare
 
-1. **Complete all current progression** — you'll likely need Ashlands-tier gear to survive.
-2. **Save your best meads** — frost resist will be mandatory, possibly a new tier of resists needed.
-3. **Find the Deep North** — sail to the very top of your world map to mark the coastline.
-4. **Build a forward base** — build a coastal outpost on the nearest accessible shore, stocked with Ashlands-tier gear and food.
+1. **Complete all current progression** — you need Ashlands-tier gear to survive the Deep North.
+2. **Build an Icebreaker** (or Snekkja for scouting) — open water sailing won't cut it once you hit ice sheets.
+3. **Stack frost resistance** — Deep North ambient cold needs **60+** frost resist, blizzards need **80+**. The old Wolf Fur cape isn't enough anymore.
+4. **Stock warming supplies** — Hot Stone, Hot Mead, and Heartystew (2 Arctic Moss + 1 Mushroom + 1 Honey) for the 30-minute warmth buff.
+5. **Build a forward base** — a coastal outpost with a portal, stocked with Ashlands-tier gear and food.
 
-### Expected Requirements (Community Estimates)
+### Requirements
 
-> ***This section is speculative and based on biome progression patterns.** *
-
-| Requirement | Expected |
-|:------------|:---------|
+| Requirement | Needed |
+|:------------|:-------|
 | Gear minimum | Ashlands-tier weapons + armor |
-| Food minimum | Ashlands-tier foods (or new Deep North ingredients) |
-| Mead required | Frost Resist + New resist type (if introduced) |
-| New station | Likely a Frozen Forge or similar |
-| Transport | Ashlands ship or new ice-breaking vessel |
-| Boss prep | ~3x more preparation than Fader (community estimate) |
+| Food minimum | Ashlands-tier foods + Heartystew |
+| Mead required | Frost Resist Mead + Hot Mead |
+| New station | Frost Forge (Glacial Heartstone from the Frost King) |
+| Transport | Icebreaker or Snekkja |
+| Boss prep | ≥3x more preparation than Fader — and 3 players on the summoning plates |
+
+> 🧊 For the full Deep North walkthrough — getting there, the cold-survival system, Frost Forge gear, and the complete Frost King boss fight — see the **[Valheim Deep North Complete Guide](deep-north-guide.md)**.
 
 ---
 
@@ -614,4 +614,4 @@ Ashlands     ████████████████████   (ene
 
 ---
 
-> *Data sourced from the [Valheim Wiki](https://valheim.fandom.com/wiki/Biomes), in-game testing (v0.219.14), and community guides. Deep North details are speculative — check the wiki for 1.0 patch notes after release.*
+> *Data sourced from the [Valheim Wiki](https://valheim.fandom.com/wiki/Biomes), in-game testing (v0.219.14), and community guides. Deep North details from the Deep North update — see the [Deep North Complete Guide](deep-north-guide.md).*
