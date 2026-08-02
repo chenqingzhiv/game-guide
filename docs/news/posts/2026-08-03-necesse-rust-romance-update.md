@@ -109,7 +109,7 @@ Raiders prefer **open terrain > doors > walls**, so they'll path toward the easi
 This is where most people go wrong. Traps sit dormant until you wire them:
 
 - Connect **sensors** to your traps so they only fire when hostiles are within ~5 squares
-- Set **timers** to **21 ticks** — a 20-tick timer (1 second) can cause traps to skip a cycle
+- Set **timers** to **22 ticks** — a 20-tick timer (1 second) can cause traps to skip a cycle
 - Use a **zig-zag double line** of traps facing each other so enemies eat damage coming and going
 - **Don't set traps where villagers walk** — use an inverted zone over the kill area, or an **AND gate** wired to a lever you only flip during raids. Otherwise your own farmers become the casualties
 

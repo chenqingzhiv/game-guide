@@ -413,6 +413,7 @@ RELATED_GUIDES = {
         ('moonlight-peaks/fishing-foraging/', 'Fishing & Foraging'),
     ],
     'news/': [
+        ('news/posts/2026-08-03-necesse-rust-romance-update/', 'Necesse Rust & Romance Update: Scrapyard Incursion & Romance Quests'),
         ('news/posts/2026-07-05-enshrouded-horizons-update/', 'Enshrouded Horizons: Where the Game Stands in Mid-2026'),
         ('news/posts/2026-07-05-factorio-space-age-retrospective/', 'Factorio Space Age: Six Months Later — A Retrospective'),
         ('news/posts/2026-07-05-satisfactory-1-0-meta/', 'Satisfactory 1.0 Meta Changes: How the Factory Game Evolved'),
@@ -515,21 +516,30 @@ RELATED_GUIDES = {
     ],
     'news/posts/2026-07-17-stardew-1-7-update/': [
         ('news/', 'News & Updates'),
+        ('news/posts/2026-08-03-necesse-rust-romance-update/', 'Necesse Rust & Romance Update: Scrapyard Incursion & Romance Quests'),
         ('news/posts/2026-07-05-enshrouded-horizons-update/', 'Enshrouded Horizons: Where the Game Stands in Mid-2026'),
         ('news/posts/2026-07-05-factorio-space-age-retrospective/', 'Factorio Space Age: Six Months Later — A Retrospective'),
         ('news/posts/2026-07-05-satisfactory-1-0-meta/', 'Satisfactory 1.0 Meta Changes: How the Factory Game Evolved'),
     ],
     'news/posts/2026-07-18-subnautica-2-announcement/': [
         ('news/', 'News & Updates'),
+        ('news/posts/2026-08-03-necesse-rust-romance-update/', 'Necesse Rust & Romance Update: Scrapyard Incursion & Romance Quests'),
         ('news/posts/2026-07-05-enshrouded-horizons-update/', 'Enshrouded Horizons: Where the Game Stands in Mid-2026'),
         ('news/posts/2026-07-05-factorio-space-age-retrospective/', 'Factorio Space Age: Six Months Later — A Retrospective'),
         ('news/posts/2026-07-05-satisfactory-1-0-meta/', 'Satisfactory 1.0 Meta Changes: How the Factory Game Evolved'),
     ],
     'news/posts/2026-07-19-timberborn-update-7/': [
         ('news/', 'News & Updates'),
+        ('news/posts/2026-08-03-necesse-rust-romance-update/', 'Necesse Rust & Romance Update: Scrapyard Incursion & Romance Quests'),
         ('news/posts/2026-07-05-enshrouded-horizons-update/', 'Enshrouded Horizons: Where the Game Stands in Mid-2026'),
         ('news/posts/2026-07-05-factorio-space-age-retrospective/', 'Factorio Space Age: Six Months Later — A Retrospective'),
         ('news/posts/2026-07-05-satisfactory-1-0-meta/', 'Satisfactory 1.0 Meta Changes: How the Factory Game Evolved'),
+    ],
+    'news/posts/2026-08-03-necesse-rust-romance-update/': [
+        ('news/', 'News & Updates'),
+        ('core-keeper/', 'Core Keeper Guide Hub'),
+        ('news/posts/2026-07-07-7d2d-alpha-22/', '7 Days to Die: Alpha 22 Update'),
+        ('news/posts/2026-07-06-valheim-deep-north/', 'Valheim: Deep North Biome'),
     ],
     'palworld/': [
         ('palworld/beginners-guide/', "Beginner's Guide"),
