@@ -1023,6 +1023,7 @@ RELATED_GUIDES = {
         ('valheim/biomes/', 'Biome Guide'),
         ('valheim/boss-strategies/', 'Boss Strategies'),
         ('valheim/equipment/', 'Equipment & Food'),
+        ('valheim/deep-north-guide/', 'Deep North Guide'),
     ],
     'valheim/base-building/': [
         ('valheim/', 'Valheim'),
@@ -1035,12 +1036,14 @@ RELATED_GUIDES = {
         ('valheim/boss-strategies/', 'Boss Strategies'),
         ('valheim/equipment/', 'Equipment & Food'),
         ('valheim/base-building/', 'Base Building'),
+        ('valheim/deep-north-guide/', 'Deep North Guide'),
     ],
     'valheim/boss-strategies/': [
         ('valheim/', 'Valheim'),
         ('valheim/biomes/', 'Biome Guide'),
         ('valheim/equipment/', 'Equipment & Food'),
         ('valheim/base-building/', 'Base Building'),
+        ('valheim/deep-north-guide/', 'Deep North Guide'),
     ],
     'valheim/building-aesthetics/': [
         ('valheim/', 'Valheim'),
@@ -1059,6 +1062,7 @@ RELATED_GUIDES = {
         ('valheim/biomes/', 'Biome Guide'),
         ('valheim/boss-strategies/', 'Boss Strategies'),
         ('valheim/base-building/', 'Base Building'),
+        ('valheim/deep-north-guide/', 'Deep North Guide'),
     ],
     'valheim/farming-food/': [
         ('valheim/', 'Valheim'),
@@ -1073,6 +1077,12 @@ RELATED_GUIDES = {
         ('valheim/equipment/', 'Equipment & Food'),
     ],
     'valheim/sailing/': [
+        ('valheim/', 'Valheim'),
+        ('valheim/biomes/', 'Biome Guide'),
+        ('valheim/boss-strategies/', 'Boss Strategies'),
+        ('valheim/equipment/', 'Equipment & Food'),
+    ],
+    'valheim/deep-north-guide/': [
         ('valheim/', 'Valheim'),
         ('valheim/biomes/', 'Biome Guide'),
         ('valheim/boss-strategies/', 'Boss Strategies'),
