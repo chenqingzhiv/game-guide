@@ -18,6 +18,11 @@ Stay up to date with the latest game patches, expansion releases, and community 
 
 <div class="grid cards" markdown>
 
+-   :fontawesome-brands-steam: **Necesse Rust & Romance Update — Scrapyard Incursion, Romance & Base Defense**
+    ---
+    Necesse's biggest 2026 update adds a robot Scrapyard incursion, a new boss, settler romance quests and bigger biomes — plus our automated trap-defense guide.
+    [:octicons-arrow-right-24: Read more](posts/2026-08-03-necesse-rust-romance-update.md)
+
 -   :fontawesome-brands-steam: **Valheim: Bog Witch Update Deep Dive**
     ---
     Everything about the new Bog Witch biome, new potions, foods, and QoL changes in the September 2026 content update.
