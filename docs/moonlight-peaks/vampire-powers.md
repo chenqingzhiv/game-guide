@@ -39,12 +39,13 @@ Magic is gated behind the early story, and it unlocks in a fixed order. You can'
 | **Ethereal Axe** | Auto-chop trees (great for wood runs) | High |
 | **Ethereal Pickaxe** | Auto-mine ores — your best friend in the mine | High |
 | **Ethereal Shovel** | Auto-dig dig-spots and tilled soil | Medium |
-| **Ethereal Scythe** | Auto-harvest forage and grass | Medium |
+| **Ethereal Scythe** | Auto-harvest forage and grass — earned by winning the Spring 24 wand duel | Medium |
 
 The spell tiers upgrade as you progress — **Aquaflux** going from 16 to 48 to 144 tiles is the single biggest farming quality-of-life jump in the game. **Ethereal Hands** is worth grabbing as soon as it's available: harvesting 32 crops with one cast turns the morning grind into a two-second cast.
 
-**Two spell-ish upgrades that aren't castable:**
-- **Ethereal Scythe** (auto-harvest) is a reward for winning the **Wand Dueling Tournament** at the **Night of First Blood** festival (Spring 24). Enter with a decent spell loadout and it's yours.
+Most spells unlock as you progress the main questline, but **Ethereal Scythe** is the exception — you learn it by winning the **Wand Dueling Tournament** at the **Night of First Blood** festival (Spring 24), so enter with a decent spell loadout.
+
+**Not exactly a spell:**
 - **Enchanted tools** aren't spells, but they behave like one: buy a gold tool, wait 6 days, then complete the follow-up event to enchant it for **48,000g + the gold tool + 5 Mana Essence**. Enchanted tools cost **zero stamina** — effectively permanent spells for your pickaxe, axe and watering can.
 
 ---
