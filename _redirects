@@ -1,0 +1,2 @@
+# Redirect www subdomain to apex domain (Cloudflare Pages)
+https://www.game-guide.club/* https://game-guide.club/:splat 301
