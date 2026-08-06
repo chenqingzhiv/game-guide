@@ -351,12 +351,14 @@ RELATED_GUIDES = {
         ('moonlight-peaks/beginners-guide/', "Beginner's Guide"),
         ('moonlight-peaks/crops-farming/', 'Crop & Farming Guide'),
         ('moonlight-peaks/vampire-powers/', 'Vampire Powers & Spells'),
+        ('moonlight-peaks/mining-caves/', 'Mining & Cave of Echoes'),
     ],
     'moonlight-peaks/beginners-guide/': [
         ('moonlight-peaks/', '《月光岭物语》(Moonlight Peaks) 完全攻略指南'),
         ('moonlight-peaks/crops-farming/', 'Crop & Farming Guide'),
         ('moonlight-peaks/vampire-powers/', 'Vampire Powers & Spells'),
         ('moonlight-peaks/fishing-foraging/', 'Fishing & Foraging'),
+        ('moonlight-peaks/mining-caves/', 'Mining & Cave of Echoes'),
     ],
     'moonlight-peaks/cooking-recipes/': [
         ('moonlight-peaks/', '《月光岭物语》(Moonlight Peaks) 完全攻略指南'),
@@ -369,6 +371,7 @@ RELATED_GUIDES = {
         ('moonlight-peaks/beginners-guide/', "Beginner's Guide"),
         ('moonlight-peaks/vampire-powers/', 'Vampire Powers & Spells'),
         ('moonlight-peaks/fishing-foraging/', 'Fishing & Foraging'),
+        ('moonlight-peaks/mining-caves/', 'Mining & Cave of Echoes'),
     ],
     'moonlight-peaks/festivals-events/': [
         ('moonlight-peaks/', '《月光岭物语》(Moonlight Peaks) 完全攻略指南'),
@@ -381,6 +384,7 @@ RELATED_GUIDES = {
         ('moonlight-peaks/beginners-guide/', "Beginner's Guide"),
         ('moonlight-peaks/crops-farming/', 'Crop & Farming Guide'),
         ('moonlight-peaks/vampire-powers/', 'Vampire Powers & Spells'),
+        ('moonlight-peaks/mining-caves/', 'Mining & Cave of Echoes'),
     ],
     'moonlight-peaks/money-making/': [
         ('moonlight-peaks/', '《月光岭物语》(Moonlight Peaks) 完全攻略指南'),
@@ -405,12 +409,21 @@ RELATED_GUIDES = {
         ('moonlight-peaks/beginners-guide/', "Beginner's Guide"),
         ('moonlight-peaks/crops-farming/', 'Crop & Farming Guide'),
         ('moonlight-peaks/vampire-powers/', 'Vampire Powers & Spells'),
+        ('moonlight-peaks/mining-caves/', 'Mining & Cave of Echoes'),
     ],
     'moonlight-peaks/vampire-powers/': [
         ('moonlight-peaks/', '《月光岭物语》(Moonlight Peaks) 完全攻略指南'),
         ('moonlight-peaks/beginners-guide/', "Beginner's Guide"),
         ('moonlight-peaks/crops-farming/', 'Crop & Farming Guide'),
         ('moonlight-peaks/fishing-foraging/', 'Fishing & Foraging'),
+    ],
+    'moonlight-peaks/mining-caves/': [
+        ('moonlight-peaks/', '《月光岭物语》(Moonlight Peaks) 完全攻略指南'),
+        ('moonlight-peaks/beginners-guide/', "Beginner's Guide"),
+        ('moonlight-peaks/crops-farming/', 'Crop & Farming Guide'),
+        ('moonlight-peaks/vampire-powers/', 'Vampire Powers & Spells'),
+        ('moonlight-peaks/fishing-foraging/', 'Fishing & Foraging'),
+        ('moonlight-peaks/tools-upgrades/', 'Tool Upgrade Guide'),
     ],
     'news/': [
         ('news/posts/2026-08-03-necesse-rust-romance-update/', 'Necesse Rust & Romance Update: Scrapyard Incursion & Romance Quests'),

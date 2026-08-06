@@ -206,6 +206,7 @@ date: 2026-07-31
 | [作物与 farming 指南](crops-farming.md) | 全作物数据、利润排行、加工路线 |
 | [吸血鬼法术与技能](vampire-powers.md) | 魔杖修复、全法术列表、法力管理 |
 | [钓鱼与采集](fishing-foraging.md) | 钓鱼、捉虫、采矿全攻略 |
+| [采矿与回响洞穴](mining-caves.md) | 矿洞解锁、全矿石位置、熔炼、镐升级 |
 | [NPC与恋爱指南](npc-social.md) | 角色介绍、送礼、结婚流程 |
 | [赚钱路线指南](money-making.md) | 各阶段最佳赚钱策略 |
 | [工具升级指南](tools-upgrades.md) | 升级路线、价格、附魔详解 |
