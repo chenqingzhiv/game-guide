@@ -73,7 +73,7 @@ The two things everyone asks about — **gold ore** and **rose quartz** — are 
 
 ## Pickaxe Upgrade Path
 
-All tool upgrades happen at the **Howling Hammer** (Ridge's shop) in the Ridge, Monday–Friday 6 PM–Midnight. Bring the previous tier plus bars and coins.
+All tool upgrades happen at the **Howling Hammer** (Ridge's shop), Monday–Friday 6 PM–Midnight. Bring the previous tier plus bars and coins.
 
 | Tier | Cost | Materials | Effect |
 |------|------|-----------|--------|

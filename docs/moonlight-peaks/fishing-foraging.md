@@ -22,4 +22,6 @@ Unlock: Orlock chain to Death (~Night 12).
 Soul Blobs: Collect 100 for Antique Clock (25 min nights).
 
 ## Mining
-Abandoned Mine: Copper (upper), Iron (mid), Gold (deep).
+Cave of Echoes (Misty Shores, southwest of town): Copper anywhere, Iron in the deeper grey/silver rocks, Gold in the eastern lake and northern ledge areas (needs Iron Pickaxe + Mermaid/Bat form).
+
+Full ore locations, smelting recipes and pickaxe tiers: [Mining & Cave of Echoes](mining-caves.md).
