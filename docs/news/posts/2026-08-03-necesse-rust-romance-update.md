@@ -144,3 +144,5 @@ The Rust & Romance update launched alongside a **Steam Free Weekend** running th
 **My verdict, first-person:** I've put roughly 40 hours into Necesse across the free weekend and I'm buying it at $7.49 without hesitation. At that price the 93%-positive rating and Steam Deck verification are almost a no-brainer. The Scrapyard incursion gives veterans something genuinely new to chase, the romance system is a fun hook for colony-management players, and the automation + trap-defense loop is the game at its best. The only real knock is the simple pixel-art visuals and a UI that can feel clunky — neither of which bothered me after the first hour.
 
 If you've been waiting for a reason to try a *Terraria*-meets-*RimWorld* sandbox, this is the moment. Grab it during the free weekend, and don't forget to queue up that flower.
+
+New to Necesse? Check out our **[Necesse Beginner's Guide](/necesse/beginners-guide/)** — first-day survival, settlement automation, housing & jobs, and the full Elder-quest boss progression order.

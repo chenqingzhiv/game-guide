@@ -550,9 +550,20 @@ RELATED_GUIDES = {
     ],
     'news/posts/2026-08-03-necesse-rust-romance-update/': [
         ('news/', 'News & Updates'),
+        ('necesse/', 'Necesse Guide Hub'),
+        ('necesse/beginners-guide/', "Necesse Beginner's Guide"),
         ('core-keeper/', 'Core Keeper Guide Hub'),
         ('news/posts/2026-07-07-7d2d-alpha-22/', '7 Days to Die: Alpha 22 Update'),
         ('news/posts/2026-07-06-valheim-deep-north/', 'Valheim: Deep North Biome'),
+    ],
+    'necesse/': [
+        ('necesse/beginners-guide/', "Beginner's Guide"),
+        ('news/posts/2026-08-03-necesse-rust-romance-update/', 'Necesse Rust & Romance Update: Scrapyard Incursion & Romance Quests'),
+    ],
+    'necesse/beginners-guide/': [
+        ('necesse/', 'Necesse Guide Hub'),
+        ('news/posts/2026-08-03-necesse-rust-romance-update/', 'Necesse Rust & Romance Update: Scrapyard Incursion & Romance Quests'),
+        ('core-keeper/', 'Core Keeper Guide Hub'),
     ],
     'palworld/': [
         ('palworld/beginners-guide/', "Beginner's Guide"),
