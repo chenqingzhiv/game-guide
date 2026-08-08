@@ -25,7 +25,7 @@ Necesse is an action-RPG + dungeon crawler + colony simulator + survival sandbox
 | **Current Version** | 1.3.0 "Rust & Romance" (July 30, 2026) |
 | **Multiplayer** | Co-op supported |
 
-**If you like:** Terraria, RimWorld, Core Keeper, Starbound — Necesse sits right between them.
+**If you like:** Terraria, RimWorld, [Core Keeper](/core-keeper/), Starbound — Necesse sits right between them. For more colony-automation and survival guides, see the [Timberborn guide hub](/timberborn/) or the [Valheim guide hub](/valheim/).
 
 ## Game Features
 

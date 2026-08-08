@@ -247,6 +247,15 @@
       <span class="mag-game-count">3 guides</span>
     </div>
   </a>
+
+  <a href="necesse/" class="mag-game-card mag-game-survival">
+    <img class="mag-game-img" src="assets/images/necesse/necesse-beginners-hero.webp" alt="Necesse" loading="lazy">
+    <div class="mag-game-info">
+      <span class="mag-game-name">🌍 Necesse</span>
+      <p class="mag-game-sub">Colony survival with settlement automation</p>
+      <span class="mag-game-count">2 guides</span>
+    </div>
+  </a>
 </div>
 
 <!-- ==================== -->

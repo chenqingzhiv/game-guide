@@ -195,4 +195,12 @@ At its frequent 50% discount it's a no-brainer — 93% positive, Steam Deck veri
 
 ---
 
+## Related Guides
+
+- 🌍 [Core Keeper Beginner's Guide](/core-keeper/) — the same top-down mining-and-survival loop, but with biome bosses and auto-farming
+- 🌿 [Timberborn Complete Guide](/timberborn/) — colony automation with a beaver twist
+- ⚔️ [Valheim Guide Hub](/valheim/) — viking survival, base building, and boss progression
+
+---
+
 *This guide covers Necesse as of version 1.3.0 (July 2026). For the full patch breakdown and the complete automated-defense walkthrough, see the [Rust & Romance update post](/news/posts/2026-08-03-necesse-rust-romance-update/).*
