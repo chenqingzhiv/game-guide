@@ -39,7 +39,7 @@ Terraria is a **2D action-adventure sandbox** where you dig, build, fight, and e
 
 ## Your First Night: Survive or Die
 
-A full Terraria day is **15 real minutes** — about 10.5 minutes of daylight, then nightfall at **7:30 PM** brings zombies, flying eyes, and Demon Eyes. Your only goal on day one is to survive until **4:30 AM**. Here's the exact checklist.
+A full Terraria day is **15 real minutes** — about **9.4 minutes of daylight** (4:30 AM–7:30 PM), then nightfall brings zombies, flying eyes, and Demon Eyes. Your only goal on day one is to survive until **4:30 AM**. Here's the exact checklist.
 
 ![Terraria first-night survival checklist — chop, craft, mine, shelter, light, survive](/assets/images/terraria/terraria-first-night.webp)
 
@@ -90,15 +90,15 @@ Your entire early game is a climb through ore tiers. Each tier unlocks the next,
 |:---------|:-----------------|:-----------------------|
 | **Copper / Tin** | Near the surface | First tools + armor; the very first tier |
 | **Iron / Lead** | Upper underground | Iron pickaxe, anvils, buckets — the real workhorse tier |
-| **Silver / Tungsten** | Mid underground | Better armor; the Merchant sells a radar once you have some |
+| **Silver / Tungsten** | Mid underground | Better armor; a stepping stone to gold-tier gear |
 | **Gold / Platinum** | Deep underground | Gold pickaxe + armor — the gate to the Desert and Jungle |
 | **Demonite / Crimtane** | Corruption / Crimson | Found from first bosses; Demonite/Crimtane armor + pickaxe |
-| **Hellstone** | The Underworld (bottom of the world) | **Molten armor** — the best pre-Hardmode set, made with Hellstone bars |
+| **Hellstone** | The Underworld (bottom of the world) | **Molten armor** — the best pre-Hardmode set; requires the Nightmare/Deathbringer pickaxe to mine |
 | **Cobalt / Palladium** | Hardmode, after breaking altars | The first Hardmode tier — beat the mechanical bosses with this |
 | **Mythril / Orichalcum** | Hardmode, deeper | Second Hardmode tier; needs a Mythril Anvil |
 | **Adamantite / Titanium** | Hardmode, very deep | Third Hardmode tier — endgame armor is built from here |
 
-**Armor strategy:** Don't obsess over crafting every tier. Skip a tier when you can — e.g. go straight from Gold to Molten — and spend the saved ore on weapons and accessories. Defense is great, but **a bigger pickaxe and a better weapon win fights faster.**
+**Armor strategy:** Don't obsess over crafting every tier. Skip a tier when you can — e.g. go straight from Iron/Lead to Gold/Platinum — and spend the saved ore on weapons and accessories. One catch: **Molten gear is locked behind the Nightmare/Deathbringer pickaxe.** Gold-tier picks (55–59% pickaxe power) can't break Hellstone — beat Eater of Worlds / Brain of Cthulhu first, craft the Demonite/Crimtane pickaxe, and only then mine the Underworld. Defense is great, but **a bigger pickaxe and a better weapon win fights faster.**
 
 ---
 
@@ -110,9 +110,9 @@ The world opens up in a specific order. Here's the tour, roughly in difficulty o
 |:------|:-------------|:-------------|
 | **Forest** | Low | Your spawn area — wood, slimes, bunnies, early caves |
 | **Desert** | Low–Medium | Cacti, antlions, and the Underground Desert with good early loot |
-| **Snow / Tundra** | Medium | Frost armor materials, the Snowman mini-boss area, Ice biome chests |
+| **Snow / Tundra** | Medium | Ice-themed early gear, the Snowman mini-boss area, Ice biome chests |
 | **Corruption / Crimson** | Medium–High | Your world's "evil" biome — Demonite/Crimtane, the first major boss |
-| **Jungle** | High | The richest biome — vines, jungle armor, Queen Bee, and the best early ore |
+| **Jungle** | High | The richest biome — rich loot, jungle armor, and Queen Bee (its signature ore, Chlorophyte, is Hardmode) |
 | **Dungeon** | High (post-Skeletron) | A massive brick labyrinth with unique gear and the Old Man's boss |
 | **Underworld** | Very High | Hellstone, fire imps, and the **Wall of Flesh** — the Hardmode gatekeeper |
 
@@ -184,7 +184,7 @@ The 1.4.5 "Bigger & Boulder" update (January 27, 2026) is the biggest patch sinc
 | ⚒️ **Palworld crossover** | Cattiva & Foxparks summon weapons, Chillet & Chillet Ignis mounts, Digtoise pet, Pal Metal vanity |
 | 👾 **New slimes & whips** | Cloud, Moonglow, and Dart Trap slimes; new whips and Summoner prefixes |
 | 🦇 **Transformations** | Turn into a bat or rat — a fun vanity/practical twist |
-| 🎮 **Spectator mode & portraits** | Dead players can spectate; NPCs got portraits and no longer need houses to spawn |
+| 🎮 **Spectator mode & portraits** | Dead players can spectate; NPCs got new character portraits |
 | 🌐 **Crossplay rollout** | PC, Mobile, and Dedicated Servers are already cross-compatible; consoles are next in 2026 |
 
 **The one trap to avoid:** 650+ new items sounds like a reason to keep your old world — but **most 1.4.5 content only generates in new worlds**. Make a fresh one. It's the best way to see the update.
@@ -207,7 +207,7 @@ The 1.4.5 "Bigger & Boulder" update (January 27, 2026) is the biggest patch sinc
 ## FAQ
 
 **Q: How long is the Terraria day?**
-A full day/night cycle is 15 real minutes — about 10.5 minutes of daylight, then night from 7:30 PM to 4:30 AM.
+A full day/night cycle is 15 real minutes — about **9.4 minutes of daylight** (4:30 AM–7:30 PM) and **5.6 minutes of night** (7:30 PM–4:30 AM).
 
 **Q: What's the best class for a beginner?**
 Melee. The extra defense keeps you alive while you learn boss patterns. Ranged is the next-easiest, and Summoner is the most powerful late-game if you know what you're doing.
