@@ -565,6 +565,17 @@ RELATED_GUIDES = {
         ('news/posts/2026-08-03-necesse-rust-romance-update/', 'Necesse Rust & Romance Update: Scrapyard Incursion & Romance Quests'),
         ('core-keeper/', 'Core Keeper Guide Hub'),
     ],
+    'terraria/': [
+        ('terraria/beginners-guide/', "Beginner's Guide"),
+        ('core-keeper/', 'Core Keeper Guide Hub'),
+        ('necesse/', 'Necesse Guide Hub'),
+    ],
+    'terraria/beginners-guide/': [
+        ('terraria/', 'Terraria Guide Hub'),
+        ('core-keeper/', 'Core Keeper Guide Hub'),
+        ('necesse/', 'Necesse Guide Hub'),
+        ('minecraft/', 'Minecraft Guide Hub'),
+    ],
     'palworld/': [
         ('palworld/beginners-guide/', "Beginner's Guide"),
         ('palworld/1.0-guide/', '1.0 Update Guide'),

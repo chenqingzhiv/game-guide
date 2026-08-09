@@ -256,6 +256,15 @@
       <span class="mag-game-count">2 guides</span>
     </div>
   </a>
+
+  <a href="terraria/" class="mag-game-card mag-game-survival">
+    <img class="mag-game-img" src="assets/images/terraria/terraria-beginners-hero.webp" alt="Terraria" loading="lazy">
+    <div class="mag-game-info">
+      <span class="mag-game-name">🗺️ Terraria</span>
+      <p class="mag-game-sub">2D sandbox with classes, bosses & 1.4.5</p>
+      <span class="mag-game-count">2 guides</span>
+    </div>
+  </a>
 </div>
 
 <!-- ==================== -->
