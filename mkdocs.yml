@@ -46,11 +46,10 @@ plugins:
   - glightbox
   - redirects:
       redirect_maps:
-        timberborn.md: timberborn/index.md
-        factorio.md: factorio/index.md
-        dyson.md: dyson/index.md
-        shapez2.md: shapez2/index.md
-        grounded.md: grounded/index.md
+        # Only redirects whose source URL differs from the target directory are safe.
+        # Source basename == target dir name (timberborn.md -> timberborn/) generates a
+        # self-redirect stub that clobbers the real hub page — see SEO-155. Keep stardew.md
+        # (old slug -> /stardew-valley/) which resolves to a distinct URL.
         stardew.md: stardew-valley/index.md
 
 extra_javascript:
