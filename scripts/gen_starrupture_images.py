@@ -98,8 +98,8 @@ def hero():
         rrect(d, (x * SS, 460 * SS, (x + chip_w) * SS, 510 * SS), 16, fill=PANEL_BG, outline=AMBER, width=2)
         f = fit_font(chip, chip_w - 24, 28, bold=True)
         ctext(d, (x + chip_w / 2, 485), chip, f, fill=TEXT)
-    ctext(d, (W / 2, 612), "Satisfactory meets Factorio on a hostile alien moon — out now on Steam",
-          fit_font("Satisfactory meets Factorio on a hostile alien moon — out now on Steam", W - 80, 27, bold=True),
+    ctext(d, (W / 2, 612), "Satisfactory meets Factorio on a hostile alien planet — out now on Steam",
+          fit_font("Satisfactory meets Factorio on a hostile alien planet — out now on Steam", W - 80, 27, bold=True),
           fill=MUTED)
     save(img, "starrupture-beginners-hero.webp")
 
@@ -146,7 +146,6 @@ def corporations():
     ctext(d, (W / 2, 136), "Level them by exporting materials — don't burn Data Points here", font(29), fill=MUTED)
 
     corps = [
-        ("TRAINING", GREEN, "Early automation", "Solar, Excavator, Smelter"),
         ("MOON ENERGY", AMBER, "Power + Map", "Recipe Station, Map (Lv3)"),
         ("SELENIAN", ORANGE, "Materials", "Fabricator (Lv2), Furnace"),
         ("CLEVER ROBOTICS", BLUE, "Logistics", "OCL, Rails, Building Drone"),
@@ -168,6 +167,11 @@ def corporations():
         ctext(d, (x + bw / 2, y + 78), sub, f, fill=TEXT)
         fs = fit_font(extra, bw - 24, 21, bold=False)
         ctext(d, (x + bw / 2, y + 122), extra, fs, fill=MUTED)
+    # Training is the tutorial track (separate from the five main corporations)
+    rrect(d, (x0 * SS, 560 * SS, (W - x0) * SS, 602 * SS), 16, fill=PANEL_BG2, outline=GREEN, width=2)
+    ctext(d, (W / 2, 581), "Tutorial:  Training  unlocks Solar Generator v.1, Ore Excavator & Smelter (first hour only)",
+          fit_font("Tutorial:  Training  unlocks Solar Generator v.1, Ore Excavator & Smelter (first hour only)", W - 2 * x0 - 40, 25, bold=True),
+          fill=GREEN)
     rrect(d, (x0 * SS, 618 * SS, (W - x0) * SS, 666 * SS), 16, fill=PANEL_BG2, outline=AMBER, width=2)
     ctext(d, (W / 2, 642), "First targets:  Moon Energy Lv3 (Map)  →  Selenian Lv2 (Fabricator)  →  Griffits Blue Lv2 (Pistol)",
           fit_font("First targets:  Moon Energy Lv3 (Map)  →  Selenian Lv2 (Fabricator)  →  Griffits Blue Lv2 (Pistol)", W - 2 * x0 - 40, 27, bold=True),

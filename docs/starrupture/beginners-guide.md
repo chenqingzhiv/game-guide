@@ -12,7 +12,7 @@ tags: [StarRupture, survival, factory, automation, base building, beginner guide
 **Genre:** Open-world survival / factory automation / base building
 **Platforms:** PC (Steam) | **Multiplayer:** Solo or up to 4-player co-op
 
-StarRupture is the breakout factory-survival game of 2026: **Creepy Jar** — the Polish studio behind *Green Hell* — drops you on Arcadia-7, a hostile alien moon whose star erupts in repeated cataclysms. It's *Satisfactory* meets *Factorio* on an alien planet, with survival mechanics and alien hordes on top. It topped Steam's best-seller charts within days of its Early Access launch, and its **Very Positive** rating says the factory loop is the real deal. This guide gets you through the first hour, the first Rupture, and your first fully automated production line.
+StarRupture is the breakout factory-survival game of 2026: **Creepy Jar** — the Polish studio behind *Green Hell* — drops you on Arcadia-7, a hostile alien planet whose star erupts in repeated cataclysms. It's *Satisfactory* meets *Factorio* on an alien planet, with survival mechanics and alien hordes on top. It topped Steam's best-seller charts within days of its Early Access launch, and its **Mostly Positive** rating says the factory loop is the real deal. This guide gets you through the first hour, the first Rupture, and your first fully automated production line.
 
 ![StarRupture hero banner — survive Arcadia-7, automate your first factory, and ride out the Rupture waves](/assets/images/starrupture/starrupture-beginners-hero.webp)
 
@@ -20,7 +20,7 @@ StarRupture is the breakout factory-survival game of 2026: **Creepy Jar** — th
 
 ## What Is StarRupture, Really?
 
-You are a **prisoner serving a sentence on Arcadia-7**, doing the only work that matters out here: mining, refining, and shipping resources for the five corporations that run the moon. The catch — beyond your sentence — is the environment. The planet's sun, **Ruptura**, periodically erupts in solar storms that incinerate the surface. Between eruptions you build, automate, and expand; when the warnings sound, you drop everything and get inside.
+You are a **prisoner serving a sentence on Arcadia-7**, doing the only work that matters out here: mining, refining, and shipping resources for the five corporations that run the planet. The catch — beyond your sentence — is the environment. The planet's sun, **Ruptura**, periodically erupts in solar storms that incinerate the surface. Between eruptions you build, automate, and expand; when the warnings sound, you drop everything and get inside.
 
 **The core loop:** Hand-mine resources → build automation (excavators, rails, smelters) → refine ores into components → ship goods to orbital corporations via the **Orbital Cargo Launcher** → unlock better tech → survive the next Rupture and build bigger.
 
@@ -29,11 +29,11 @@ You are a **prisoner serving a sentence on Arcadia-7**, doing the only work that
 | **Developer / Publisher** | Creepy Jar (creators of *Green Hell*) |
 | **Early Access Launch** | January 6, 2026 (Steam) |
 | **Steam Price** | $19.99 (launch promo $15.99) |
-| **Player Rating** | Very Positive (thousands of reviews) |
+| **Player Rating** | Mostly Positive (~81% of thousands of reviews) |
 | **Platforms** | PC (Steam) |
 | **Multiplayer** | 1–4 players co-op (dedicated servers experimental) |
 | **Engine** | Unreal Engine 5 |
-| **Setting** | Arcadia-7, an alien moon orbiting the erupting star Ruptura |
+| **Setting** | Arcadia-7, a hostile alien planet orbiting the erupting star Ruptura |
 
 **If you like:** [Satisfactory](/satisfactory/), [Factorio](/factorio/), [Subnautica](/subnautica/), [Valheim](/valheim/) — StarRupture sits at the junction of factory automation and hostile-planet survival. For more automation, see the [Satisfactory guide hub](/satisfactory/); for more hostile-planet survival, see the [Subnautica guide hub](/subnautica/).
 
@@ -41,7 +41,7 @@ You are a **prisoner serving a sentence on Arcadia-7**, doing the only work that
 
 ## Your Vital Signs: Calories, Hydration & Toxicity
 
-Your HUD tracks four things that actually matter for survival. The first two are the classic hunger/thirst pair; the third is what makes Arcadia-7 special.
+Your HUD tracks five things that actually matter for survival. The first two are the classic hunger/thirst pair, the third is the survival-game twist that makes Arcadia-7 special, and the last two cover your combat readiness and stamina.
 
 | Stat | What it does | How to fix it |
 |:-----|:-------------|:--------------|
@@ -143,13 +143,12 @@ The whole game is one conveyor-fed chain, and it doesn't get more complicated th
 
 ## The Five Corporations: What to Level First
 
-Every building and recipe in the game is gated behind **five corporations**, each with its own level track. You level them by **exporting materials via the Orbital Cargo Launcher** (the scalable, long-term method) or by spending **Data Points** at the Corporate Terminal (fast but wasteful early — save DP for recipes).
+Every building and recipe in the game is gated behind **five corporations**, each with its own level track. (A sixth track, **Training**, only appears during the tutorial — it unlocks your very first Solar Generator, Ore Excavator, Rails, and Smelter, then steps aside for the real five.) You level them by **exporting materials via the Orbital Cargo Launcher** (the scalable, long-term method) or by spending **Data Points** at the Corporate Terminal (fast but wasteful early — save DP for recipes).
 
-![StarRupture corporations — Training, Moon Energy, Selenian, Clever Robotics, Griffits Blue, Future Health](/assets/images/starrupture/starrupture-corporations.webp)
+![StarRupture's five main corporations — Moon Energy, Selenian, Clever Robotics, Griffits Blue, Future Health](/assets/images/starrupture/starrupture-corporations.webp)
 
 | Corporation | Focus | Headline unlocks |
 |:------------|:------|:-----------------|
-| **Training** | Early automation | Solar Generator v.1, Ore Excavator, Rails, Smelter |
 | **Moon Energy** | Power & mapping | **Recipe Station (Lv2)**, **Map (Lv3)**, Wind Turbine |
 | **Selenian** | Materials & mining | Base Core, **Fabricator (Lv2)**, Furnace (Lv4), Helium-3 Extractor (Lv6), Refinery & Sulfur Extractor (Lv9), Assembler (Lv10) |
 | **Clever Robotics** | Logistics & automation | **Orbital Cargo Launcher**, Rails (v.1–v.3), Storage Depot, **Building Drone (Lv4)**, Cargo Dispatcher/Receiver (Lv7) |
@@ -182,7 +181,7 @@ Every building and recipe in the game is gated behind **five corporations**, eac
 
 **Where to spend DP:** the **Recipe Station** (Moon Energy Lv2) is where recipes get unlocked. Pick a station tab (Smelter, Fabricator, Furnace, Food Station…), then spend the required materials **plus** Data Points to unlock its recipes. **Don't dump DP into corporations** — level those by launching exports instead, and save DP for recipes.
 
-**Blueprints:** advanced recipes need **Blueprints**, found in **Blue Chests** inside **Abandoned Settlements** scattered across the moon (expect Vermin and Rupture risk at each one). Get the **Map** before blueprint hunting — you'll waste hours wandering otherwise.
+**Blueprints:** advanced recipes need **Blueprints**, found in **Blue Chests** inside **Abandoned Settlements** scattered across the planet (expect Vermin and Rupture risk at each one). Get the **Map** before blueprint hunting — you'll waste hours wandering otherwise.
 
 ---
 
@@ -247,7 +246,7 @@ Southwest, near the Orbital Lander, against a cliff, beside clustered Titanium a
 Carry the emergency kit (1 Meteor Heart + 100+ BBM) and drop an emergency Habitat + airlock the second the countdown starts. Everything refunds at 100% when you deconstruct.
 
 **Q: Is the game worth playing in Early Access?**
-If you like factory games, yes — the automation loop is solid and the Very Positive rating backs it up. If you want polished UI and complete content, a few major updates might suit you better. It's also on sale more often than most EA titles.
+If you like factory games, yes — the automation loop is solid and the Mostly Positive rating backs it up. If you want polished UI and complete content, a few major updates might suit you better. It's also on sale more often than most EA titles.
 
 **Q: How does StarRupture compare to Satisfactory / Factorio?**
 It's the survival-ier cousin of both: [Satisfactory](/satisfactory/) gives you a friendlier 3D world with less pressure, [Factorio](/factorio/) gives you deeper optimization with no survival layer — StarRupture puts a survival and combat layer on top of the factory grind. See the [game comparison](/games/comparison/) for how all three stack up.

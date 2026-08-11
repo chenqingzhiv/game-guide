@@ -194,7 +194,7 @@
     <img class="mag-game-img" src="assets/images/starrupture/starrupture-beginners-hero.webp" alt="StarRupture" loading="lazy">
     <div class="mag-game-info">
       <span class="mag-game-name">🪐 StarRupture</span>
-      <p class="mag-game-sub">Factory survival on a hostile alien moon</p>
+      <p class="mag-game-sub">Factory survival on a hostile alien planet</p>
       <span class="mag-game-count">1 guide</span>
     </div>
   </a>
