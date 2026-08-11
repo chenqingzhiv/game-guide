@@ -895,6 +895,17 @@ RELATED_GUIDES = {
         ('sts2/major-update-2-guide/', 'Major Update 2 Guide'),
         ('sts2/v0.108.0-update/', 'V0.108.0 Update'),
     ],
+    'starrupture/': [
+        ('starrupture/beginners-guide/', "Beginner's Guide"),
+        ('satisfactory/', 'Satisfactory Guide Hub'),
+        ('factorio/', 'Factorio Guide Hub'),
+    ],
+    'starrupture/beginners-guide/': [
+        ('starrupture/', 'StarRupture Guide Hub'),
+        ('satisfactory/', 'Satisfactory Guide Hub'),
+        ('factorio/', 'Factorio Guide Hub'),
+        ('subnautica/', 'Subnautica Guide Hub'),
+    ],
     'subnautica/': [
         ('subnautica/beginners-guide/', "Beginner's Guide"),
         ('subnautica/biomes/', 'Biomes Guide'),

@@ -124,6 +124,9 @@ nav:
     - 🚂 Train Guide: satisfactory/trains.md
     - 🔄 Alternate Recipes: satisfactory/alternate-recipes.md
     - 🆕 Beginners Tips: satisfactory/beginners-tips.md
+  - 🪐 StarRupture:
+    - starrupture/index.md
+    - 🆕 Beginner's Guide: starrupture/beginners-guide.md
   - 💡 Factorio:
     - factorio/index.md
     - 📊 Production Ratios: factorio/production-ratios.md
