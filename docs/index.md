@@ -274,6 +274,15 @@
       <span class="mag-game-count">2 guides</span>
     </div>
   </a>
+
+  <a href="project-zomboid/" class="mag-game-card mag-game-survival">
+    <img class="mag-game-img" src="assets/images/project-zomboid/zomboid-beginners-hero.webp" alt="Project Zomboid" loading="lazy">
+    <div class="mag-game-info">
+      <span class="mag-game-name">🧟 Project Zomboid</span>
+      <p class="mag-game-sub">Isometric zombie survival with no cure</p>
+      <span class="mag-game-count">1 guide</span>
+    </div>
+  </a>
 </div>
 
 <!-- ==================== -->

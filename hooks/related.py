@@ -5,6 +5,7 @@ RELATED_GUIDES = {
         ('7-days-to-die/beginners-guide/', "Beginner's Guide"),
         ('7-days-to-die/base-building/', 'Base Building'),
         ('7-days-to-die/weapons-database/', 'Weapons & Tools Database'),
+        ('project-zomboid/', 'Project Zomboid Guide Hub'),
     ],
     '7-days-to-die/base-building/': [
         ('7-days-to-die/', '7 Days to Die Guide Hub'),
@@ -17,6 +18,7 @@ RELATED_GUIDES = {
         ('7-days-to-die/base-building/', 'Base Building'),
         ('7-days-to-die/weapons-database/', 'Weapons & Tools Database'),
         ('7-days-to-die/loot-progression/', 'Loot Stage & Progression'),
+        ('project-zomboid/', 'Project Zomboid Guide Hub'),
     ],
     '7-days-to-die/loot-progression/': [
         ('7-days-to-die/', '7 Days to Die Guide Hub'),
@@ -29,6 +31,19 @@ RELATED_GUIDES = {
         ('7-days-to-die/beginners-guide/', "Beginner's Guide"),
         ('7-days-to-die/base-building/', 'Base Building'),
         ('7-days-to-die/loot-progression/', 'Loot Stage & Progression'),
+    ],
+    'project-zomboid/': [
+        ('project-zomboid/beginners-guide/', "Beginner's Guide"),
+        ('7-days-to-die/', '7 Days to Die Guide Hub'),
+        ('valheim/', 'Valheim Guide Hub'),
+        ('sons-forest/', 'Sons of the Forest Guide Hub'),
+    ],
+    'project-zomboid/beginners-guide/': [
+        ('project-zomboid/', 'Project Zomboid Guide Hub'),
+        ('7-days-to-die/', '7 Days to Die Guide Hub'),
+        ('7-days-to-die/beginners-guide/', "7 Days to Die Beginner's Guide"),
+        ('valheim/', 'Valheim Guide Hub'),
+        ('sons-forest/', 'Sons of the Forest Guide Hub'),
     ],
     'core-keeper/': [
         ('core-keeper/beginners-guide/', "Beginner's Guide"),
@@ -803,6 +818,7 @@ RELATED_GUIDES = {
         ('sons-forest/caves-walkthrough/', 'Caves & Walkthrough'),
         ('sons-forest/items-weapons/', 'Items & Weapons'),
         ('sons-forest/crafting/', 'Crafting & Building'),
+        ('project-zomboid/', 'Project Zomboid Guide Hub'),
     ],
     'sons-forest/caves-walkthrough/': [
         ('sons-forest/', 'Sons of the Forest'),
@@ -1071,6 +1087,7 @@ RELATED_GUIDES = {
         ('valheim/boss-strategies/', 'Boss Strategies'),
         ('valheim/equipment/', 'Equipment & Food'),
         ('valheim/deep-north-guide/', 'Deep North Guide'),
+        ('project-zomboid/', 'Project Zomboid Guide Hub'),
     ],
     'valheim/beginners-guide/': [
         ('valheim/', 'Valheim Guide Hub'),
@@ -1079,6 +1096,7 @@ RELATED_GUIDES = {
         ('valheim/base-building/', 'Base Building'),
         ('valheim/equipment/', 'Equipment & Food'),
         ('valheim/deep-north-guide/', 'Deep North Guide'),
+        ('project-zomboid/', 'Project Zomboid Guide Hub'),
     ],
     'valheim/base-building/': [
         ('valheim/', 'Valheim'),
