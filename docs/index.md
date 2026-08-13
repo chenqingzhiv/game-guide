@@ -283,6 +283,15 @@
       <span class="mag-game-count">1 guide</span>
     </div>
   </a>
+
+  <a href="mandate-order/" class="mag-game-card mag-game-survival">
+    <img class="mag-game-img" src="assets/images/mandate-order/mandate-order-hero.webp" alt="Mandate Order" loading="lazy">
+    <div class="mag-game-info">
+      <span class="mag-game-name">🏯 Mandate Order</span>
+      <p class="mag-game-sub">Warring-State city-builder where farmers become soldiers</p>
+      <span class="mag-game-count">1 guide</span>
+    </div>
+  </a>
 </div>
 
 <!-- ==================== -->

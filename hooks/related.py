@@ -311,9 +311,22 @@ RELATED_GUIDES = {
     ],
     'manor-lords/': [
         ('manor-lords/beginners-guide/', "Beginner's Guide"),
+        ('mandate-order/', 'Mandate Order Guide Hub'),
     ],
     'manor-lords/beginners-guide/': [
         ('manor-lords/', 'Manor Lords Guide — Beginner Tips, Build Order & 0.8 Update Notes'),
+        ('mandate-order/beginners-guide/', "Mandate Order Beginner's Guide"),
+    ],
+    'mandate-order/': [
+        ('mandate-order/beginners-guide/', "Beginner's Guide"),
+        ('manor-lords/', 'Manor Lords Guide Hub'),
+        ('fire-phoenix/', 'Three Kingdoms: Fire Phoenix Guide Hub'),
+    ],
+    'mandate-order/beginners-guide/': [
+        ('mandate-order/', 'Mandate Order Guide Hub'),
+        ('manor-lords/', 'Manor Lords Guide Hub'),
+        ('manor-lords/beginners-guide/', "Manor Lords Beginner's Guide"),
+        ('fire-phoenix/', 'Three Kingdoms: Fire Phoenix Guide Hub'),
     ],
     'minecraft/': [
         ('minecraft/beginners-guide/', "Beginner's Guide"),
