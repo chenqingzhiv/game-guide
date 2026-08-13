@@ -11,7 +11,7 @@ description: "Complete Valheim Deep North guide for the Deep North update: how t
 
 The Deep North is Valheim's **eighth and final biome** — a frozen wasteland at the top of the world where the sun never fully rises and the aurora never stops dancing. The Deep North update adds the whole frozen region, a complete **cold-survival rework**, two new ships built for ice, a new endgame crafting tier at the **Frost Forge**, and a genuinely brutal final boss: the **Frost King**.
 
-This guide covers everything you need to know — getting there, staying warm, gearing up, and taking the Frost King down for good.
+This guide covers everything you need to know — getting there, staying warm, gearing up, and taking the Frost King down for good. Still early in your run? The [Beginner's Guide](/valheim/beginners-guide/) walks the whole journey up to this point.
 
 ![Valheim Deep North hero — the frozen polar biome under a green and purple aurora](/assets/images/valheim/deep-north-hero.webp){: .game-hero }
 

@@ -9,7 +9,7 @@ tags: [Valheim, beginner guide, survival, base building, progression, boss guide
 
 **Developer:** Iron Gate Studio | **Publisher:** Coffee Stain Publishing
 **Steam Price:** $19.99 (rising to $29.99 at the 1.0 launch on September 9, 2026) | **Status:** Early Access since Feb 2, 2021 → full release Sept 9, 2026
-**Genre:** Co-op survival / action RPG / base building | **Platforms:** PC, Xbox, PlayStation, Linux, Mac
+**Genre:** Co-op survival / action RPG / base building | **Platforms:** PC, Xbox, PlayStation, Switch 2, Linux, Mac
 **Multiplayer:** 1–10 players, co-op or dedicated servers | **Game version:** 0.219.14+
 
 You are a fallen Viking. Odin has dragged your soul from Valhalla and dumped it on the shore of the **Tenth World** — a brutal, procedurally generated purgatory inspired by Norse myth. Your job: survive your first night, kill the Forsaken, and prove yourself worthy of the gods. That's the whole pitch, and it's been the pitch since Valheim exploded out of Early Access in 2021 and became one of the best-selling survival games ever made. In 2026 the world is bigger than ever — eight biomes, eight bosses, and the final **Deep North** biome now live on the map. This guide walks you through the first hours the way I wish someone had walked me: what to do on day one, how the survival systems *actually* work, which biome comes after which, and how to beat your first boss without rage-quitting at 2 a.m.
@@ -31,7 +31,7 @@ Strip away the hype and Valheim is a survival game with a surprisingly tight loo
 | **Full 1.0 release** | September 9, 2026 (PC, Xbox, PlayStation, Switch 2; crossplay) |
 | **Steam price** | $19.99 today; $29.99 after 1.0 (existing owners keep it) |
 | **Player rating** | Very Positive — one of the most-reviewed survival games on Steam |
-| **Platforms** | PC (Steam), Xbox One/Series X\|S, PS5, Linux, Mac |
+| **Platforms** | PC (Steam), Xbox One/Series X\|S, PS5, Switch 2, Linux, Mac |
 | **Multiplayer** | 1–10 players, co-op or dedicated servers |
 | **Biomes** | 8 — Meadows → Black Forest → Swamp → Mountains → Plains → Mistlands → Ashlands → Deep North |
 | **Bosses** | 8 Forsaken — Eikthyr → The Elder → Bonemass → Moder → Yagluth → The Queen → Fader → Frost King |
@@ -50,12 +50,12 @@ Your first in-game day lasts 21 real minutes, and it sets the tone for the entir
 | 1 | Punch a few trees for **wood** | Everything starts with wood |
 | 2 | Pick up **stone** from the ground | Needed for axe, hammer, and building |
 | 3 | Craft a **Stone Axe** and **Hammer** | Your first tools — open the build hammer menu |
-| 4 | Gather **20 wood** for a workbench | Unlocks crafting + the build menu |
+| 4 | Gather **10 wood** for a workbench | Unlocks crafting + the build menu |
 | 5 | Place a **Workbench** | Core crafting station; must be sheltered from rain |
 | 6 | Build a **Campfire** | Heat, light, and cooking — essential at night |
-| 7 | Craft a **Bed** (needs 8 wood) | Sets your spawn point — critical when you die |
-| 8 | Eat **raspberries and mushrooms** | Food is your health/stamina pool |
-| 9 | Hunt a **boar** or **deer** | Meat + leather scraps / deer hide for gear |
+| 7 | Eat **raspberries and mushrooms** | Food is your health/stamina pool |
+| 8 | Hunt a **boar** or **deer** | Meat + leather scraps / deer hide for gear |
+| 9 | Craft a **Bed** (needs 10 wood) | Sets your spawn point — critical when you die |
 | 10 | Build a **small shelter** around the workbench | You need walls + roof to protect it |
 | 11 | Craft a **Crude Bow + 30 arrows** | Ranged combat makes deer and Graydwarves trivial |
 | 12 | Upgrade the workbench (chopping block + tanning rack) | Unlocks better gear tiers |
@@ -138,11 +138,11 @@ Bosses are the heart of progression. Each Forsaken drops a **trophy** you mount 
 | Boss | Summon item | Power you get | Big unlock |
 |:-----|:------------|:--------------|:-----------|
 | **Eikthyr** | 2 Deer Trophies | +60% stamina regen (reduces sprint/jump cost) | Antler pickaxe → copper & tin |
-| **The Elder** | 3 Ancient Seeds | +60% wood chopping / mining damage | Swamp key (crypts, iron) |
-| **Bonemass** | 10 Withered Bones | Poison resistance | Wishbone (buried treasure, silver) |
-| **Moder** | 3 Dragon Eggs | Favorable wind while sailing | Silver tier + your first fly-capable boss power |
-| **Yagluth** | 5 Fuling Totems | +30% elemental resist | Black metal tier |
-| **The Queen** | 9 Seal Breakers | Magic reduction / feather cape access | Mistlands tier + Ashlands access |
+| **The Elder** | 3 Ancient Seeds | +60% wood cutting speed | Swamp key (crypts, iron) |
+| **Bonemass** | 10 Withered Bones | +50% blunt/pierce/slash damage reduction | Wishbone (buried treasure, silver) |
+| **Moder** | 3 Dragon Eggs | Favorable wind while sailing | Silver tier |
+| **Yagluth** | 5 Fuling Totems | +50% elemental resist | Black metal tier |
+| **The Queen** | 9 Seal Breakers | +100% Eitr regeneration | Mistlands tier + Ashlands access |
 | **Fader** | 8 Fader Fragments | Ashlands power | Endgame armor + Deep North prep |
 | **Frost King** | 10 Frost Cores + 5 Glacial Crystals | Frost immunity / damage reduction in cold biomes | Void Ore gear, Frost Forge |
 

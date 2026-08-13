@@ -1,6 +1,6 @@
 ---
-title: "Valheim Boss Strategies — Full Guide to All 7 Bosses"
-description: "Complete Valheim boss guide covering Eikthyr through Fader. Gear recommendations, arena preparation, attack patterns, resistances, rewards, and pro strats for every boss encounter."
+title: "Valheim Boss Strategies — Full Guide to All 8 Bosses"
+description: "Complete Valheim boss guide covering all 8 Forsaken — Eikthyr through the Deep North's Frost King. Gear recommendations, arena preparation, attack patterns, resistances, rewards, and pro strats for every boss encounter."
 date: 2026-07-06
 tags: [Valheim, bosses, guide]
 ---
@@ -11,7 +11,7 @@ tags: [Valheim, bosses, guide]
 
 ---
 
-Defeating Valheim's bosses unlocks new crafting tiers, tools, and progression. Each boss requires specific preparation — the wrong gear or food can make an otherwise manageable fight impossible. This guide covers every boss in order, including the Ashlands finale.
+Defeating Valheim's bosses unlocks new crafting tiers, tools, and progression. Each boss requires specific preparation — the wrong gear or food can make an otherwise manageable fight impossible. This guide covers every boss in order, from Eikthyr to the Deep North's Frost King. New to the game? Start with the [Beginner's Guide](/valheim/beginners-guide/) for the boss order, first-day plan, and gear unlocks.
 
 ---
 
@@ -26,6 +26,7 @@ Defeating Valheim's bosses unlocks new crafting tiers, tools, and progression. E
 | **Yagluth** | Plains | 5 Fuling Totems | Padded armor, Blackmetal Sword | Elemental | Spirit dmg |
 | **The Queen** | Mistlands | 9 Seal Breakers | Carapace armor, Krom/Demolisher | Pierce | Slash, Spirit |
 | **Fader** | Ashlands | 8 Fader Fragments | Ask armor, Dual axes | Fire | Spirit, Frost |
+| **Frost King** | Deep North | 10 Frost Cores + 5 Glacial Crystals | Hearthguard set, Glacial Blade | Frost | Fire |
 
 ---
 
@@ -66,7 +67,7 @@ Stumps and bumps will stop your rolls. Flat ground = easy fight.
 ### Rewards
 - **Hard Antler** (1) — Craft the **Antler Pickaxe** (first mining tool)
 - **Eikthyr Trophy** — Mount on boss stone for Forsaken Power
-- **Eikthyr Power** — +60% run speed, +60% jump for 5 minutes. Excellent for exploration.
+- **Eikthyr Power** — +60% stamina regen (reduces sprint/jump cost) for 5 minutes. Excellent for exploration.
 
 ---
 
@@ -108,7 +109,7 @@ The Elder's root missiles pass over your head while you shoot safely.
 ### Rewards
 - **Swamp Key** (1) — Opens Sunken Crypts in the Swamp (first iron source)
 - **Elder Trophy** — Forsaken Power
-- **Elder Power** — +10% wood chopping for 5 minutes. Great for base-building sessions.
+- **Elder Power** — +60% wood cutting speed for 5 minutes. Great for base-building sessions.
 
 ---
 
@@ -300,7 +301,7 @@ Mead. Pop Bonemass power when Yagluth is low HP for the final push.
 
 ---
 
-## 7. Fader — Ashlands (Final Boss)
+## 7. Fader — Ashlands
 
 ### Summoning
 - **Item:** 8 Fader Fragments (from Ashlands fortresses)
@@ -345,7 +346,37 @@ and stockpile 20+ Major Healing Meads before attempting.
 ### Rewards
 - **Fader Trophy** — Forsaken Power
 - **Fader Power** — +100% damage to all enemies for 3 minutes. The best offensive power in the game.
-- **Credits / Game completion** — You have conquered Valheim.
+- **Credits / Game completion** — Clears the Ashlands storyline; the Deep North's Frost King is the true 2026 finale.
+
+---
+
+## 8. Frost King — Deep North (Final Boss)
+
+### Summoning
+- **Item:** 10 Frost Cores + 5 Glacial Crystals
+- **Location:** Altar of Frost at the Glacial Heart (center of the Deep North)
+- **Co-op requirement:** 3 players on the pressure plates simultaneously — a co-op fight by design
+- **Difficulty:** ★★★★★ (Hardest fight in the game)
+
+### The Three Phases
+- **Phase 1 (100% → 60% HP) — The Brawler:** sweeping ice fists telegraphed by a ground crack, plus a stomp shockwave that freezes anyone who doesn't dodge-roll *through* it.
+- **Phase 2 (60% → 25% HP) — The Summoner:** Ice Spires erupt from the ground and stay up as **cover**; **Freezing Breath** in a 120° cone — never stand in front of him.
+- **Phase 3 (25% → 0% HP) — The Berserker:** shatters his own armor, attacks in faster 3-hit combos, and summons exploding **Frost Wisps** that apply a stacking slow.
+
+### Strategy
+1. **Hearthguard set (full) + Glacial Blade** is the recommended loadout — the frost-slow on the Blade is huge against a fast Phase 3.
+2. Stack **Frost Resist Mead + Hot Mead** and eat **Heartystew** for the warmth buff.
+3. Use the Ice Spires as cover from Freezing Breath in Phase 2; in Phase 3 dedicate one player to killing Frost Wisps at range — a stacking slow is how the fight kills you.
+4. Bring a backup portal stone to your forward base.
+
+### Rewards
+- **Frost King Trophy** — Forsaken Power
+- **Frost King Power** — Frost immunity / damage reduction in cold biomes
+- **Glacial Heartstone** — Unlocks the Frost Forge (highest-tier workbench)
+- **Void Ore** (10–15) — Endgame weapons and armor
+- **Frost King's Mantle** — Cape with full frost immunity + damage reduction in cold biomes
+
+For the full breakdown — reaching the biome, the cold-survival rework, and Frost Forge recipes — see the [Deep North Complete Guide](/valheim/deep-north-guide/).
 
 ---
 
@@ -372,10 +403,11 @@ Before any boss fight, verify:
 |:------|:-------|:---------|:-----|
 | **Bonemass** | +50% phys resist | All combat | S |
 | **Fader** | +100% damage | Boss farming | S |
-| **Eikthyr** | +60% run/jump | Exploring | A |
+| **Frost King** | Frost immunity + cold-biome damage reduction | Deep North | S |
+| **Eikthyr** | +60% stamina regen | Exploring | A |
 | **Moder** | Favorable wind | Sailing | B |
 | **Yagluth** | +50% elemental resist | Mistlands/Ashlands | A |
 | **Queen** | +100% Eitr regen | Magic builds | B |
-| **Elder** | +10% wood chopping | Building sessions | C |
+| **Elder** | +60% wood cutting | Building sessions | C |
 
 > *Data sourced from the [Valheim Wiki](https://valheim.fandom.com/wiki/Bosses) and in-game testing (v0.219.14). Boss HP values and attack damage may vary with world modifiers.*

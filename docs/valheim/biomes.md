@@ -1,15 +1,15 @@
 ---
-title: "Valheim Biome Guide — Complete 7-Biome Walkthrough & Survival Guide"
+title: "Valheim Biome Guide — Complete 8-Biome Walkthrough & Survival Guide"
 description: "Complete Valheim biome guide covering all 8 biomes — Meadows through Deep North. Entry requirements, danger rating, resource tables, recommended gear, base tips, and the Deep North endgame biome."
 ---
 
-# 🌍 Valheim Biome Guide — Complete 7-Biome Walkthrough
+# 🌍 Valheim Biome Guide — Complete 8-Biome Walkthrough
 
 *Last updated: July 2026 | Game version: 0.219.14+*
 
 ---
 
-Valheim's world is divided into seven distinct biomes, each harder than the last. Entering a new biome unprepared means death — often in seconds. This guide covers **every biome** in progression order, with entry requirements, danger ratings, complete resource tables, recommended gear, base-building tips, and boss associations.
+Valheim's world is divided into eight distinct biomes, each harder than the last. Entering a new biome unprepared means death — often in seconds. This guide covers **every biome** in progression order, with entry requirements, danger ratings, complete resource tables, recommended gear, base-building tips, and boss associations. New to the game? Start with the [Beginner's Guide](/valheim/beginners-guide/) for the first-day plan and the biome order in plain English.
 
 ---
 
@@ -72,7 +72,7 @@ The Meadows is your spawn biome. Lush green hills, gentle streams, and relativel
 
 ### Boss Association
 
-**Eikthyr** — summoned with 2 Deer Trophy + 1 Greydwarf Eye at his stone altar. See the [Boss Strategies guide](boss-strategies.md#1-eikthyr-meadows-first-boss) for the fight.
+**Eikthyr** — summoned with 2 Deer Trophies at his stone altar. See the [Boss Strategies guide](boss-strategies.md#1-eikthyr-meadows-first-boss) for the fight.
 
 ---
 
@@ -405,7 +405,7 @@ The Mistlands are Valheim's most visually oppressive biome — a thick, magical 
 
 ## 🔥 7. Ashlands — The Endgame
 
-Volcanic wasteland at the southern edge of the world. Lava flows, ash storms, and the game's toughest enemies. Ashlands is the **final biome** (as of v0.219.14) and demands max-tier gear, all available meads, and absolute focus.
+Volcanic wasteland at the southern edge of the world. Lava flows, ash storms, and the game's toughest enemies. Ashlands is the endgame gate into the **Deep North** — the true final biome since the 2026 update — and demands max-tier gear, all available meads, and absolute focus.
 
 > **⚠️ Mandatory:** Fire Resist Mead + full set of Ashlands-tier gear. The ground itself deals fire damage without fire protection. You have been warned.
 
@@ -446,7 +446,7 @@ Volcanic wasteland at the southern edge of the world. Lava flows, ash storms, an
 | Armor | Ashlands Carapace Set | **Fire resist** passive — reduces Ashlands terrain damage |
 | Food | Boar Jerky + Spicy Bread + Fish Wrap | ~320 HP / 300 Stamina |
 | Mead | Fire Resist (mandatory), Major Healing (10+), Stamina (5+) | Fire resist is permanently required in Ashlands |
-| Utility | Bonemass Power (for Fader) | +75% resist to all physical damage — life saver |
+| Utility | Bonemass Power (for Fader) | +50% resist to blunt/pierce/slash damage — life saver |
 
 ### Fortress Raid Strategy
 
@@ -466,7 +466,7 @@ Volcanic wasteland at the southern edge of the world. Lava flows, ash storms, an
 
 ### Boss Association
 
-**Fader** — summoned with 1 Dyrnwyn Fragment + 3 Flame Metal at a peak altar. See the [Boss Strategies guide](boss-strategies.md#7-fader-ashlands-final-boss).
+**Fader** — summoned with 1 Dyrnwyn Fragment + 3 Flame Metal at a peak altar. See the [Boss Strategies guide](boss-strategies.md#7-fader-ashlands).
 
 ---
 

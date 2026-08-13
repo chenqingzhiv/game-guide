@@ -11,7 +11,7 @@ description: "Complete Valheim base building guide covering structural integrity
 
 Building in Valheim is more than creative expression — **structure matters**. Every piece has weight, stability, and connection requirements. Build a roof that's too heavy, and it collapses. Build a tower that's too tall, and it crumbles.
 
-This guide covers the entire building system: structural physics, material stats, defense, terraforming, and advanced techniques.
+This guide covers the entire building system: structural physics, material stats, defense, terraforming, and advanced techniques. New to the game? Start with the [Beginner's Guide](/valheim/beginners-guide/) for your first-day build — a starter shelter, workbench, and bed.
 
 ---
 

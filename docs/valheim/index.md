@@ -20,7 +20,7 @@ Valheim is a brutal exploration and survival game set in a procedurally-generate
 
 | Feature | Description |
 |:--------|:------------|
-| 🌍 **Open World** | Procedurally generated biomes — Meadows, Black Forest, Swamp, Mountains, Plains, Mistlands, Ashlands |
+| 🌍 **Open World** | Procedurally generated biomes — Meadows, Black Forest, Swamp, Mountains, Plains, Mistlands, Ashlands, Deep North |
 | ⚔️ **Combat** | Melee, ranged, and magic — timed blocks, parries, and dodges |
 | 🏗️ **Building** | Full structural physics — walls, roofs, supports, and terraforming |
 | 🛠️ **Crafting** | Tiered workbenches, forges, and crafting stations |
@@ -61,12 +61,12 @@ Each biome requires better gear, food, and preparations before venturing in.
 | Guide | Description |
 |:------|:------------|
 | 🆕 [Beginner's Guide](beginners-guide.md) | First days, biome order, combat basics, boss unlocks, base building, food, sailing, co-op — the complete 2026 starting walkthrough |
-| 🌍 [Biome Guide](biomes.md) | Complete 7-biome walkthrough — entry requirements, resources, danger ratings, gear |
+| 🌍 [Biome Guide](biomes.md) | Complete 8-biome walkthrough — entry requirements, resources, danger ratings, gear |
 | 🏗️ [Base Building](base-building.md) | Structural integrity, materials comparison, defense, terraforming, advanced techniques |
 | 🌾 [Farming & Cooking](farming-food.md) | All crops, recipes, food combos, meads, beekeeping, fermentation |
 | ⛵ [Sailing & Navigation](sailing.md) | Ship types, wind mechanics, navigation tips, ocean dangers, serpent hunting |
 | 📦 [Materials & Forging](materials.md) | Ore progression, smelting ratios, station upgrades, pre-boss checklists |
-| ⚔️ [Boss Strategies](boss-strategies.md) | All 7 Forsaken — Eikthyr through Fader — with arena prep and fight tactics |
+| ⚔️ [Boss Strategies](boss-strategies.md) | All 8 Forsaken — Eikthyr through the Deep North's Frost King — with arena prep and fight tactics |
 | 🛡️ [Equipment & Food](equipment.md) | Armor sets, weapon trees, food tiers, mead recipes, crafting priority |
 | 🧊 [Deep North Complete Guide](deep-north-guide.md) | Final biome — cold survival rework, Frost Forge gear, Icebreaker ship, Frost King boss |
 

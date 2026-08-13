@@ -9,7 +9,7 @@ description: "Complete Valheim equipment progression guide. Every armor set, wea
 
 ---
 
-Knowing what to craft and when is half the battle in Valheim. Waste materials on the wrong armor or weapon, and you'll struggle against the next biome's enemies. This guide covers the optimal **equipment progression** — armor, weapons, food, and meads — for each stage of the game.
+Knowing what to craft and when is half the battle in Valheim. Waste materials on the wrong armor or weapon, and you'll struggle against the next biome's enemies. This guide covers the optimal **equipment progression** — armor, weapons, food, and meads — for each stage of the game. New to the game? Start with the [Beginner's Guide](/valheim/beginners-guide/) for the gear unlocks each boss brings.
 
 ---
 
