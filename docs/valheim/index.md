@@ -60,6 +60,7 @@ Each biome requires better gear, food, and preparations before venturing in.
 
 | Guide | Description |
 |:------|:------------|
+| 🆕 [Beginner's Guide](beginners-guide.md) | First days, biome order, combat basics, boss unlocks, base building, food, sailing, co-op — the complete 2026 starting walkthrough |
 | 🌍 [Biome Guide](biomes.md) | Complete 7-biome walkthrough — entry requirements, resources, danger ratings, gear |
 | 🏗️ [Base Building](base-building.md) | Structural integrity, materials comparison, defense, terraforming, advanced techniques |
 | 🌾 [Farming & Cooking](farming-food.md) | All crops, recipes, food combos, meads, beekeeping, fermentation |

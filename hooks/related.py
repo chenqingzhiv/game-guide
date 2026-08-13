@@ -1066,19 +1066,30 @@ RELATED_GUIDES = {
         ('torchlight-infinite/', 'Torchlight Infinite'),
     ],
     'valheim/': [
+        ('valheim/beginners-guide/', "Beginner's Guide"),
         ('valheim/biomes/', 'Biome Guide'),
         ('valheim/boss-strategies/', 'Boss Strategies'),
         ('valheim/equipment/', 'Equipment & Food'),
         ('valheim/deep-north-guide/', 'Deep North Guide'),
     ],
+    'valheim/beginners-guide/': [
+        ('valheim/', 'Valheim Guide Hub'),
+        ('valheim/biomes/', 'Biome Guide'),
+        ('valheim/boss-strategies/', 'Boss Strategies'),
+        ('valheim/base-building/', 'Base Building'),
+        ('valheim/equipment/', 'Equipment & Food'),
+        ('valheim/deep-north-guide/', 'Deep North Guide'),
+    ],
     'valheim/base-building/': [
         ('valheim/', 'Valheim'),
+        ('valheim/beginners-guide/', "Beginner's Guide"),
         ('valheim/biomes/', 'Biome Guide'),
         ('valheim/boss-strategies/', 'Boss Strategies'),
         ('valheim/equipment/', 'Equipment & Food'),
     ],
     'valheim/biomes/': [
         ('valheim/', 'Valheim'),
+        ('valheim/beginners-guide/', "Beginner's Guide"),
         ('valheim/boss-strategies/', 'Boss Strategies'),
         ('valheim/equipment/', 'Equipment & Food'),
         ('valheim/base-building/', 'Base Building'),
@@ -1086,6 +1097,7 @@ RELATED_GUIDES = {
     ],
     'valheim/boss-strategies/': [
         ('valheim/', 'Valheim'),
+        ('valheim/beginners-guide/', "Beginner's Guide"),
         ('valheim/biomes/', 'Biome Guide'),
         ('valheim/equipment/', 'Equipment & Food'),
         ('valheim/base-building/', 'Base Building'),
@@ -1105,6 +1117,7 @@ RELATED_GUIDES = {
     ],
     'valheim/equipment/': [
         ('valheim/', 'Valheim'),
+        ('valheim/beginners-guide/', "Beginner's Guide"),
         ('valheim/biomes/', 'Biome Guide'),
         ('valheim/boss-strategies/', 'Boss Strategies'),
         ('valheim/base-building/', 'Base Building'),
@@ -1130,6 +1143,7 @@ RELATED_GUIDES = {
     ],
     'valheim/deep-north-guide/': [
         ('valheim/', 'Valheim'),
+        ('valheim/beginners-guide/', "Beginner's Guide"),
         ('valheim/biomes/', 'Biome Guide'),
         ('valheim/boss-strategies/', 'Boss Strategies'),
         ('valheim/equipment/', 'Equipment & Food'),
