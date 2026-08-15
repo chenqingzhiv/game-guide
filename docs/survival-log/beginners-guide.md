@@ -10,8 +10,8 @@ tags: [Survival Log, zombie game, survival, hoarding sim, roguelike, resource ma
 **Developer:** Midnight Workshop (indie team) | **Publisher:** Lilith Games
 **Steam Price:** $10.99 / ¥46 CN (15% launch discount to $9.34 / ¥39.1 CN) | **Status:** Full release since Aug 12, 2026
 **Genre:** Zombie-apocalypse hoarding survival / resource-management sim (top-down)
-**Platforms:** PC (Steam, Windows only) | **Review rating:** Mostly Positive (73% of 526 reviews)
-**Peak players:** ~6,400 concurrent on Steam in its first days | **Endgame:** Story Mode → unlock Endless Mode at 20+ days
+**Platforms:** PC (Steam, Windows only) | **Review rating:** Mostly Positive on Steam (~73% of 526 reviews) — borderline Mixed/Positive
+**Peak players:** ~6,400 concurrent on Steam in its first days | **Endgame:** Story Mode → Endless Mode at 20+ days (per AUTOMATON)
 
 I found Survival Log the way its publisher clearly wants you to: through a Bilibili let's-play of someone panic-buying instant noodles and plywood while a zombie countdown ticked down. That was the hook — the game starts *ten hours before* the outbreak, and for once the most important decisions in a survival game happen while the world is still normal. I've put a weekend into it since, and the loop is quietly brilliant: die, learn, restart with permanent skills, and watch your own Survival Log fill up with everything you figured out last time.
 
@@ -19,7 +19,7 @@ I found Survival Log the way its publisher clearly wants you to: through a Bilib
 
 ![Survival Log hero — zombie hoarding survival sim, 10 hours to prepare before the city falls](/assets/images/survival-log/survival-log-hero.webp)
 
-*Guide data gathered from the Steam store page and live Steam review API, AUTOMATON's launch coverage, Chinese launch reporting, and the full-version Bilibili gameplay let's-play "重生到丧尸爆发前，囤资源！活下去！【生存日志】正式版实况" by Saka-可颂. Prices and mechanics reflect the August 12, 2026 release build.*
+*Guide data gathered from the Steam store page and live Steam review API, [AUTOMATON's launch coverage](https://automaton-media.com/articles/newsjp/20260815-460344/), Chinese launch reporting, and the full-version Bilibili gameplay let's-play "重生到丧尸爆发前，囤资源！活下去！【生存日志】正式版实况" by Saka-可颂. Prices and mechanics reflect the August 12, 2026 release build.*
 
 ---
 
@@ -34,7 +34,7 @@ Survival Log is a **single-player zombie survival simulation** built around a tw
 | **Price** | $10.99 / ¥46 CN (15% launch discount to $9.34 / ¥39.1 CN) |
 | **Setting** | A city 10 hours before a zombie outbreak, then after it falls |
 | **Genres** | Adventure · RPG · Simulation · Strategy |
-| **Review rating** | Mostly Positive — 73% of 526 reviews (382 positive / 144 negative, Aug 16, 2026) |
+| **Review rating** | Mostly Positive on Steam — 72.6% (382 positive / 144 negative, 526 total, Aug 16, 2026); third-party trackers sampled 66–70%, right at the Mixed/Mostly-Positive boundary |
 | **Platforms** | PC (Steam, Windows only; no Mac/Linux) |
 | **Core loop** | Time-loop prep → hoard → fortify → survive → die → spend points on permanent skills → repeat |
 | **Languages** | English, Simplified Chinese |
@@ -124,7 +124,7 @@ Survival Log's roguelike structure is its most underrated feature, and the one t
 - **Death resets the run** — but you earn **points based on what you did**, which you spend before the next run on **permanent skills** that carry over.
 - **The Survival Log records your discoveries.** Hidden material caches and survival techniques you found last run are written down in-game, so a new run isn't a blind restart — it's a smarter one.
 - **Your starting identity changes the difficulty** (more below), which gives the loop meaningful variety even before skills kick in.
-- **Endless Mode** unlocks after you survive **20+ days in Story Mode** — then you can hoard and fortify forever, which is what the dedicated "囤囤鼠" (hoarder-mouse) players live for.
+- **Endless Mode** unlocks after you survive **20+ days in Story Mode** (per AUTOMATON's launch coverage) — then you can hoard and fortify forever, which is what the dedicated "囤囤鼠" (hoarder-mouse) players live for.
 
 The loop is why reviewers kept coming back to the "optimize every run" framing: the meta-progression gives failures a purpose, and the ten-hour prep phase becomes a speedrun of personal optimization once you know what you're doing.
 
@@ -186,7 +186,7 @@ If you've played *Project Zomboid*, *7 Days to Die*, or *This War of Mine*, you'
 - **Keep the radio on and the journal stocked.** Horde warnings save runs; a journal keeps the mental entropy system from eating your effectiveness.
 - **Trade food like currency.** Hoard a surplus, then use it with neighbors and drone trades. Just budget for the neighbor who treats your pantry like their own.
 - **Accept death as progression.** You restart with points and a fatter Survival Log. A "failed" run is a stat boost in disguise.
-- **Unlock Endless Mode early** if you love the loop — 20 days in Story Mode is a very achievable target once the shopping list clicks.
+- **Unlock Endless Mode early** if you love the loop — 20 days in Story Mode (per AUTOMATON's launch coverage) is a very achievable target once the shopping list clicks.
 
 ### ❌ Do Not Do This
 
@@ -205,7 +205,7 @@ If you've played *Project Zomboid*, *7 Days to Die*, or *This War of Mine*, you'
 A **zombie-apocalypse hoarding survival sim** from indie developer Midnight Workshop, published by Lilith Games, released **August 12, 2026** on Steam. You die in a zombie outbreak, time-loop back to **10 hours before it starts**, and use that window to hoard supplies, reinforce your home, and survive — with a roguelike loop where every death buys permanent skills.
 
 ### Is Survival Log worth it?
-At **$9.34 (launch discount)** it's an easy yes if you like *Project Zomboid* or *This War of Mine* but want a shorter, loopier game. It's **Mostly Positive** (73% of 526 reviews) and hit ~6,400 concurrent players in its first days. The main caveats: Windows-only, optimization was rough at launch (patched since), and it's not a hundred-hour sandbox.
+At **$9.34 (launch discount)** it's an easy yes if you like *Project Zomboid* or *This War of Mine* but want a shorter, loopier game. Its early reception is **mixed-to-positive**: Steam's aggregate is **Mostly Positive** (~73% of 526 reviews), though third-party trackers sampled it at 66–70%, right on the Mixed/Mostly-Positive line. It also hit ~6,400 concurrent players in its first days. The main caveats: Windows-only, optimization was rough at launch (patched since), and it's not a hundred-hour sandbox.
 
 ### How does the 10-hour countdown work?
 The game starts ten hours before the outbreak. Use the time as a priority-shopping-and-fortification budget: **supermarket** for food and water, **hardware store** for reinforcement materials and silent melee, then **fortify home** (board windows, brace doors) and finish with radio, fuel, and medical supplies.
@@ -217,7 +217,7 @@ Canned and dried food, bottled water and purification tablets, wood planks and s
 When you die, the run restarts but you earn **points** based on your performance, spent on **permanent skills**. Hidden stash locations and survival techniques you discovered are written into your in-game **Survival Log** and carried into future runs.
 
 ### How do I unlock Endless Mode in Survival Log?
-Survive **20+ days in Story Mode**, and Endless Mode unlocks — a mode for players who want to keep hoarding and fortifying indefinitely.
+Survive **20+ days in Story Mode** (per AUTOMATON's launch coverage), and Endless Mode unlocks — a mode for players who want to keep hoarding and fortifying indefinitely.
 
 ### Is Survival Log like Project Zomboid?
 Spiritually yes — top-down zombie survival with permanent stakes. But it's a **short-run roguelike** with a unique pre-apocalypse prep phase, a mental-health system, and meta-progression, rather than a 100-hour open sandbox. See the comparison table above for the full breakdown.
@@ -230,4 +230,4 @@ No. It's **Windows-only** on Steam, single-player, with no controller or console
 
 ---
 
-> *Guide prepared for game-guide.club. Game version: Survival Log 1.0 (August 12, 2026 release). Source material: Steam store page, live Steam review data (Aug 16, 2026), AUTOMATON launch coverage, Chinese launch reporting (17173, yxmao), and the Bilibili full-version gameplay let's-play "重生到丧尸爆发前，囤资源！活下去！【生存日志】正式版实况 p01 灾前准备" by Saka-可颂 (published Aug 2026). Prices and mechanics reflect the August 2026 build. Updated 2026-08-16.*
+> *Guide prepared for game-guide.club. Game version: Survival Log 1.0 (August 12, 2026 release). Source material: Steam store page, live Steam review data (Aug 16, 2026), [AUTOMATON's launch coverage](https://automaton-media.com/articles/newsjp/20260815-460344/), Chinese launch reporting (17173, yxmao), and the Bilibili full-version gameplay let's-play "重生到丧尸爆发前，囤资源！活下去！【生存日志】正式版实况 p01 灾前准备" by Saka-可颂 (published Aug 2026). Prices and mechanics reflect the August 2026 build. Updated 2026-08-16.*

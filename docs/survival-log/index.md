@@ -13,7 +13,7 @@ tags: [Survival Log, zombie game, survival, hoarding sim, roguelike, resource ma
 
 ## What is Survival Log?
 
-Survival Log is a **single-player zombie-apocalypse hoarding survival sim** from indie developer **Midnight Workshop**, published by **Lilith Games**. The premise: you die in the outbreak, time-loop back to **ten hours before it starts**, and get one disciplined window to hoard supplies, reinforce your home, and set yourself up to survive the fall of the city. It plays like **Project Zomboid's tension with This War of Mine's small-scale humanity** — but the roguelike twist means the character progression is literally a shopping list that gets smarter every time you die. Released **August 12, 2026** on Steam at **$10.99** to a **Mostly Positive** rating.
+Survival Log is a **single-player zombie-apocalypse hoarding survival sim** from indie developer **Midnight Workshop**, published by **Lilith Games**. The premise: you die in the outbreak, time-loop back to **ten hours before it starts**, and get one disciplined window to hoard supplies, reinforce your home, and set yourself up to survive the fall of the city. It plays like **Project Zomboid's tension with This War of Mine's small-scale humanity** — but the roguelike twist means the character progression is literally a shopping list that gets smarter every time you die. Released **August 12, 2026** on Steam at **$10.99** to a **mixed-to-positive** early reception — Steam's aggregate rates it **Mostly Positive** (~73% of 526 reviews), though third-party trackers put it at 66–70%, right on the boundary.
 
 | Fact | Value |
 |:-----|:------|
@@ -22,7 +22,7 @@ Survival Log is a **single-player zombie-apocalypse hoarding survival sim** from
 | **Price** | $10.99 / ¥46 CN (15% launch discount to $9.34 / ¥39.1 CN) |
 | **Setting** | A city 10 hours before a zombie outbreak, then after it falls |
 | **Genres** | Adventure · RPG · Simulation · Strategy |
-| **Review rating** | Mostly Positive — 73% of 526 reviews (Aug 16, 2026) |
+| **Review rating** | Mostly Positive on Steam — 72.6% of 526 reviews (Aug 16, 2026); third-party trackers sampled 66–70%, right at the Mixed/Mostly-Positive boundary |
 | **Platforms** | PC (Steam, Windows only) |
 | **Core loop** | Time-loop prep → hoard → fortify → survive → die → permanent skills → repeat |
 
@@ -38,7 +38,7 @@ Survival Log is a **single-player zombie-apocalypse hoarding survival sim** from
 | 🔄 **Rebirth Loop** | Die, spend points on permanent skills, and watch your Survival Log record hidden stashes and tricks for the next run |
 | 🧠 **Mental Entropy System** | Solitude and horror trigger anxiety events — journal and radio restore your mind |
 | 🎭 **Starting Identities** | Worker, college student, or warehouse manager — each changes your budget, base, and difficulty |
-| ♾️ **Endless Mode** | Survive 20+ days in Story Mode to unlock a mode for infinite hoarding and fortifying |
+| ♾️ **Endless Mode** | Survive 20+ days in Story Mode (per AUTOMATON's launch coverage) to unlock a mode for infinite hoarding and fortifying |
 | 📻 **Food as Currency** | Trade food with neighbors and by drone — it's both your safety net and your wallet |
 
 ## Guides
@@ -47,7 +47,7 @@ Survival Log is a **single-player zombie-apocalypse hoarding survival sim** from
 
 ## Recent Coverage
 
-- 📰 Survival Log launched on **Steam on August 12, 2026** — the debut zombie-hoarding sim from indie studio Midnight Workshop, published by Lilith Games. It earned a **Mostly Positive** rating (73% of 526 reviews) and peaked at roughly **6,400 concurrent players** in its first days, with players praising its unique pre-apocalypse prep phase and roguelike rebirth loop, and its $9.34 launch price.
+- 📰 Survival Log launched on **Steam on August 12, 2026** — the debut zombie-hoarding sim from indie studio Midnight Workshop, published by Lilith Games. Early reception was **mixed-to-positive**: Steam's aggregate rates it **Mostly Positive** (72.6% of 526 reviews), though third-party trackers sampled 66–70%, right on the boundary. It peaked at roughly **6,400 concurrent players** in its first days, with players praising its unique pre-apocalypse prep phase and roguelike rebirth loop, and its $9.34 launch price.
 
 ---
 
