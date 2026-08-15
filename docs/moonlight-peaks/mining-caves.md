@@ -40,7 +40,7 @@ Before ore is worth anything, you smelt it into bars. That happens at the **Furn
 
 | Bar | Recipe | Used for |
 |-----|--------|----------|
-| **Copper Bar** | 4 Copper Ore + 1 Charcoal | Copper tools, Kegs (30 Wood + 15 Copper Bars) |
+| **Copper Bar** | 4 Copper Ore + 1 Charcoal | Copper tool upgrades (1,000G + 3 bars each) |
 | **Iron Bar** | 4 Iron Ore + 1 Charcoal | Iron tools, Jam Maker (40 Wood + 20 Stone + 10 Iron Bars) |
 | **Gold Bar** | 4 Gold Ore + 1 Charcoal | Gold tools, Enchanted tool upgrades |
 
@@ -54,7 +54,7 @@ There are four ores worth collecting, plus a couple of crystal curiosities. Here
 
 | Ore | Location | Pickaxe required | What it's for |
 |-----|----------|------------------|---------------|
-| **Copper Ore** | Cave of Echoes, throughout the upper cave | Any (rusty works) | Copper bars → copper tools, Furnace, Kegs |
+| **Copper Ore** | Cave of Echoes, throughout the upper cave | Any (rusty works) | Copper bars → copper tool upgrades; also 15 ore for the Furnace |
 | **Iron Ore** | Cave of Echoes, deeper grey/silver rocks | Copper Pickaxe | Iron bars → iron tools, Jam Maker |
 | **Gold Ore** | Cave of Echoes — northeast lake area (via Twilight Catacomb) and northern ledges | Iron Pickaxe + Mermaid/Bat form | Gold bars → gold tools, Enchanted upgrade |
 | **Rose Quartz** | Crystal Cave in Moonlit Pines, just left of Fiona's House | Iron Pickaxe (Copper Pickaxe to break the boulder blocking the entrance) | Quartz Dust (Enchanted Mortar), gifts for Orlock |
@@ -124,7 +124,7 @@ Mining drains stamina fast, and a full cave run can wreck your whole night. Thes
 - **Keep bars, not ore.** Smelt as you go so tool upgrades never wait on a smelting session.
 - **Respawn is your friend.** Ore deposits respawn after a set amount of in-game time — the cave is a renewable income source, not a one-time dig.
 - **Bring a snack.** Food buffs that restore or extend stamina turn a half-cave run into a full one.
-- **Don't sell copper or iron casually.** Both are needed constantly for tools, Kegs, the Jam Maker, and quests. Excess gold bars, once your tools are done, are the thing actually worth selling.
+- **Don't sell copper or iron casually.** Both are needed constantly for tools, the Jam Maker, and quests. Excess gold bars, once your tools are done, are the thing actually worth selling.
 
 ---
 

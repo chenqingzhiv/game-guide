@@ -72,6 +72,7 @@ All seeds come from **Luna's Seed Stall** in Moonlit Pines, and her stock rotate
 | Sunburst ⚡ | 140g | 9 | No | Magical; Summer+Autumn |
 | Drikker ⚡ | 280g | 9 | No | Magical; Spring+Summer — big profit — see best crops below |
 | Gobbler ⚡ | 350g | 6 | No | Magical; **best crop in the game** — feed each plant a fish or bug while it grows |
+| Rice | 30g | 5 | No | Spring/Summer/Autumn |
 
 ### 🍂 Autumn Crops
 

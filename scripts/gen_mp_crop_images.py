@@ -104,8 +104,8 @@ def crop_calendar():
     # season columns
     seasons = [
         ("SPRING", GREEN, ["Wild Potato 3n", "Carrot 6n", "Strawberry 7n*", "White/Blood Grape 5n*", "Raspberry 7n*", "Eggplant 6n", "Sugarbone 5n", "Cruelcumber 7n", "Blueberry 9n*", "Rice 5n", "Drikker 9n (magic)"]),
-        ("SUMMER", GOLD, ["Gobbler 6n (magic)", "Drikker 9n (magic)", "Skunktail 9n", "Melon 7n*", "Red Corn 6n", "Sunburst 9n (magic)"]),
-        ("AUTUMN", RED, ["Pumpkin 9n", "Mandrake 6n (magic)", "Radish 6n", "Lava Pepper 8n*", "Cranberry 8n*"]),
+        ("SUMMER", GOLD, ["Gobbler 6n (magic)", "Drikker 9n (magic)", "Skunktail 9n", "Melon 7n*", "Red Corn 6n", "Sunburst 9n (magic)", "Rice 5n"]),
+        ("AUTUMN", RED, ["Pumpkin 9n", "Mandrake 6n (magic)", "Radish 6n", "Lava Pepper 8n*", "Cranberry 8n*", "Rice 5n"]),
         ("WINTER", PURPLE, ["Blackberry 8n*", "Blueberry 9n*", "Dark Strawberry 9n*", "Sweet Wicca (magic)", "Black Sun Currant (magic)"]),
     ]
     col_w = (W - 56) / 4
