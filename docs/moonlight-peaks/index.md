@@ -57,14 +57,14 @@ date: 2026-07-31
 
 ## 三、全季节作物指南
 
-月光岭有四季轮换（春→夏→秋→冬），每个季节都有独特作物：
+月光岭有四季轮换（春→夏→秋→冬），种子在 Luna 的种子摊购买，大部分作物只在特定季节可种。全年可种的作物包括洋葱 Onion（4天）、血番茄 Blood Tomato（6天）、狡黠小麦 Wily Wheat（4天）和魔法月光果 Moonfruit（6天，需魔法浇水）。
 
-- **🌸 春季**：鬼蒜 Ghost Garlic（4天）、血萝卜 Blood Radish（5天）、影菠菜 Shadow Spinach（6天 ⭯）、女巫黄油菇 W.B.Mushroom（7天）、银铃兰 Silver Bell Orchid（8天）
-- **☀️ 夏季**：地狱火椒 Hellfire Pepper（7天）、暮光瓜 Twilight Melon（9天）、女妖莓 Banshee Berry（5天 ⭯）、光姜 Glow Ginger（5天 🪴）
-- **🍂 秋季**：诅咒南瓜 Cursed Pumpkin（7天）、曼德拉草根 Mandrake Root（8天）、吸血鬼葡萄 Vampire Grape（6天 ⭯）、苏芙兰 Suffrain（7天 🪴）
-- **❄️ 冬季**：霜咬蕨 Frostbite Fern（6天）、幽灵芽 Spectral Sprout（5天 ⭯）
+- **🌸 春季**：野土豆 Wild Potato（3天）、胡萝卜 Carrot（6天）、草莓 Strawberry（7天⭯）、白葡萄/血葡萄 White/Blood Grape（5天⭯）、覆盆子 Raspberry（7天⭯）、茄子 Eggplant（6天）、糖骨 Sugarbone（5天）、克鲁黄瓜 Cruelcumber（7天⭯）
+- **☀️ 夏季**：格柏勒 Gobbler（6天，需魔法浇水）、德里克 Drikker（9天，需魔法浇水）、臭鼬尾 Skunktail（9天）、甜瓜 Melon（7天⭯）、红玉米 Red Corn（6天）
+- **🍂 秋季**：南瓜 Pumpkin（9天）、曼德拉草 Mandrake（6天，需魔法浇水）、萝卜 Radish（6天）、熔岩椒 Lava Pepper（8天⭯）、蔓越莓 Cranberry（8天⭯）
+- **❄️ 冬季**：黑莓 Blackberry（8天⭯）、蓝莓 Blueberry（9天⭯）、暗夜草莓 Dark Strawberry（9天⭯，需魔法浇水）、甜威卡 Sweet Wicca（需魔法浇水）、黑日醋栗 Black Sun Currant（12天⭯，需魔法浇水）
 
-*图例：⭯ = 可重复收获  🪴 = 草药园限定*
+*图例：⭯ = 可重复收获。魔法作物（需 Aquaflux 法术浇水）已标注。完整种子与利润数据见 [作物与 farming 指南](crops-farming.md)。*
 
 💡 **策略要点**：优先多种可重复收获作物 · 血葡萄/白葡萄酿酒利润最高 · 每种至少留1个备用
 
@@ -203,7 +203,7 @@ date: 2026-07-31
 | 指南 | 说明 |
 |------|------|
 | [新手入门指南](beginners-guide.md) | 前10夜生存与发展详解 |
-| [作物与 farming 指南](crops-farming.md) | 全作物数据、利润排行、加工路线 |
+| [作物与 farming 指南](crops-farming.md) | 全作物数据、利润排行、加工路线、动物饲养 |
 | [吸血鬼法术与技能](vampire-powers.md) | 魔杖修复、全法术列表、法力管理 |
 | [钓鱼与采集](fishing-foraging.md) | 钓鱼、捉虫、采矿全攻略 |
 | [采矿与回响洞穴](mining-caves.md) | 矿洞解锁、全矿石位置、熔炼、镐升级 |
