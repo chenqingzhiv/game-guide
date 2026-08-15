@@ -9,7 +9,7 @@ tags: [Spiritstead, cozy game, city builder, simulation, automation, spirits, gu
 
 **Build a cozy village where 35 hidden spirits quietly do the work.** A hand-drawn, Miyazaki-inspired city-builder — restore the Grand Spirit Sanctuary across three biomes, or just build forever in Creative Mode.
 
-[![Spiritstead hero banner — a cozy hand-drawn village with homes, farmland, and glowing spirit helpers in a Miyazaki-inspired forest](/assets/images/spiritstead/spiritstead-hero.webp){: .game-hero }](/assets/images/spiritstead/spiritstead-hero.webp)
+[![Spiritstead — The Cozy Beginner's Guide 2026 — cozy city-builder banner](/assets/images/spiritstead/spiritstead-hero.webp){: .game-hero }](/assets/images/spiritstead/spiritstead-hero.webp)
 
 ## What is Spiritstead?
 

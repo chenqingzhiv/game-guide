@@ -17,7 +17,7 @@ I found Spiritstead the way the Bilibili showcase that launched this guide did: 
 
 **Spiritstead** is the debut game of **Turbo Dog Games**, a four-person indie studio, and it's a cozy city-builder with an unusual trick up its sleeve. It looks like a small, pretty village game about farming carrots and stacking huts — and it is. But it's actually teaching you a system through rituals so odd you'll remember them long after you've forgotten which building unlocks what. Collect enough spirits, assign them the right jobs, and your town quietly starts running itself.
 
-![Spiritstead hero banner — a cozy hand-drawn village with homes, farmland, and glowing spirit helpers in a Miyazaki-inspired forest](/assets/images/spiritstead/spiritstead-hero.webp)
+![Spiritstead — The Cozy Beginner's Guide 2026 — cozy city-builder banner](/assets/images/spiritstead/spiritstead-hero.webp)
 
 *Guide data gathered from the Steam store page, GamesPress launch coverage, the Bonus Action and LadiesGamers reviews, the community spirit-unlock guide, and a full Bilibili gameplay showcase by 库洛Khloe. Prices and mechanics reflect the August 6, 2026 release build.*
 

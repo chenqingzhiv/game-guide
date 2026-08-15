@@ -380,6 +380,7 @@ RELATED_GUIDES = {
         ('moonlight-peaks/crops-farming/', 'Crop & Farming Guide'),
         ('moonlight-peaks/vampire-powers/', 'Vampire Powers & Spells'),
         ('moonlight-peaks/mining-caves/', 'Mining & Cave of Echoes'),
+        ('spiritstead/', 'Spiritstead Guide Hub'),
     ],
     'moonlight-peaks/beginners-guide/': [
         ('moonlight-peaks/', '《月光岭物语》(Moonlight Peaks) 完全攻略指南'),
@@ -879,6 +880,7 @@ RELATED_GUIDES = {
         ('stardew-valley/beginners-guide/', "Beginner's Guide"),
         ('stardew-valley/farming/', 'Farming Guide'),
         ('stardew-valley/fishing/', 'Fishing Guide'),
+        ('spiritstead/', 'Spiritstead Guide Hub'),
     ],
     'stardew-valley/beginners-guide/': [
         ('stardew-valley/', 'Stardew Valley Guide Hub'),
@@ -992,6 +994,7 @@ RELATED_GUIDES = {
         ('timberborn/water/', 'Water Management'),
         ('timberborn/food/', 'Food & Farming'),
         ('timberborn/buildings/', 'Buildings'),
+        ('spiritstead/', 'Spiritstead Guide Hub'),
     ],
     'timberborn/beavers/': [
         ('timberborn/', 'Timberborn Complete Guide — Factory Game Guides'),
