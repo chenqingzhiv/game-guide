@@ -827,6 +827,18 @@ RELATED_GUIDES = {
         ('shapez2/milestones/', 'Milestones'),
         ('shapez2/shapes/', '⬠ Shapes Reference'),
     ],
+    'spiritstead/': [
+        ('spiritstead/beginners-guide/', "Beginner's Guide"),
+        ('stardew-valley/', 'Stardew Valley Guide Hub'),
+        ('moonlight-peaks/', 'Moonlight Peaks Guide Hub'),
+        ('timberborn/', 'Timberborn Complete Guide — Factory Game Guides'),
+    ],
+    'spiritstead/beginners-guide/': [
+        ('spiritstead/', 'Spiritstead Guide Hub'),
+        ('stardew-valley/', 'Stardew Valley Guide Hub'),
+        ('moonlight-peaks/', 'Moonlight Peaks Guide Hub'),
+        ('timberborn/', 'Timberborn Complete Guide — Factory Game Guides'),
+    ],
     'sons-forest/': [
         ('sons-forest/caves-walkthrough/', 'Caves & Walkthrough'),
         ('sons-forest/items-weapons/', 'Items & Weapons'),

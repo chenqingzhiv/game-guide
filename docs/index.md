@@ -292,6 +292,15 @@
       <span class="mag-game-count">1 guide</span>
     </div>
   </a>
+
+  <a href="spiritstead/" class="mag-game-card mag-game-survival">
+    <img class="mag-game-img" src="assets/images/spiritstead/spiritstead-hero.webp" alt="Spiritstead" loading="lazy">
+    <div class="mag-game-info">
+      <span class="mag-game-name">🏡 Spiritstead</span>
+      <p class="mag-game-sub">Cozy city-builder where 35 hidden spirits automate your town</p>
+      <span class="mag-game-count">1 guide</span>
+    </div>
+  </a>
 </div>
 
 <!-- ==================== -->
