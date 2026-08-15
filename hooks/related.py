@@ -6,6 +6,7 @@ RELATED_GUIDES = {
         ('7-days-to-die/base-building/', 'Base Building'),
         ('7-days-to-die/weapons-database/', 'Weapons & Tools Database'),
         ('project-zomboid/', 'Project Zomboid Guide Hub'),
+        ('survival-log/', 'Survival Log Guide Hub'),
     ],
     '7-days-to-die/base-building/': [
         ('7-days-to-die/', '7 Days to Die Guide Hub'),
@@ -19,6 +20,7 @@ RELATED_GUIDES = {
         ('7-days-to-die/weapons-database/', 'Weapons & Tools Database'),
         ('7-days-to-die/loot-progression/', 'Loot Stage & Progression'),
         ('project-zomboid/', 'Project Zomboid Guide Hub'),
+        ('survival-log/', 'Survival Log Guide Hub'),
     ],
     '7-days-to-die/loot-progression/': [
         ('7-days-to-die/', '7 Days to Die Guide Hub'),
@@ -847,18 +849,21 @@ RELATED_GUIDES = {
         ('project-zomboid/', 'Project Zomboid Guide Hub'),
         ('7-days-to-die/', '7 Days to Die Guide Hub'),
         ('valheim/', 'Valheim Guide Hub'),
+        ('sons-forest/', 'Sons of the Forest Guide Hub'),
     ],
     'survival-log/beginners-guide/': [
         ('survival-log/', 'Survival Log Guide Hub'),
         ('project-zomboid/', 'Project Zomboid Guide Hub'),
         ('7-days-to-die/', '7 Days to Die Guide Hub'),
         ('valheim/', 'Valheim Guide Hub'),
+        ('sons-forest/', 'Sons of the Forest Guide Hub'),
     ],
     'sons-forest/': [
         ('sons-forest/caves-walkthrough/', 'Caves & Walkthrough'),
         ('sons-forest/items-weapons/', 'Items & Weapons'),
         ('sons-forest/crafting/', 'Crafting & Building'),
         ('project-zomboid/', 'Project Zomboid Guide Hub'),
+        ('survival-log/', 'Survival Log Guide Hub'),
     ],
     'sons-forest/caves-walkthrough/': [
         ('sons-forest/', 'Sons of the Forest'),
@@ -1130,6 +1135,7 @@ RELATED_GUIDES = {
         ('valheim/equipment/', 'Equipment & Food'),
         ('valheim/deep-north-guide/', 'Deep North Guide'),
         ('project-zomboid/', 'Project Zomboid Guide Hub'),
+        ('survival-log/', 'Survival Log Guide Hub'),
     ],
     'valheim/beginners-guide/': [
         ('valheim/', 'Valheim Guide Hub'),
