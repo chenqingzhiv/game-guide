@@ -301,6 +301,15 @@
       <span class="mag-game-count">1 guide</span>
     </div>
   </a>
+
+  <a href="survival-log/" class="mag-game-card mag-game-survival">
+    <img class="mag-game-img" src="assets/images/survival-log/survival-log-hero.webp" alt="Survival Log" loading="lazy">
+    <div class="mag-game-info">
+      <span class="mag-game-name">🧟 Survival Log</span>
+      <p class="mag-game-sub">Zombie hoarding sim — 10 hours to prep, then survive the fall</p>
+      <span class="mag-game-count">1 guide</span>
+    </div>
+  </a>
 </div>
 
 <!-- ==================== -->

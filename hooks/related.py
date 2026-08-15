@@ -37,6 +37,7 @@ RELATED_GUIDES = {
         ('7-days-to-die/', '7 Days to Die Guide Hub'),
         ('valheim/', 'Valheim Guide Hub'),
         ('sons-forest/', 'Sons of the Forest Guide Hub'),
+        ('survival-log/', 'Survival Log Guide Hub'),
     ],
     'project-zomboid/beginners-guide/': [
         ('project-zomboid/', 'Project Zomboid Guide Hub'),
@@ -44,6 +45,7 @@ RELATED_GUIDES = {
         ('7-days-to-die/beginners-guide/', "7 Days to Die Beginner's Guide"),
         ('valheim/', 'Valheim Guide Hub'),
         ('sons-forest/', 'Sons of the Forest Guide Hub'),
+        ('survival-log/', 'Survival Log Guide Hub'),
     ],
     'core-keeper/': [
         ('core-keeper/beginners-guide/', "Beginner's Guide"),
@@ -839,6 +841,18 @@ RELATED_GUIDES = {
         ('stardew-valley/', 'Stardew Valley Guide Hub'),
         ('moonlight-peaks/', 'Moonlight Peaks Guide Hub'),
         ('timberborn/', 'Timberborn Complete Guide — Factory Game Guides'),
+    ],
+    'survival-log/': [
+        ('survival-log/beginners-guide/', "Beginner's Guide"),
+        ('project-zomboid/', 'Project Zomboid Guide Hub'),
+        ('7-days-to-die/', '7 Days to Die Guide Hub'),
+        ('valheim/', 'Valheim Guide Hub'),
+    ],
+    'survival-log/beginners-guide/': [
+        ('survival-log/', 'Survival Log Guide Hub'),
+        ('project-zomboid/', 'Project Zomboid Guide Hub'),
+        ('7-days-to-die/', '7 Days to Die Guide Hub'),
+        ('valheim/', 'Valheim Guide Hub'),
     ],
     'sons-forest/': [
         ('sons-forest/caves-walkthrough/', 'Caves & Walkthrough'),
