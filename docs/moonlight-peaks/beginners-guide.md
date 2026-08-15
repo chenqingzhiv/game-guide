@@ -31,7 +31,7 @@ Wake at 6 PM, sleep by 6 AM. Roughly 15 real minutes per night.
 - Unlock Hellkitten Form (faster, less stamina)
 
 ## Nights 9-10: Building
-- Build 3 Kegs (30 Wood + 15 Copper Bars each)
+- Build 3 Kegs (20 Wood each)
 - Build Barn (4,000g) for animals and fertilizer
 - Start magic crop rotation
 

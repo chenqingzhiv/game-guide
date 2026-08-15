@@ -43,8 +43,7 @@ All seeds come from **Luna's Seed Stall** in Moonlit Pines, and her stock rotate
 | Onion | 10g | 4 | No | Cheapest starter crop; great late-season filler |
 | Blood Tomato | 20g | 6 | No | Used in Gazpacho Soup |
 | Wily Wheat | 30g | 4 | No | Fast; turns into Beer in the Keg for real money |
-| Rice | 30g | 5 | No | Spring/Summer/Autumn availability |
-| Moonfruit ⚡ | 100g | 6 | No | Magical; yields 3× per harvest; best processed into Mana Moon Jams |
+| Moonfruit ⚡ | 100g | 6 | No | Magical; yields 3× per harvest; best processed into Moonfruit Jam |
 
 ### 🌸 Spring Crops
 
@@ -60,6 +59,8 @@ All seeds come from **Luna's Seed Stall** in Moonlit Pines, and her stock rotate
 | Eggplant | 40g | 6 | No | Used in Farmer's Stew |
 | Sugarbone | 60g | 5 | No | Run through the Mill for Sugar |
 | Carrot | 80g | 6 | No | Best direct-sale Spring crop (~160g+) |
+| Rice | 30g | 5 | No | Spring/Summer/Autumn |
+| Drikker ⚡ | 280g | 9 | No | Magical; Spring+Summer — see best crops below |
 
 ### ☀️ Summer Crops
 
@@ -69,7 +70,7 @@ All seeds come from **Luna's Seed Stall** in Moonlit Pines, and her stock rotate
 | Melon | 40g | 7 | ⭯ every 6 | Summer+Autumn; juice base |
 | Skunktail | 80g | 9 | No | Best normal-water Summer crop (sells ~180g) |
 | Sunburst ⚡ | 140g | 9 | No | Magical; Summer+Autumn |
-| Drikker ⚡ | 280g | 9 | No | Magical; big profit — see best crops below |
+| Drikker ⚡ | 280g | 9 | No | Magical; Spring+Summer — big profit — see best crops below |
 | Gobbler ⚡ | 350g | 6 | No | Magical; **best crop in the game** — feed each plant a fish or bug while it grows |
 
 ### 🍂 Autumn Crops
@@ -81,6 +82,7 @@ All seeds come from **Luna's Seed Stall** in Moonlit Pines, and her stock rotate
 | Cranberry | 50g | 8 | ⭯ every 4 | Autumn+Winter; Keg it |
 | Pumpkin | 90g | 9 | No | Best normal-water Autumn crop (~220g); gifts & recipes |
 | Mandrake ⚡ | 200g | 6 | No | Magical; Happy Mandrake is a top profit crop |
+| Rice | 30g | 5 | No | Spring/Summer/Autumn |
 
 ### ❄️ Winter Crops
 
@@ -150,13 +152,14 @@ Not all seeds are equal. If you only remember a few, remember these:
 
 Raw produce sells for pocket change. Processed goods sell for multiples. This is the single most important economic system in the game.
 
-### 🛢️ Keg (unlock early, from Orlock)
+### 🛢️ Keg (20 Wood, blueprint from Orlock)
 
 - Build **at least 3 Kegs** so you can process multiple harvests at once.
 - **Wine:** Red Wine = **4 Blood Grapes** → ~360g (390g at 1-star). White Wine = **4 White Grapes** → ~460g (490g at 1-star). **White Wine outsells Red**, so favor White Grapes early.
 - **Mana Wine** (later): 2 White Grapes + 2 Blood Grapes + 1 Mana Essence → roughly **3× the price of Red Wine**. One of the best money-makers in the game.
+- **Beer:** **3 Wily Wheat** → ~420g (520g at 1-star). An easy early money-maker once you can grow Wily Wheat.
 - **Juice:** Strawberries, Raspberries and Melons turn into juices — they sell for less than wine but your regrowers produce faster, so you can build stock quickly and turn it over in days.
-- Wine profit ranges **5–17×** the raw grape value depending on star quality — the higher the star of your produce, the more the Keg pays.
+- Wine profit ranges **8–17×** the raw grape value depending on star quality — the higher the star of your produce, the more the Keg pays.
 
 ![Moonlight Peaks crop processing chain from field to Keg, Jam Maker and Mill](img/crop-processing-chain.webp)
 

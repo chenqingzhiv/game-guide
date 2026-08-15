@@ -112,7 +112,7 @@ As you upgrade your home, you can build a **Kitchen Extension** (3,000g + 20 Woo
 | Ingredient | Source | Best Use |
 |-----------|--------|----------|
 | Nightshade | Forage (caves, dark areas) | Mana dishes |
-| Moonfruit | Forage (Moonlit Pines) | Juice, desserts |
+| Moonfruit | Magical crop (all seasons; seeds from Luna) | Juice, desserts |
 | Any Herb | Forage (fields, forest) | Tea, salads |
 | Garlic | Forage (Abandoned Mine) | Vampire's Delight |
 

@@ -103,7 +103,7 @@ def crop_calendar():
 
     # season columns
     seasons = [
-        ("SPRING", GREEN, ["Wild Potato 3n", "Carrot 6n", "Strawberry 7n*", "White/Blood Grape 5n*", "Raspberry 7n*", "Eggplant 6n", "Sugarbone 5n", "Cruelcumber 7n*", "Blueberry 9n*"]),
+        ("SPRING", GREEN, ["Wild Potato 3n", "Carrot 6n", "Strawberry 7n*", "White/Blood Grape 5n*", "Raspberry 7n*", "Eggplant 6n", "Sugarbone 5n", "Cruelcumber 7n", "Blueberry 9n*", "Rice 5n", "Drikker 9n (magic)"]),
         ("SUMMER", GOLD, ["Gobbler 6n (magic)", "Drikker 9n (magic)", "Skunktail 9n", "Melon 7n*", "Red Corn 6n", "Sunburst 9n (magic)"]),
         ("AUTUMN", RED, ["Pumpkin 9n", "Mandrake 6n (magic)", "Radish 6n", "Lava Pepper 8n*", "Cranberry 8n*"]),
         ("WINTER", PURPLE, ["Blackberry 8n*", "Blueberry 9n*", "Dark Strawberry 9n*", "Sweet Wicca (magic)", "Black Sun Currant (magic)"]),
@@ -117,11 +117,11 @@ def crop_calendar():
         rrect(d, (x0, y_top, x0 + col_w, y_top + col_h), 14, fill=CARD)
         rrect(d, (x0, y_top, x0 + col_w, y_top + 40), 14, fill=col)
         ctext(d, (x0 + col_w / 2, y_top + 20), name, fit(name, col_w - 12, 18, True), fill=BG)
-        y = y_top + 58
+        y = y_top + 56
         for c in crops:
             f = fit(c, col_w - 16, 15)
             ctext(d, (x0 + 10, y), c, f, fill=CREAM, anchor="lm")
-            y += 34
+            y += 30
 
     rrect(d, (28, y_top + col_h + 10, W - 28, H - 16), 14, fill=PANEL)
     note = "* = regrows  |  n = nights to grow  |  magic = needs Aquaflux spell"
@@ -166,23 +166,24 @@ def processing():
     header(d, "FROM FIELD TO GOLD", "Process everything — never sell raw")
 
     # Keg chain
-    rrect(d, (28, 100, W - 28, 250), 14, fill=CARD)
-    ctext(d, (W / 2, 124), "KEG  (10 Wood · from Orlock)", font(18, True), fill=GOLD)
+    rrect(d, (28, 96, W - 28, 252), 14, fill=CARD)
+    ctext(d, (W / 2, 118), "KEG  (20 Wood · from Orlock)", font(18, True), fill=GOLD)
     keg_items = [
         ("Grapes", "4 Blood Grape → Red Wine ~360g"),
         ("", "4 White Grape → White Wine ~460g"),
         ("", "2+2 White & Blood + Mana Essence → Mana Wine ~3×"),
         ("Berries", "Strawberry / Raspberry / Melon → Juice"),
+        ("Wheat", "3 Wily Wheat → Beer ~420g"),
     ]
-    y = 152
+    y = 144
     for lead, rest in keg_items:
-        f1 = font(14, True)
-        f2 = fit(rest, 560, 14)
+        f1 = font(13, True)
+        f2 = fit(rest, 560, 13)
         if lead:
             ctext(d, (60, y), lead, f1, fill=CREAM, anchor="lm")
         ctext(d, (60 + (tlen(lead + "  ", f1) if lead else 0), y), rest, f2, fill=CREAM, anchor="lm")
-        y += 24
-    ctext(d, (W / 2, y + 2), "Wine sells 8–17× the raw grape value (star quality matters)", fit("Wine sells 8–17× the raw grape value (star quality matters)", W - 80, 14), fill=GREEN)
+        y += 19
+    ctext(d, (W / 2, y + 2), "Wine sells 8–17× the raw grape value (star quality matters)", fit("Wine sells 8–17× the raw grape value (star quality matters)", W - 80, 13), fill=GREEN)
 
     # Mill + Jam Maker chain
     rrect(d, (28, 266, W - 28, 400), 14, fill=CARD)

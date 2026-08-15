@@ -83,7 +83,7 @@ Stamina is the classic farm-sim energy bar — eat to refill. **Mana is the one 
 | Source | How to get | Value |
 |--------|-----------|-------|
 | **Mana Extractor** | Blueprint from the Blood Grape Stomping minigame (score 200+ at Night of First Blood, Spring 24); costs 30 Stone + 10 Iron Bars to build | Converts magical crops into **Mana Essence** — your endgame Mana engine |
-| **Moonfruit Jam** | Forage Moonfruit, process at the Jam Maker | Cheap, farmable Mana |
+| **Moonfruit Jam** | Grow Moonfruit (magical crop), process at the Jam Maker | Cheap, farmable Mana |
 | **Nightshade** | Forage in caves and dark areas | Raw Mana restore on the go |
 | **Herb Tea** | 3 any herb at the Cauldron | Free Mana (herbs are everywhere) |
 | **Mana Bisque** | Sabrina (5 hearts): 1 Nightshade + 1 fish + 1 milk | +80 Mana and +2 Mana Regen for 5 min — great before a mine run |
