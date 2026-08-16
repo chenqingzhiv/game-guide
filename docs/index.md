@@ -302,6 +302,15 @@
     </div>
   </a>
 
+  <a href="fields-of-mistria/" class="mag-game-card mag-game-survival">
+    <img class="mag-game-img" src="assets/images/fields-of-mistria/fields-of-mistria-hero.webp" alt="Fields of Mistria" loading="lazy">
+    <div class="mag-game-info">
+      <span class="mag-game-name">🌸 Fields of Mistria</span>
+      <p class="mag-game-sub">Cozy retro-anime farm life with a dungeon & 12 romance routes</p>
+      <span class="mag-game-count">1 guide</span>
+    </div>
+  </a>
+
   <a href="survival-log/" class="mag-game-card mag-game-survival">
     <img class="mag-game-img" src="assets/images/survival-log/survival-log-hero.webp" alt="Survival Log" loading="lazy">
     <div class="mag-game-info">
