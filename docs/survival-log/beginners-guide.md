@@ -230,4 +230,15 @@ No. It's **Windows-only** on Steam, single-player, with no controller or console
 
 ---
 
+## 🔗 Related Guides
+
+- 🧟 [7 Days to Die Guide](/7-days-to-die/) — open-world zombie survival and base building
+- 🪓 [Project Zomboid Guide](/project-zomboid/) — the top-down zombie survival benchmark
+- ⚔️ [Valheim Guide](/valheim/) — survival crafting, building and boss progression
+- 🐺 [Sons of the Forest Guide](/sons-forest/) — crafting, survival and cave exploration
+- 🔫 [Rust Guide](/rust/) — multiplayer survival, monuments and raiding
+- 🎮 [All Survival Log Guides](/survival-log/) — the hub
+
+---
+
 > *Guide prepared for game-guide.club. Game version: Survival Log 1.0 (August 12, 2026 release). Source material: Steam store page, live Steam review data (Aug 16, 2026), [AUTOMATON's launch coverage](https://automaton-media.com/articles/newsjp/20260815-460344/), Chinese launch reporting (17173, yxmao), and the Bilibili full-version gameplay let's-play "重生到丧尸爆发前，囤资源！活下去！【生存日志】正式版实况 p01 灾前准备" by Saka-可颂 (published Aug 2026). Prices and mechanics reflect the August 2026 build. Updated 2026-08-16.*
