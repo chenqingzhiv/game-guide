@@ -15,7 +15,7 @@ tags: [Fields of Mistria, cozy game, farming sim, life sim, retro anime, beginne
 
 I found Fields of Mistria the way this guide started: a Bilibili creator walked through her first week, and the thing that stuck with me was how calm the game is about letting you do too much. The day drains fast, nothing yells at you, and the single most important skill is deciding what *not* to do before the clock runs out. Two years in Early Access taught the developers exactly what that loop should feel like, and the 1.0 release in August 2026 finished it.
 
-**Fields of Mistria** is a cozy farming life-sim from **NPC Studio** with a 90s-anime look and a surprise inside: under the pastel farm town sits a 90-floor dungeon with monsters, ores, and a dragon who slowly teaches you magic. You inherit a run-down farm in Mistria, a coastal town rebuilding after an earthquake that woke ancient magic. You farm, raise animals, fish, mine, craft, decorate, befriend 30+ villagers, and — since 1.0 — date and marry any of **12 marriage candidates**.
+**Fields of Mistria** is a cozy farming life-sim from **NPC Studio** with a 90s-anime look and a surprise inside: under the pastel farm town sits a 99-floor dungeon with monsters, ores, and a dragon who slowly teaches you magic. You inherit a run-down farm in Mistria, a coastal town rebuilding after an earthquake that woke ancient magic. You farm, raise animals, fish, mine, craft, decorate, befriend 30+ villagers, and — since 1.0 — date and marry any of **12 marriage candidates**.
 
 ![Fields of Mistria — The Complete Beginner's Guide 2026 — cozy retro-anime farming banner](/assets/images/fields-of-mistria/fields-of-mistria-hero.webp)
 
@@ -39,7 +39,7 @@ Fields of Mistria is a single-player, cozy farming life-sim with a retro anime a
 | **Playtime** | 30–60+ hours; a full run across seasons and the romance arcs |
 | **Core loop** | Water crops → fish/forage/mine → turn profit into seeds and upgrades → raise Town Renown → push the Mines |
 
-**The one-line pitch:** *Stardew Valley's cozy farm loop with a 90s-anime art style, a 90-floor dungeon, a dragon who teaches you magic, and a full marriage system.*
+**The one-line pitch:** *Stardew Valley's cozy farm loop with a 90s-anime art style, a 99-floor dungeon, a dragon who teaches you magic, and a full marriage system.*
 
 ---
 
@@ -86,7 +86,7 @@ Once you have a cash buffer around 500–800 T, the Spring meta opens up:
 | 🥕 **Carrot** | 40 T | 80 T | 6 days | Solid mid-tier profit per day |
 | 🥔 **Potato** | 40 T | 75 T | 6 days | Bake it for 80 T — cooking beats raw selling |
 | 🥬 **Cabbage** | 70 T | 180 T | 9 days | Best one-time payout once you have savings |
-| 🌸 **Strawberry** | 300 T | 125 T | 9 days, then regrows every 4 | The season-long earner — buy once, harvest 5–8 times |
+| 🌸 **Strawberry** | 300 T | 125 T | 9 days, then regrows every 4 | The season-long earner — buy once, harvest 4–5 times |
 | 🫛 **Pea** | 300 T | 135 T | 5 days, then regrows every 3 | Even better gold-per-day than strawberries |
 
 The biggest upgrade in the game isn't a crop — it's **regrowing crops**. Strawberries and peas cost real money up front, but they keep producing all season, which is what turns a farm into a money printer. When the seasons roll over: Tea is the Summer pick, Onions in Fall, Snow Peas in Winter.
@@ -113,13 +113,13 @@ You start with a **Worn Hoe** and **Worn Watering Can** plus a few spring seeds.
 
 Three mechanical facts worth knowing early:
 
-- **You can craft your own tools.** Four ingots at the Blacksmith's anvil makes a tool — cheaper than the 500 T the shop charges once you have the smelting loop going.
+- **You can craft your own tools.** Four ingots at the Blacksmith's anvil make a tool — cheaper than the 500 T the shop charges once you have the smelting loop going.
 - **Charge your strikes.** Hold the tool button to charge; upgraded metal tiers widen the area. A **Silver Pickaxe** (4 Silver Ingots, Blacksmithing level 4) breaks a **3×6 area** per charged swing.
 - **Smelting is 10 ore → 1 ingot**, but a Blacksmithing perk drops that to **9 ore per ingot** — one of the first perks worth buying.
 
 ---
 
-## The Mines: Ore Floors, Monsters & the 90-Floor Dungeon
+## The Mines: Ore Floors, Monsters & the 99-Floor Dungeon
 
 The Mines unlock through the **"Reopening the Mines" quest** once your town reaches **Stone Town Rank** (earned via requests and museum donations). Before heading in, do the **"Do Bro a Favor"** quest — it hands you a free Pickaxe.
 
@@ -128,11 +128,13 @@ The Mines are checkpoint-based: push down to a new **elevator checkpoint every 5
 | Zone | Floors | Ore & loot |
 |:-----|:-------|:-----------|
 | ⛏️ **Upper Mines** | 1–19 | Copper Ore, Ruby |
-| 🌀 **Water Seal** | 20 | Gate: 1 Stone Loach, 1 Upper Mines Mushroom, 1 Ruby, 1 Lantern Moth |
+| 🌀 **Water Seal** | 20 | Gate to the Tide Caverns — unlocks the **Summon Rain** spell |
 | 🌊 **Tide Caverns** | 21–39 | Iron Ore, Sapphire, Coral, Tidestone artifacts |
-| ⛰️ **Earth Seal** | 40 | Gate |
+| ⛰️ **Earth Seal** | 40 | Gate to the Deep Earth — unlocks the **Growth** spell |
 | 🏔️ **Deep Earth** | 41–59 | Silver Ore, Emerald (needs Iron Pickaxe or better) |
-| 🌋 **Lava Caves** | 61–79 | Gold Ore |
+| 🌋 **Fire Seal** | 60 | Gate to the Lava Caves — unlocks **Dragon's Breath** |
+| 🔥 **Lava Caves** | 61–79 | Gold Ore |
+| 🌑 **Void Seal** | 80 | Gate to the Ancient Ruins — the "Breaking the Ruins Seal" quest |
 | 🏛️ **Ancient Ruins** | 81–99 | Mistril Ore |
 
 Every biome jump is a gear check. **Silver** is the big mid-game milestone: the Silver Pickaxe's charged strike breaks a 3×6 area, and the efficient way to farm Silver Ore is to elevator-jump between floors 45, 50, and 55, break the ore, then reset the mine layout.
@@ -232,7 +234,7 @@ If you've played *Stardew Valley*, *Moonlight Peaks*, or *Spiritstead*, you know
 |:----------|:------------------|:----------------|:-----------------|:------------|
 | **Price** | $13.99 | $14.99 | ~$19.99 | $9.99 |
 | **Core loop** | Farm + dungeon + magic | Farm, mine, socialize | Vampire farm sim | City-builder + spirit automation |
-| **Combat** | Yes — a 90-floor dungeon | Light (mines/caves) | Light | None |
+| **Combat** | Yes — a 99-floor dungeon | Light (mines/caves) | Light | None |
 | **Magic** | Spells from a dragon | Minimal | Vampire powers | Spirit helpers |
 | **Romance** | 12 candidates, marriage + kids | 12 candidates, marriage | 6 candidates | None |
 | **Playtime** | 30–60+ hours | 100+ hours | 40–60 hours | 3–8h adventure |
@@ -262,7 +264,7 @@ If you've played *Stardew Valley*, *Moonlight Peaks*, or *Spiritstead*, you know
 - **Water crops before anything else, every day.** Unwatered crops skip growth; crops still planted at the season change die. This is the whole game in Spring.
 - **Fishing is your day-one income.** Common fish sell for 30–45 T, a Goldfish for 120 T. Fish the three ponds on the Eastern Road, then exit and re-enter to respawn them.
 - **Take the free soup at the inn daily** (20 HP + energy), and use the bathhouse and fountains.
-- **Buy the 10-slot backpack upgrade** at the general store for 1,000 gold early — inventory space is a tax on everything.
+- **Buy the 10-slot backpack upgrade** at the general store for 1,000 T early — inventory space is a tax on everything.
 - **Get to Stone Town Rank fast** (requests + museum donations) — it unlocks the Mines.
 - **Buy the ingot-cost perk at the Mines statue** (9 ore instead of 10) — it pays off on every ingot.
 - **Craft your own tools** once you can smelt — four ingots beats paying 500 T.
@@ -283,7 +285,7 @@ If you've played *Stardew Valley*, *Moonlight Peaks*, or *Spiritstead*, you know
 ## FAQ
 
 ### What is Fields of Mistria?
-A cozy farming life-sim from **NPC Studio** set in a coastal town rebuilding after an earthquake. You farm, ranch, fish, mine a 90-floor dungeon, learn magic from a dragon, and romance 12 candidates. It left Early Access on **August 5, 2026** at an Overwhelmingly Positive rating.
+A cozy farming life-sim from **NPC Studio** set in a coastal town rebuilding after an earthquake. You farm, ranch, fish, mine a 99-floor dungeon, learn magic from a dragon, and romance 12 candidates. It left Early Access on **August 5, 2026** at an Overwhelmingly Positive rating.
 
 ### Is Fields of Mistria worth it in 2026?
 At **$13.99** (less during the launch week), yes. It's the same price as Stardew Valley with a distinctive 90s-anime art style, a real dungeon and combat system, and a finished marriage system. If you want the deepest long-haul farm sim, Stardew still wins; if you want something that fights back and looks like *Sailor Moon*, this is it.

@@ -136,8 +136,8 @@ def first_week():
 # ---------------------------------------------------------------- mines
 def mines():
     img, d = canvas()
-    ctext(d, (W / 2, 70), "The Mines: 90 Floors of Ore", font(62, True), fill=BONE)
-    ctext(d, (W / 2, 128), "Elevator checkpoint every 5 floors · seal floors 20 / 40 / 60 teach you magic", font(27), fill=MUTED)
+    ctext(d, (W / 2, 70), "The Mines: 99 Floors of Ore", font(62, True), fill=BONE)
+    ctext(d, (W / 2, 128), "Elevator checkpoints every 5 floors · elemental seals at 20 / 40 / 60 / 80", font(27), fill=MUTED)
 
     zones = [
         ("UPPER MINES", "Floors 1–19", "Copper Ore · Ruby", MAUVE),
@@ -145,7 +145,7 @@ def mines():
         ("DEEP EARTH", "Floors 41–59", "Silver Ore · Emerald", GOLD),
         ("LAVA CAVES", "Floors 61–79", "Gold Ore", PURPLE),
         ("ANCIENT RUINS", "Floors 81–99", "Mistril Ore", MAUVE),
-        ("THE SEALS", "Floors 20 · 40 · 60", "Rain · Growth · Dragon's Breath", PURPLE),
+        ("THE SEALS", "Floors 20 · 40 · 60 · 80", "Rain · Growth · Breath · Ruins", PURPLE),
     ]
     bw, bh, gx, gy = 384, 175, 26, 24
     x0 = (W - (bw * 3 + gx * 2)) / 2

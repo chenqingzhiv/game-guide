@@ -35,7 +35,7 @@ Fields of Mistria is a **cozy farming life-sim** from indie studio **NPC Studio*
 |:--------|:------------|
 | 🌾 **Farming** | 28-day seasons, crops die at the season change, and daily watering matters more than anything else |
 | 🐔 **Ranching** | Barns and coops, daily petting, and a Ranching skill that unlocks auto-feeders and a big bell |
-| ⛏️ **Mines & Combat** | A 90-floor dungeon with checkpoints, biome-gated ores, monsters, and boss-style seal floors |
+| ⛏️ **Mines & Combat** | A 99-floor dungeon with checkpoints, biome-gated ores, monsters, and boss-style seal floors |
 | 🐉 **Magic & Essence** | Feed Essence to Caldarus statues for perks; learn spells from the dragon across the floor seals |
 | 💘 **Romance & Marriage** | 12 marriage candidates, 10-heart events, a customizable wedding, and optional children |
 | 🏛️ **Town & Museum** | Repair Mistria, raise Town Renown to 100, complete the museum collections |
