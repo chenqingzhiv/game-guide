@@ -319,6 +319,15 @@
       <span class="mag-game-count">1 guide</span>
     </div>
   </a>
+
+  <a href="moonlight-peaks/" class="mag-game-card mag-game-survival">
+    <img class="mag-game-img" src="moonlight-peaks/img/beginner_roadmap.webp" alt="Moonlight Peaks" loading="lazy">
+    <div class="mag-game-info">
+      <span class="mag-game-name">🌙 Moonlight Peaks</span>
+      <p class="mag-game-sub">Vampire life sim — restore the town, farm, and master magic</p>
+      <span class="mag-game-count">12 guides</span>
+    </div>
+  </a>
 </div>
 
 <!-- ==================== -->

@@ -218,6 +218,7 @@ A Barn + Cheeken, then the Jam Maker and Mill. Machines compound; decorations do
 - [⛏️ Mining & Cave of Echoes](mining-caves.md) — ore, smelting and pickaxe upgrades
 - [🔧 Tool Upgrade Guide](tools-upgrades.md) — upgrade costs and the Enchanted endgame
 - [🎪 Festivals & Events](festivals-events.md) — festival prizes and hoarding strategy
+- [📖 Story & Quest Guide](quest-story-guide.md) — main-quest walkthrough, the magic line and form unlocks
 - [🌙 完全攻略指南](index.md) — the Moonlight Peaks hub
 
 ---
