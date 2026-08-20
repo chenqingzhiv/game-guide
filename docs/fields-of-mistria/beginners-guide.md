@@ -308,6 +308,14 @@ Yes. The Mines are a real dungeon with monsters, ores, and seal-floor bosses. Mo
 ### Is Fields of Mistria on Steam Deck?
 Yes — it's **Steam Deck Verified**, with a native Linux build and full controller support. No Mac support, no console version, and cloud saves are not cross-platform.
 
+## Related Guides
+
+- 🌸 [All Fields of Mistria Guides](/fields-of-mistria/) — the hub
+- 🌙 [Moonlight Peaks](/moonlight-peaks/) — another cozy farming sim with a vampire twist
+- 🌻 [Stardew Valley](/stardew-valley/) — the cozy-farming benchmark and the closest comparison
+- 🏝️ [Spiritstead](/spiritstead/) — more island-style cozy farming
+- 🎮 [All Game Guides](/index.md) — the full game-guide.club index
+
 ---
 
 > *Guide prepared for game-guide.club. Game version: Fields of Mistria 1.0 (August 5, 2026 release). Source material: Steam store page, TheGamer / Game Truth / Gamespot 1.0 coverage, fieldsofmistria.wiki.gg and Fandom wikis, casualgameguides walkthroughs, and the Bilibili sources 《米斯特里亚牧场》Fields of mistria新手指南和新人赚钱方法 (粉可爱兔宝宝哦) and 两周速秘银攻略 (_ActionNow). Prices and mechanics reflect the August 2026 1.0 build. Updated 2026-08-17.*
