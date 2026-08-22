@@ -86,6 +86,64 @@
 </div>
 
 <!-- ==================== -->
+<!-- FRESH GUIDES          -->
+<!-- ==================== -->
+<div class="mag-section-header">
+  <h2>Fresh Guides</h2>
+  <span class="mag-section-link" style="opacity:0.75;">New this week</span>
+</div>
+
+<div class="mag-article-grid">
+  <a href="moonlight-peaks/quest-story-guide/" class="mag-article-card">
+    <div class="mag-article-body">
+      <div class="mag-article-category">🌙 Moonlight Peaks · Story</div>
+      <h3>Moonlight Peaks — Story & Quest Progression Guide</h3>
+      <p>Every story unlock in order: the magic questline, A Bridge Too Far, the Moonlit Coven, all three transformation quest chains and the full Year 1 quest timeline.</p>
+      <div class="mag-article-meta">
+        <span>📅 Aug 18, 2026</span>
+        <span>📖 Guide</span>
+      </div>
+    </div>
+  </a>
+
+  <a href="moonlight-peaks/money-making/" class="mag-article-card">
+    <div class="mag-article-body">
+      <div class="mag-article-category">🌙 Moonlight Peaks · Economy</div>
+      <h3>Moonlight Peaks — Money Making Guide</h3>
+      <p>Stage-by-stage income from your first ten nights to late-game wealth: the Keg & wine economy, processing chains, barn animals and the best passive income.</p>
+      <div class="mag-article-meta">
+        <span>📅 Aug 17, 2026</span>
+        <span>📖 Guide</span>
+      </div>
+    </div>
+  </a>
+
+  <a href="fields-of-mistria/beginners-guide/" class="mag-article-card">
+    <div class="mag-article-body">
+      <div class="mag-article-category">🌸 Fields of Mistria · Beginner</div>
+      <h3>Fields of Mistria Beginner's Guide 2026</h3>
+      <p>Your first Spring day by day, the 28-day season loop, best crops and early money loops, the Mines, magic &amp; Essence, romance with all 12 candidates, and a Mistria vs Stardew comparison.</p>
+      <div class="mag-article-meta">
+        <span>📅 Aug 17, 2026</span>
+        <span>📖 Guide</span>
+      </div>
+    </div>
+  </a>
+
+  <a href="survival-log/beginners-guide/" class="mag-article-card">
+    <div class="mag-article-body">
+      <div class="mag-article-category">🧟 Survival Log · Beginner</div>
+      <h3>Survival Log Beginner's Guide 2026</h3>
+      <p>The 10-hour pre-outbreak countdown, a 3-tier shopping priority list, post-apocalypse safehouse management, the rebirth loop and every starting identity.</p>
+      <div class="mag-article-meta">
+        <span>📅 Aug 16, 2026</span>
+        <span>📖 Guide</span>
+      </div>
+    </div>
+  </a>
+</div>
+
+<!-- ==================== -->
 <!-- INTERACTIVE TOOLS     -->
 <!-- ==================== -->
 <div class="mag-section-header">
