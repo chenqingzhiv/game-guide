@@ -94,6 +94,18 @@
 </div>
 
 <div class="mag-article-grid">
+  <a href="moonlight-peaks/winter-guide/" class="mag-article-card">
+    <div class="mag-article-body">
+      <div class="mag-article-category">🌙 Moonlight Peaks · Winter</div>
+      <h3>Moonlight Peaks — Winter Survival Guide</h3>
+      <p>What dies in winter, the winter crop roster (Sweet Wicca, Black Sun Currant, Blackberry), the Greenhouse, the Festival of Eternal Night Mana Shards, the +10 Max Stamina New Year's Vigil and the Year 1 to 2 transition.</p>
+      <div class="mag-article-meta">
+        <span>📅 Aug 25, 2026</span>
+        <span>📖 Guide</span>
+      </div>
+    </div>
+  </a>
+
   <a href="moonlight-peaks/quest-story-guide/" class="mag-article-card">
     <div class="mag-article-body">
       <div class="mag-article-category">🌙 Moonlight Peaks · Story</div>

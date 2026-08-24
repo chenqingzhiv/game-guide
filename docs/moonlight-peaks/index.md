@@ -214,6 +214,7 @@ date: 2026-07-31
 | [博物馆与诺克图娜](museum-nokturna.md) | 藏品收集与卡牌对战 |
 | [烹饪与食谱](cooking-recipes.md) | 全食谱、效果分析、利润对比 |
 | [节日与活动](festivals-events.md) | 8大节日攻略、生日日历、年度策略 |
+| [冬季生存指南](winter-guide.md) | 冬季作物、温室、两大冬季节日、Year1→2 过渡 |
 
 ---
 
